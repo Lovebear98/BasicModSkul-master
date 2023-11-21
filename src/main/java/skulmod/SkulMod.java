@@ -107,8 +107,7 @@ public static int swapKey = Input.Keys.Q; //R
 public static Properties SkulDefaults = new Properties();
     public static final String SKUL_MUSIC = "SkulMusic";
     public static boolean SkulMusic = false;
-    public static final String ITEMS_SPAWN = "SpawnRelics";
-    public static boolean ItemsSpawn = false;
+
     public static final String BOSS_SPAWN = "SpawnBoss";
     public static boolean SpawnBoss = false;
     public static final String SKULLS_SPAWN = "SkullsSpawn";
@@ -210,14 +209,12 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
 
 
         SkulDefaults.setProperty(SKUL_MUSIC, "TRUE");
-        SkulDefaults.setProperty(ITEMS_SPAWN, "TRUE");
         SkulDefaults.setProperty(BOSS_SPAWN, "FALSE");
         SkulDefaults.setProperty(SKULLS_SPAWN, "FALSE");
         try {
             SpireConfig config = new SpireConfig("SkulMod", "SkulConfig", SkulDefaults);
             config.load();
             SkulMusic = config.getBool(SKUL_MUSIC);
-            ItemsSpawn = config.getBool(ITEMS_SPAWN);
             SpawnBoss = config.getBool(BOSS_SPAWN);
             SkullsSpawn = config.getBool(SKULLS_SPAWN);
         } catch (Exception e) {
@@ -322,20 +319,6 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
         settingsPanel.addUIElement(MusicBoxButton);
         /////Allow Black Market Set Effect Items to spawn
 
-        ModLabeledToggleButton BlackMarketItemsButton = new ModLabeledToggleButton("Visit the Black Market. Not Implemented.",
-                350.0f, 650.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
-                ItemsSpawn, settingsPanel, (label) -> {
-        }, (button) -> {
-            ItemsSpawn = button.enabled;
-            try {
-                SpireConfig config = new SpireConfig("SkulMod", "SkulConfig", SkulDefaults);
-                config.setBool(ITEMS_SPAWN, ItemsSpawn);
-                config.save();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        });
-        settingsPanel.addUIElement(BlackMarketItemsButton);
 
         ModLabeledToggleButton SpawnSkullsButton = new ModLabeledToggleButton("At the start of the next run, add Skulls to the card pool.",
                 350.0f, 600.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
@@ -649,9 +632,8 @@ if(abstractCard.type == AbstractCard.CardType.ATTACK){
 if(i > 0){
     if(AbstractDungeon.player.hasPower(FrostSkullPower.POWER_ID)){
     Hibernation Shard = new Hibernation();
-    Shard.baseMagicNumber = i;
-    Shard.magicNumber = i;
-    Shard.applyPowers();
+    Shard.baseMagicNumber = Shard.magicNumber = i;
+    Shard.update();
     AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(Shard));
     }
 

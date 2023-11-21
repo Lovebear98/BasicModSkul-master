@@ -25,7 +25,7 @@ public class UnrivaledStrike extends BaseCard {
 
     public static final String ID = makeID(cardInfo.baseId);
     public static final String[] EXTENDED_DESCRIPTION = CardStrings.getMockCardString().EXTENDED_DESCRIPTION;
-    private static final int DAMAGE = 3;
+    private static final int DAMAGE = 4;
     private static final int UPG_DAMAGE = 2;
 
     private static final int BLOCK = 0;

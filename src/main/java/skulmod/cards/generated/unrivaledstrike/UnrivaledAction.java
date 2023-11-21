@@ -48,12 +48,17 @@ public class UnrivaledAction extends AbstractGameAction {
                 }
                 ///Repeat this until our BookList is equal to i
             }while(BookList.size() < i);
-            ///if we're told to upgrade
-            if (UpgradeCards) {
-                ///Upgrade all cards in the group
+
+            ///Then for each card in the group
             for(AbstractCard c: BookList){
-                c.upgrade();
-            }}
+                ///Apply Powers on it
+                c.applyPowers();
+                ///Andthen if we're told to upgrade
+                if (UpgradeCards) {
+                    ///Upgrade them
+                    c.upgrade();
+                }
+            }
 
             ///Then choose a card from the list.
             this.addToBot(new ChooseOneAction(BookList));

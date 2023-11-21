@@ -65,7 +65,7 @@ public class ShieldSkullPower extends BasePower implements CloneablePowerInterfa
         }
         if(owner.hasPower(DexterityPower.POWER_ID)){
             if(owner.getPower(DexterityPower.POWER_ID).amount >= 1){
-    if(info.owner != owner && info.type != DamageInfo.DamageType.THORNS && !info.owner.isDeadOrEscaped() && !info.owner.halfDead){
+    if(info.owner != null && info.owner != owner && info.type != DamageInfo.DamageType.THORNS && !info.owner.isDeadOrEscaped() && !info.owner.halfDead){
         int DexDamage = owner.getPower(DexterityPower.POWER_ID).amount;
         addToBot(new DamageAction(info.owner, new DamageInfo(owner, (DexDamage), DamageInfo.DamageType.THORNS)));
         if(owner instanceof LittleBone) {

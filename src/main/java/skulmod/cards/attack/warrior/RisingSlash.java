@@ -20,7 +20,7 @@ public class RisingSlash extends BaseCard {
             "RisingSlash",
             2,
             CardType.ATTACK,
-            CardTarget.ENEMY,
+            CardTarget.ALL_ENEMY,
             CardRarity.UNCOMMON,
             LittleBone.Enums.CARD_COLOR);
 

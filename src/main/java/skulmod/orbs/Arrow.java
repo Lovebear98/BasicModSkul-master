@@ -150,7 +150,7 @@ public class Arrow extends CustomOrb {
                 ////Get a random ALIVE target
                 AbstractMonster mo = AbstractDungeon.getCurrRoom().monsters.getRandomMonster(true);
                 ///If we actually got a target
-                if(mo != null){
+                if(mo != null && !mo.halfDead && !mo.isDeadOrEscaped() && !mo.isDying){
                     int damage;
                     ///Check if it has lock on
                     if(mo.hasPower(LockOnPower.POWER_ID)){

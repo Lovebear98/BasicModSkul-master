@@ -28,7 +28,7 @@ public class MatterOfState extends BaseCard {
     private static final int DAMAGE = 0;
     private static final int UPG_DAMAGE = 0;
 
-    private static final int BLOCK = 8;
+    private static final int BLOCK = 10;
     private static final int UPG_BLOCK = 5;
 
     private static final int MAGIC = 0;

@@ -1,0 +1,97 @@
+
+Berserker.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UpscaledBerserker/Idle1
+  rotate: false
+  xy: 785, 1
+  size: 224, 188
+  orig: 224, 188
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Idle2
+  rotate: false
+  xy: 785, 191
+  size: 224, 188
+  orig: 224, 188
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Idle3
+  rotate: false
+  xy: 529, 541
+  size: 220, 180
+  orig: 220, 180
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Idle4
+  rotate: false
+  xy: 303, 359
+  size: 224, 184
+  orig: 224, 184
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Idle5
+  rotate: false
+  xy: 1, 505
+  size: 228, 180
+  orig: 228, 180
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Idle6
+  rotate: false
+  xy: 529, 359
+  size: 228, 180
+  orig: 228, 180
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Attack1
+  rotate: false
+  xy: 751, 547
+  size: 236, 160
+  orig: 236, 160
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Attack2
+  rotate: false
+  xy: 759, 381
+  size: 244, 164
+  orig: 244, 164
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Attack3
+  rotate: false
+  xy: 1, 1
+  size: 452, 356
+  orig: 452, 356
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Attack4
+  rotate: false
+  xy: 455, 1
+  size: 328, 356
+  orig: 328, 356
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Attack5
+  rotate: false
+  xy: 1, 359
+  size: 300, 144
+  orig: 300, 144
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Dodge1
+  rotate: false
+  xy: 751, 709
+  size: 224, 164
+  orig: 224, 164
+  offset: 0, 0
+  index: -1
+UpscaledBerserker/Dodge2
+  rotate: false
+  xy: 231, 545
+  size: 224, 160
+  orig: 224, 160
+  offset: 0, 0
+  index: -1

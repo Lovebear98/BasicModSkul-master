@@ -94,7 +94,7 @@ public class RippedPocket extends BasePower implements CloneablePowerInterface {
 
         @Override
         public int onAttacked(DamageInfo info, int damageAmount) {
-            if (info.owner != this.owner && info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS && damageAmount > 0) {
+            if (info.owner != this.owner && info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS && damageAmount > 0 &&info.owner != null) {
                 int GoldStolen;
                 if(this.amount > 5){
                     GoldStolen = Math.max(5, this.amount / 2);

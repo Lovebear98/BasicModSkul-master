@@ -17,15 +17,6 @@
     ""
   ]
 },
-  "${modID}:Meteor": {
-    "NAME": "Meteor",
-    "DESCRIPTION": [
-      "#yEvoke: Deal #b",
-      " damage #b",
-      " times.",
-      ""
-    ]
-  },
   "${modID}:Barrier": {
     "NAME": "Barrier",
     "DESCRIPTION": [
