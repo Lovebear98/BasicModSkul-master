@@ -1,0 +1,104 @@
+
+GreatWarlock.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/GreatWarlockIdle1
+  rotate: false
+  xy: 247, 1
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle2
+  rotate: false
+  xy: 1, 1
+  size: 244, 232
+  orig: 244, 232
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle3
+  rotate: false
+  xy: 243, 239
+  size: 212, 224
+  orig: 212, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle4
+  rotate: false
+  xy: 723, 227
+  size: 216, 232
+  orig: 216, 232
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle5
+  rotate: false
+  xy: 723, 1
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle6
+  rotate: false
+  xy: 1, 235
+  size: 240, 232
+  orig: 240, 232
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack1
+  rotate: false
+  xy: 485, 231
+  size: 216, 224
+  orig: 216, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack2
+  rotate: false
+  xy: 485, 1
+  size: 236, 228
+  orig: 236, 228
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack3
+  rotate: false
+  xy: 1, 817
+  size: 228, 176
+  orig: 228, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack4
+  rotate: false
+  xy: 703, 461
+  size: 240, 176
+  orig: 240, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack5
+  rotate: false
+  xy: 457, 457
+  size: 244, 176
+  orig: 244, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack6
+  rotate: false
+  xy: 703, 639
+  size: 232, 176
+  orig: 232, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockDash1
+  rotate: false
+  xy: 1, 635
+  size: 244, 136
+  orig: 244, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockDash2
+  rotate: false
+  xy: 1, 469
+  size: 240, 136
+  orig: 240, 136
+  offset: 0, 0
+  index: -1

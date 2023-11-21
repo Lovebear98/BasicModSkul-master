@@ -1,0 +1,118 @@
+
+DarkPaladin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/DarkKnightIdle1
+  rotate: false
+  xy: 693, 175
+  size: 320, 168
+  orig: 320, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle2
+  rotate: false
+  xy: 1, 215
+  size: 320, 164
+  orig: 320, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle3
+  rotate: false
+  xy: 693, 345
+  size: 316, 168
+  orig: 316, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle4
+  rotate: false
+  xy: 637, 515
+  size: 296, 168
+  orig: 296, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle5
+  rotate: false
+  xy: 379, 175
+  size: 312, 176
+  orig: 312, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle6
+  rotate: false
+  xy: 323, 353
+  size: 312, 168
+  orig: 312, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge1
+  rotate: false
+  xy: 1, 381
+  size: 276, 136
+  orig: 276, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge2
+  rotate: false
+  xy: 405, 523
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge3
+  rotate: false
+  xy: 741, 1
+  size: 240, 160
+  orig: 240, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge4
+  rotate: false
+  xy: 607, 685
+  size: 204, 160
+  orig: 204, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge5
+  rotate: false
+  xy: 405, 689
+  size: 172, 152
+  orig: 172, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack1
+  rotate: false
+  xy: 223, 523
+  size: 180, 188
+  orig: 180, 188
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack2
+  rotate: false
+  xy: 1, 681
+  size: 180, 184
+  orig: 180, 184
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack3
+  rotate: false
+  xy: 1, 1
+  size: 376, 212
+  orig: 376, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack4
+  rotate: false
+  xy: 379, 1
+  size: 360, 172
+  orig: 360, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack5
+  rotate: false
+  xy: 1, 519
+  size: 220, 160
+  orig: 220, 160
+  offset: 0, 0
+  index: -1

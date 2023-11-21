@@ -1,0 +1,286 @@
+
+GodOfWar.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UpscaledGuanYu/Idle_0
+  rotate: false
+  xy: 2365, 1
+  size: 276, 448
+  orig: 276, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Idle_1
+  rotate: false
+  xy: 2083, 1
+  size: 280, 448
+  orig: 280, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Idle_2
+  rotate: false
+  xy: 1797, 1
+  size: 284, 448
+  orig: 284, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Idle_3
+  rotate: false
+  xy: 1535, 451
+  size: 288, 448
+  orig: 288, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Idle_4
+  rotate: false
+  xy: 1507, 1
+  size: 288, 448
+  orig: 288, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Idle_5
+  rotate: false
+  xy: 1825, 451
+  size: 284, 448
+  orig: 284, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Idle_6
+  rotate: false
+  xy: 2111, 451
+  size: 280, 448
+  orig: 280, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Idle_7
+  rotate: false
+  xy: 2393, 451
+  size: 276, 448
+  orig: 276, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Dash_0
+  rotate: false
+  xy: 2487, 1351
+  size: 448, 248
+  orig: 448, 248
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Dash_1
+  rotate: false
+  xy: 2671, 451
+  size: 448, 248
+  orig: 448, 248
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Dash_2
+  rotate: false
+  xy: 2917, 1
+  size: 448, 248
+  orig: 448, 248
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Dash_3
+  rotate: false
+  xy: 2757, 1601
+  size: 440, 248
+  orig: 440, 248
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Dash_4
+  rotate: false
+  xy: 2487, 901
+  size: 268, 448
+  orig: 268, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_Ready_0
+  rotate: false
+  xy: 2937, 1851
+  size: 536, 196
+  orig: 536, 196
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_Ready_1
+  rotate: false
+  xy: 575, 1771
+  size: 656, 248
+  orig: 656, 248
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_Ready_2
+  rotate: false
+  xy: 1531, 1767
+  size: 656, 260
+  orig: 656, 260
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_Ready_3
+  rotate: false
+  xy: 619, 1
+  size: 580, 284
+  orig: 580, 284
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_Ready_4
+  rotate: false
+  xy: 2757, 919
+  size: 440, 208
+  orig: 440, 208
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_Ready_5
+  rotate: false
+  xy: 2757, 1129
+  size: 440, 208
+  orig: 440, 208
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_Ready_6
+  rotate: false
+  xy: 2937, 1339
+  size: 440, 208
+  orig: 440, 208
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_0
+  rotate: false
+  xy: 1531, 1317
+  size: 480, 448
+  orig: 480, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_1
+  rotate: false
+  xy: 575, 1317
+  size: 476, 452
+  orig: 476, 452
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_2
+  rotate: false
+  xy: 1053, 1317
+  size: 476, 452
+  orig: 476, 452
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_End_0
+  rotate: false
+  xy: 2013, 1317
+  size: 472, 448
+  orig: 472, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_End_1
+  rotate: false
+  xy: 1085, 671
+  size: 448, 460
+  orig: 448, 460
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/Smite_End_2
+  rotate: false
+  xy: 2643, 1
+  size: 272, 448
+  orig: 272, 448
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_0__Background
+  rotate: false
+  xy: 619, 287
+  size: 516, 236
+  orig: 516, 236
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_1__Background
+  rotate: false
+  xy: 1535, 901
+  size: 496, 240
+  orig: 496, 240
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_2__Background
+  rotate: false
+  xy: 2189, 1767
+  size: 460, 244
+  orig: 460, 244
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_3__Background
+  rotate: false
+  xy: 2033, 901
+  size: 440, 264
+  orig: 440, 264
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_4__Background
+  rotate: false
+  xy: 1, 1317
+  size: 572, 600
+  orig: 572, 600
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_5__Background
+  rotate: false
+  xy: 1, 671
+  size: 600, 644
+  orig: 600, 644
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_6__Background
+  rotate: false
+  xy: 1, 1
+  size: 616, 668
+  orig: 616, 668
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_7__Background
+  rotate: false
+  xy: 2757, 701
+  size: 496, 216
+  orig: 496, 216
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_8__Background
+  rotate: false
+  xy: 3121, 251
+  size: 500, 204
+  orig: 500, 204
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_9__Background
+  rotate: false
+  xy: 3367, 1
+  size: 500, 188
+  orig: 500, 188
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_10__Background
+  rotate: false
+  xy: 3121, 457
+  size: 500, 184
+  orig: 500, 184
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_11__Background
+  rotate: false
+  xy: 3475, 1851
+  size: 536, 196
+  orig: 536, 196
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_12__Background
+  rotate: false
+  xy: 603, 671
+  size: 480, 440
+  orig: 480, 440
+  offset: 0, 0
+  index: -1
+UpscaledGuanYu/AttackC_13__Background
+  rotate: false
+  xy: 1201, 1
+  size: 304, 448
+  orig: 304, 448
+  offset: 0, 0
+  index: -1

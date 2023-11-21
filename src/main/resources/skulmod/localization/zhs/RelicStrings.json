@@ -1,0 +1,188 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:Reassemble": {
+    "NAME": "Reassembly",
+    "FLAVOR": "Bundle with Lizard Tail for maximum Reassemblage!",
+    "DESCRIPTIONS": [
+      "Start with a random #ySkull. The first time you take #yFatal damage, #gheal to #b30 #gHP."
+    ]
+  },
+  "${modID}:SwapSkull": {
+    "NAME": "*Swap Button",
+    "FLAVOR": "It's a little worn out, but that adds character. An item used for testing that some might find useful to explore the mod.",
+    "DESCRIPTIONS": [
+      "#yRight #yClick to #y${modID}:Swap to your #rinactive #y${modID}:Skull. Has no cooldown."
+    ]
+  },
+  "${modID}:BoneFragments": {
+    "NAME": "*Bone Fragments",
+    "FLAVOR": "You're a skeleton so you have a use for these, right?",
+    "DESCRIPTIONS": [
+      "A memory of what almost was. A pouch that holds #yBone #yFragments obtained by shattering #y${modID}:Skulls. You can use them with #yAltar relics to gain permanent scaling stats."
+    ]
+  },
+  "${modID}:DamageAltar": {
+    "NAME": "*Altar of Strength",
+    "FLAVOR": "It was so useful you decided to take it with you.",
+    "DESCRIPTIONS": [
+      "A memory of what almost was. #yRight #yClick this at a #pRest #pSite to spend #b",
+      " #yBone #yFragments to gain #b",
+      " Vigor each turn, up to #b",
+      " stacks.",
+      "We saw what you did. How could you? He was so young."
+    ]
+  },
+  "${modID}:SpeedAltar": {
+    "NAME": "*Altar of Speed",
+    "FLAVOR": "It was so useful you decided to take it with you.",
+    "DESCRIPTIONS": [
+      "A memory of what almost was. #yRight #yClick this at a #pRest #pSite to spend #b",
+      " #yBone #yFragments to start combat with #b",
+      " #yPlated #yArmor, up to #b",
+      " stacks.",
+      "Do you even know what she does with the relics you give her? Gross."
+    ]
+  },
+  "${modID}:HealthAltar": {
+    "NAME": "*Altar of Vitality",
+    "FLAVOR": "It was so useful you decided to take it with you.",
+    "DESCRIPTIONS": [
+      "A memory of what almost was. #yRight #yClick this at a #pRest #pSite to spend #b",
+      " #yBone #yFragments to gain #b",
+      " Max HP, up to #b",
+      " HP.",
+      "You removed the bone fragments, didn't you?"
+    ]
+  },
+  "${modID}:Reroll": {
+    "NAME": "Reroll Item",
+    "FLAVOR": "If this button wasn't magical, it'd probably be worn to dirt by now.",
+    "DESCRIPTIONS": [
+      "#yRight #yClick this relic outside of combat to spend #b50 #yGold to remove an #y${modID}:Item from your deck and replace it with a random #yItem.",
+      "#gMasterpiece: You have #b20% higher chance to get an extra card reward in each room.",
+      "[#808080]Masterpiece: [#808080]You [#808080]have [#808080]20% [#808080]higher [#808080]chance [#808080]to [#808080]get [#808080]an [#808080]extra [#808080]card [#808080]reward [#808080]in [#808080]each [#808080]combat.",
+      " HP.",
+      "The regret when you click the button and realize you didn't mean to....that feeling stays with you forever."
+    ]
+  },
+  "${modID}:SpeedSkull": {
+    "NAME": "Speed Skull",
+    "FLAVOR": "A skull with optimized speed, at the cost of power and precision. It's gotta go fast.",
+    "DESCRIPTIONS": [
+      "Upon pickup, randomly choose a number between 1 and 3. NL At the start of combat: Gain #b",
+      " #yDexterity. Lose #b",
+      " #yStrength. Lose #b",
+      " #yFocus."
+    ]
+  },
+  "${modID}:PowerSkull": {
+    "NAME": "Power Skull",
+    "FLAVOR": "A skull with optimized power, at the cost of speed and precision. It smash!",
+    "DESCRIPTIONS": [
+      "Upon pickup, randomly choose a number between 1 and 3. NL At the start of combat: Gain #b",
+      " #yStrength. Lose #b",
+      " #yFocus. Lose #b",
+      " #yDexterity."
+    ]
+  },  "${modID}:BalanceSkull": {
+  "NAME": "Balance Skull",
+  "FLAVOR": "A skull with optimized precision, at the cost of speed and power. It's 40% safe!",
+  "DESCRIPTIONS": [
+    "Upon pickup, randomly choose a number between 1 and 3. At the start of combat, gain that much #yDexterity and lose that much #yStrength and #yFocus."
+  ]
+},
+  "${modID}:BestFriend": {
+"NAME": "Bestest Friend",
+"FLAVOR": "She's good enough at hide and seek that you don't feel at all worried about the monsters finding her.",
+"DESCRIPTIONS": [
+"Occasionally finds #gflowers that heal #b1-4 #gHP after combat. NL You don't think you could un-live with yourself if anything happened to her."
+]
+},
+  "${modID}:DarkMirror": {
+    "NAME": "Dark Mirror",
+    "FLAVOR": "The world looks funny in this.",
+    "DESCRIPTIONS": [
+      "Upon pickup, obtain an additional copy of a card in your deck. NL If that card is a #ySkull, create a random rare #ySkull instead.",
+      "Choose 1 Card to Copy."
+    ]
+  },
+  "${modID}:IcedTea": {
+    "NAME": "Original Iced Tea (a lot of ice)",
+    "FLAVOR": "The Death Knight's favorite drink, there's so much ice you can hide behind it.",
+    "DESCRIPTIONS": [
+      "Prevent the next #b",
+      " #gHP you would have lost.",
+      "You can't get the flavor out of your mind...you'll have to ask for another when you get back."
+    ]
+  },
+  "${modID}:NewSweater": {
+    "NAME": "Neapolitan Sweater",
+    "FLAVOR": "It's hard to grasp how he manages such delicate knitwork.",
+    "DESCRIPTIONS": [
+      "It makes you feel as warm and fuzzy inside as it does outside. NL Gain #r<3 #gMax #gHP.",
+      " #gHP you would have lost.",
+      "You can't get the flavor out of your mind...you'll have to ask for another when you get back."
+    ]
+  },
+  "${modID}:SlimeKing": {
+    "NAME": "Slime King",
+    "FLAVOR": "Oooh, a free body!",
+    "DESCRIPTIONS": [
+      "At the start of combat, add a #ycopy of a random card you own to your hand. It varies between #b25% and #b200% effectiveness.",
+      " #gHP you would have lost.",
+      "You can't get the flavor out of your mind...you'll have to ask for another when you get back."
+    ]
+  },
+  "${modID}:PerfectBlow": {
+    "NAME": "Bottled Violence",
+    "FLAVOR": "For your safety, please do not unbottle him. He's been charging up a long time in there.",
+    "DESCRIPTIONS": [
+      "Upon pickup, choose any card in your deck. It's treated as a #yStrike.",
+      "Your ",
+      " has become a #yStrike.",
+      " stacks.",
+      "We saw what you did. How could you? He was so young."
+    ]
+  },
+  "${modID}:LuckAddiction": {
+    "NAME": "Luck Addiction",
+    "FLAVOR": "Sometimes it's the thrill that's more appealing than the reward. ...Not often.",
+    "DESCRIPTIONS": [
+      "When you lose a #y${modID}:Gamble, randomly deal damage equal to half your #yStrength, #yDexterity, and #yFocus.",
+      ".",
+      " has become a #yStrike.",
+      " stacks.",
+      "We saw what you did. How could you? He was so young."
+    ]
+  },
+  "${modID}:ChampionshipMatch": {
+    "NAME": "Prize Match",
+    "FLAVOR": "Undefeated, living or dead. Not as far as you know, at least.",
+    "DESCRIPTIONS": [
+      "When you end your turn in #yWrath, gain #b1 #yStrength. When you exit #yWrath, lose #rALL #yStrength gained from this relic."
+    ]
+  },
+  "${modID}:EternalHunt": {
+    "NAME": "Zoomies",
+    "FLAVOR": "The hunt never ends, not unless the Witch says \"Dinner Time\". You don't have to be alive to enjoy good food.",
+    "DESCRIPTIONS": [
+      "At the start of combat and each time you #yReshuffle, shuffle an #yAcceleration into your draw pile."
+    ]
+  },
+  "${modID}:Centauros": {
+    "NAME": "Centauros",
+    "FLAVOR": "\"A race of half-human, half horse beings with high intelligence and excellent hunting skills.\"",
+    "DESCRIPTIONS": [
+      "#y${modID}:Quintessence. NL Once per combat, #yright #yclick to deal #b9 damage to a random enemy and inflict #y${modID}:Wedged_Spear.",
+      ""
+    ]
+  }
+}
+
+

@@ -1,0 +1,53 @@
+{
+  "${modID}:HeroElite": {
+    "MOVES": [
+      "Transformative Gaze"
+    ],
+    "NAME": "Hero",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:MageElite": {
+    "MOVES": [
+      "Groggy",
+      "Chug",
+      "Channeling"
+    ],
+    "NAME": "Mage",
+    "DIALOG": [
+      ""
+    ]
+  },
+  "${modID}:DeathKnight": {
+    "MOVES": [
+      "Sorry...",
+      "Sorry...",
+      "Double Stitch",
+      "Yarn Over",
+      "Choosing A Bolt",
+      "Bi-Color Increase",
+      "Peaceful Cast-On",
+      "Sympathetic Crochet",
+      "Picot Edges",
+      "Bind-Off",
+      "New Cap",
+      "Good...Bye..."
+    ],
+    "NAME": "Death Knight",
+    "DIALOG": [
+      "You...promised....so... NL let's...knit...if... NL that's...okay...?",
+      "Just...tell me... NL if...I....hurt...you... NL by...accident...",
+      "Knit...one... NL Purl...two...",
+      "Over...Over... NL Under...Over...",
+      "Which...color...yarn... NL do...you...prefer...?",
+      "I...like...pink... NL brown...and...white...",
+      "You're...sorta...quiet... NL But...it's...nice...",
+      "Normally...I'm...the... NL  quiet...one...",
+      "Almost...done...",
+      "I...did...it...",
+      "Thanks...for...knitting... NL with...me...",
+      "Here...I...made... NL this...for...you..."
+    ]
+  }
+}

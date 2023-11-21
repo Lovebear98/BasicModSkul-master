@@ -1,0 +1,2232 @@
+
+LittleBoneAnim.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/Idle1
+  rotate: false
+  xy: 2883, 3519
+  size: 144, 128
+  orig: 144, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Idle2
+  rotate: false
+  xy: 3777, 3299
+  size: 152, 132
+  orig: 152, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Idle3
+  rotate: false
+  xy: 3457, 2905
+  size: 160, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Idle4
+  rotate: false
+  xy: 3453, 3779
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Dash
+  rotate: false
+  xy: 1437, 2137
+  size: 152, 96
+  orig: 152, 96
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk1
+  rotate: false
+  xy: 3705, 3901
+  size: 152, 108
+  orig: 152, 108
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk2
+  rotate: false
+  xy: 3291, 3449
+  size: 160, 116
+  orig: 160, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk3
+  rotate: false
+  xy: 3453, 3657
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk4
+  rotate: false
+  xy: 3859, 3559
+  size: 132, 120
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk5
+  rotate: false
+  xy: 1987, 3327
+  size: 132, 116
+  orig: 132, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk6
+  rotate: false
+  xy: 3931, 3303
+  size: 156, 128
+  orig: 156, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk7
+  rotate: false
+  xy: 3179, 3567
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk8
+  rotate: false
+  xy: 3179, 3689
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack2
+  rotate: false
+  xy: 3965, 2225
+  size: 124, 164
+  orig: 124, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack3
+  rotate: false
+  xy: 827, 2521
+  size: 236, 212
+  orig: 236, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack4
+  rotate: false
+  xy: 1869, 2701
+  size: 228, 144
+  orig: 228, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack5
+  rotate: false
+  xy: 3713, 3433
+  size: 148, 124
+  orig: 148, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle1
+  rotate: false
+  xy: 745, 3253
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle2
+  rotate: false
+  xy: 1805, 2847
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChamionIdle3
+  rotate: false
+  xy: 2385, 2711
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle4
+  rotate: false
+  xy: 143, 3269
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle5
+  rotate: false
+  xy: 143, 3435
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle6
+  rotate: false
+  xy: 313, 3435
+  size: 164, 168
+  orig: 164, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle7
+  rotate: false
+  xy: 2099, 2845
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle8
+  rotate: false
+  xy: 313, 3269
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionBlock1
+  rotate: false
+  xy: 599, 3427
+  size: 164, 168
+  orig: 164, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionBlock2
+  rotate: false
+  xy: 1975, 3015
+  size: 164, 152
+  orig: 164, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionBlock3
+  rotate: false
+  xy: 1771, 3017
+  size: 164, 152
+  orig: 164, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack1
+  rotate: false
+  xy: 1273, 2985
+  size: 176, 160
+  orig: 176, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack2
+  rotate: false
+  xy: 255, 3605
+  size: 168, 156
+  orig: 168, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack3
+  rotate: false
+  xy: 2405, 2569
+  size: 236, 140
+  orig: 236, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack4
+  rotate: false
+  xy: 2935, 2817
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack5
+  rotate: false
+  xy: 805, 3111
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack6
+  rotate: false
+  xy: 2935, 2959
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack7
+  rotate: false
+  xy: 2593, 2949
+  size: 172, 144
+  orig: 172, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle1
+  rotate: false
+  xy: 2789, 2629
+  size: 144, 200
+  orig: 144, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle2
+  rotate: false
+  xy: 2943, 2469
+  size: 140, 212
+  orig: 140, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle3
+  rotate: false
+  xy: 2789, 2831
+  size: 144, 176
+  orig: 144, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle4
+  rotate: false
+  xy: 1079, 3087
+  size: 164, 168
+  orig: 164, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle5
+  rotate: false
+  xy: 2643, 2629
+  size: 144, 200
+  orig: 144, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle6
+  rotate: false
+  xy: 1, 3235
+  size: 140, 212
+  orig: 140, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge1
+  rotate: false
+  xy: 1975, 2847
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge2
+  rotate: false
+  xy: 2857, 3649
+  size: 140, 128
+  orig: 140, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge3
+  rotate: false
+  xy: 1683, 3451
+  size: 124, 120
+  orig: 124, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge4
+  rotate: false
+  xy: 3457, 3035
+  size: 164, 124
+  orig: 164, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack1
+  rotate: false
+  xy: 3689, 2537
+  size: 132, 168
+  orig: 132, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack2
+  rotate: false
+  xy: 1163, 2759
+  size: 136, 160
+  orig: 136, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack3
+  rotate: false
+  xy: 909, 2921
+  size: 168, 188
+  orig: 168, 188
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack4
+  rotate: false
+  xy: 3945, 2849
+  size: 120, 180
+  orig: 120, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack5
+  rotate: false
+  xy: 3977, 2541
+  size: 116, 168
+  orig: 116, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldIdle1
+  rotate: false
+  xy: 1937, 3169
+  size: 152, 156
+  orig: 152, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldIdle2
+  rotate: false
+  xy: 2319, 3123
+  size: 152, 156
+  orig: 152, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldIdle3
+  rotate: false
+  xy: 2091, 3169
+  size: 152, 156
+  orig: 152, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldIdle4
+  rotate: false
+  xy: 915, 3435
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldBlock1
+  rotate: false
+  xy: 2767, 3009
+  size: 152, 160
+  orig: 152, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldBlock2
+  rotate: false
+  xy: 1533, 3147
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldBlock3
+  rotate: false
+  xy: 3823, 2687
+  size: 152, 144
+  orig: 152, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack1
+  rotate: false
+  xy: 1219, 3309
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack2
+  rotate: false
+  xy: 3823, 2541
+  size: 152, 144
+  orig: 152, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack3
+  rotate: false
+  xy: 3229, 2693
+  size: 208, 144
+  orig: 208, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack4
+  rotate: false
+  xy: 2269, 2881
+  size: 176, 144
+  orig: 176, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack5
+  rotate: false
+  xy: 2141, 3027
+  size: 176, 140
+  orig: 176, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorIdle1
+  rotate: false
+  xy: 1549, 3017
+  size: 220, 128
+  orig: 220, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorIdle2
+  rotate: false
+  xy: 2943, 2683
+  size: 220, 132
+  orig: 220, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorIdle3
+  rotate: false
+  xy: 1549, 2887
+  size: 220, 128
+  orig: 220, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorIdle4
+  rotate: false
+  xy: 479, 3727
+  size: 220, 120
+  orig: 220, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorDash1
+  rotate: false
+  xy: 3451, 2489
+  size: 236, 96
+  orig: 236, 96
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorDash2
+  rotate: false
+  xy: 2555, 2831
+  size: 232, 116
+  orig: 232, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorDash3
+  rotate: false
+  xy: 689, 3601
+  size: 216, 112
+  orig: 216, 112
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack1
+  rotate: false
+  xy: 1, 3601
+  size: 252, 108
+  orig: 252, 108
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WariorAttack2
+  rotate: false
+  xy: 3503, 459
+  size: 472, 256
+  orig: 472, 256
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack3
+  rotate: false
+  xy: 2463, 1003
+  size: 256, 304
+  orig: 256, 304
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack4
+  rotate: false
+  xy: 3769, 717
+  size: 280, 320
+  orig: 280, 320
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack5
+  rotate: false
+  xy: 3057, 1841
+  size: 284, 152
+  orig: 284, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack6
+  rotate: false
+  xy: 3769, 1039
+  size: 304, 92
+  orig: 304, 92
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack7
+  rotate: false
+  xy: 1301, 2759
+  size: 276, 72
+  orig: 276, 72
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle1
+  rotate: false
+  xy: 1079, 2921
+  size: 192, 164
+  orig: 192, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle2
+  rotate: false
+  xy: 611, 3067
+  size: 192, 164
+  orig: 192, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle3
+  rotate: false
+  xy: 715, 2897
+  size: 192, 168
+  orig: 192, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle4
+  rotate: false
+  xy: 3101, 2157
+  size: 200, 172
+  orig: 200, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle5
+  rotate: false
+  xy: 3323, 2061
+  size: 200, 172
+  orig: 200, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle6
+  rotate: false
+  xy: 3303, 2235
+  size: 196, 172
+  orig: 196, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle7
+  rotate: false
+  xy: 2187, 2675
+  size: 196, 168
+  orig: 196, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash1
+  rotate: false
+  xy: 3229, 2409
+  size: 220, 140
+  orig: 220, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash2
+  rotate: false
+  xy: 3229, 2551
+  size: 220, 140
+  orig: 220, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash3
+  rotate: false
+  xy: 373, 3127
+  size: 224, 140
+  orig: 224, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash4
+  rotate: false
+  xy: 211, 2985
+  size: 228, 140
+  orig: 228, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash5
+  rotate: false
+  xy: 147, 3127
+  size: 224, 140
+  orig: 224, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack1
+  rotate: false
+  xy: 3775, 2225
+  size: 188, 164
+  orig: 188, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack2
+  rotate: false
+  xy: 3501, 2323
+  size: 188, 164
+  orig: 188, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack3
+  rotate: false
+  xy: 3343, 1911
+  size: 240, 148
+  orig: 240, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack4
+  rotate: false
+  xy: 2195, 2347
+  size: 240, 152
+  orig: 240, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack5
+  rotate: false
+  xy: 3669, 1753
+  size: 228, 156
+  orig: 228, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack6
+  rotate: false
+  xy: 3439, 1753
+  size: 228, 156
+  orig: 228, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterIdle1
+  rotate: false
+  xy: 2753, 3309
+  size: 128, 144
+  orig: 128, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterIdle2
+  rotate: false
+  xy: 3035, 3249
+  size: 128, 148
+  orig: 128, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterIdle3
+  rotate: false
+  xy: 2883, 3373
+  size: 128, 144
+  orig: 128, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterIdle4
+  rotate: false
+  xy: 3279, 3929
+  size: 124, 136
+  orig: 124, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack1
+  rotate: false
+  xy: 2999, 3895
+  size: 136, 128
+  orig: 136, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack2
+  rotate: false
+  xy: 2999, 3765
+  size: 136, 128
+  orig: 136, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack3
+  rotate: false
+  xy: 2545, 3443
+  size: 144, 128
+  orig: 144, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack4
+  rotate: false
+  xy: 3863, 3433
+  size: 132, 120
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack5
+  rotate: false
+  xy: 1683, 3329
+  size: 128, 120
+  orig: 128, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack6
+  rotate: false
+  xy: 2267, 3443
+  size: 124, 120
+  orig: 124, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash1
+  rotate: false
+  xy: 2393, 3557
+  size: 140, 104
+  orig: 140, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash2
+  rotate: false
+  xy: 3013, 3399
+  size: 140, 84
+  orig: 140, 84
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash3
+  rotate: false
+  xy: 3291, 3347
+  size: 128, 92
+  orig: 128, 92
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash4
+  rotate: false
+  xy: 2659, 1309
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash5
+  rotate: false
+  xy: 1953, 2239
+  size: 84, 76
+  orig: 84, 76
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash6
+  rotate: false
+  xy: 3453, 3449
+  size: 96, 72
+  orig: 96, 72
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash7
+  rotate: false
+  xy: 3757, 3559
+  size: 92, 112
+  orig: 92, 112
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefIdle1
+  rotate: false
+  xy: 2403, 3423
+  size: 140, 132
+  orig: 140, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefIdle2
+  rotate: false
+  xy: 3075, 3111
+  size: 140, 136
+  orig: 140, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefIdle3
+  rotate: false
+  xy: 2611, 3309
+  size: 140, 132
+  orig: 140, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefIdle4
+  rotate: false
+  xy: 3137, 3811
+  size: 140, 124
+  orig: 140, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack1
+  rotate: false
+  xy: 4007, 2391
+  size: 84, 148
+  orig: 84, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack2
+  rotate: false
+  xy: 1451, 2985
+  size: 84, 160
+  orig: 84, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack3
+  rotate: false
+  xy: 2195, 2501
+  size: 208, 172
+  orig: 208, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack4
+  rotate: false
+  xy: 479, 3597
+  size: 208, 128
+  orig: 208, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack5
+  rotate: false
+  xy: 3137, 3937
+  size: 128, 124
+  orig: 128, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash1
+  rotate: false
+  xy: 2691, 3455
+  size: 168, 96
+  orig: 168, 96
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash2
+  rotate: false
+  xy: 1751, 2493
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash3
+  rotate: false
+  xy: 3747, 1911
+  size: 144, 68
+  orig: 144, 68
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash4
+  rotate: false
+  xy: 2529, 1309
+  size: 128, 84
+  orig: 128, 84
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash5
+  rotate: false
+  xy: 2439, 1309
+  size: 88, 76
+  orig: 88, 76
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash6
+  rotate: false
+  xy: 3343, 1841
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash7
+  rotate: false
+  xy: 2983, 2229
+  size: 108, 100
+  orig: 108, 100
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash1
+  rotate: false
+  xy: 2529, 1579
+  size: 424, 192
+  orig: 424, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash2
+  rotate: false
+  xy: 1223, 1943
+  size: 408, 192
+  orig: 408, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash3
+  rotate: false
+  xy: 1657, 1815
+  size: 388, 204
+  orig: 388, 204
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash4
+  rotate: false
+  xy: 1701, 1391
+  size: 416, 208
+  orig: 416, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash5
+  rotate: false
+  xy: 1, 1265
+  size: 420, 212
+  orig: 420, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle1
+  rotate: false
+  xy: 829, 1895
+  size: 392, 212
+  orig: 392, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle2
+  rotate: false
+  xy: 1259, 1725
+  size: 396, 216
+  orig: 396, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle3
+  rotate: false
+  xy: 861, 1253
+  size: 412, 220
+  orig: 412, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle4
+  rotate: false
+  xy: 3175, 1389
+  size: 420, 224
+  orig: 420, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle5
+  rotate: false
+  xy: 3597, 1389
+  size: 420, 224
+  orig: 420, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle6
+  rotate: false
+  xy: 1, 1697
+  size: 396, 220
+  orig: 396, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle7
+  rotate: false
+  xy: 1, 1479
+  size: 412, 216
+  orig: 412, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle8
+  rotate: false
+  xy: 837, 1475
+  size: 420, 208
+  orig: 420, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack1
+  rotate: false
+  xy: 1259, 1511
+  size: 408, 212
+  orig: 408, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack2
+  rotate: false
+  xy: 399, 1911
+  size: 380, 216
+  orig: 380, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack3
+  rotate: false
+  xy: 1657, 2021
+  size: 364, 216
+  orig: 364, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack4
+  rotate: false
+  xy: 1, 1919
+  size: 376, 216
+  orig: 376, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack5
+  rotate: false
+  xy: 1941, 1003
+  size: 520, 192
+  orig: 520, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack6
+  rotate: false
+  xy: 1941, 1197
+  size: 496, 192
+  orig: 496, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack7
+  rotate: false
+  xy: 861, 1059
+  size: 476, 192
+  orig: 476, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack8
+  rotate: false
+  xy: 407, 1059
+  size: 452, 204
+  orig: 452, 204
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload1
+  rotate: false
+  xy: 1275, 1297
+  size: 424, 212
+  orig: 424, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload2
+  rotate: false
+  xy: 415, 1483
+  size: 412, 212
+  orig: 412, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload3
+  rotate: false
+  xy: 2119, 1391
+  size: 408, 212
+  orig: 408, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload4
+  rotate: false
+  xy: 415, 1697
+  size: 412, 212
+  orig: 412, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload5
+  rotate: false
+  xy: 423, 1265
+  size: 412, 216
+  orig: 412, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload6
+  rotate: false
+  xy: 837, 1685
+  size: 420, 208
+  orig: 420, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle1
+  rotate: false
+  xy: 2047, 2005
+  size: 320, 168
+  orig: 320, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle2
+  rotate: false
+  xy: 1437, 2239
+  size: 320, 164
+  orig: 320, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle3
+  rotate: false
+  xy: 2047, 2175
+  size: 316, 168
+  orig: 316, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle4
+  rotate: false
+  xy: 259, 2521
+  size: 296, 168
+  orig: 296, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle5
+  rotate: false
+  xy: 833, 2283
+  size: 312, 176
+  orig: 312, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightIdle6
+  rotate: false
+  xy: 1437, 2405
+  size: 312, 168
+  orig: 312, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge1
+  rotate: false
+  xy: 3717, 1615
+  size: 276, 136
+  orig: 276, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge2
+  rotate: false
+  xy: 1603, 2721
+  size: 200, 164
+  orig: 200, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge3
+  rotate: false
+  xy: 1065, 2597
+  size: 240, 160
+  orig: 240, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge4
+  rotate: false
+  xy: 957, 2759
+  size: 204, 160
+  orig: 204, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightDodge5
+  rotate: false
+  xy: 255, 3763
+  size: 172, 152
+  orig: 172, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack1
+  rotate: false
+  xy: 3747, 1995
+  size: 180, 188
+  orig: 180, 188
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack2
+  rotate: false
+  xy: 2761, 2443
+  size: 180, 184
+  orig: 180, 184
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack3
+  rotate: false
+  xy: 2075, 1791
+  size: 376, 212
+  orig: 376, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack4
+  rotate: false
+  xy: 833, 2109
+  size: 360, 172
+  orig: 360, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DarkKnightAttack5
+  rotate: false
+  xy: 3101, 1995
+  size: 220, 160
+  orig: 220, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack1
+  rotate: false
+  xy: 227, 2691
+  size: 220, 224
+  orig: 220, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack2
+  rotate: false
+  xy: 1, 2553
+  size: 224, 220
+  orig: 224, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack3
+  rotate: false
+  xy: 1, 2775
+  size: 208, 236
+  orig: 208, 236
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack4
+  rotate: false
+  xy: 1759, 2239
+  size: 192, 252
+  orig: 192, 252
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack5
+  rotate: false
+  xy: 407, 555
+  size: 268, 208
+  orig: 268, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack6
+  rotate: false
+  xy: 813, 809
+  size: 272, 208
+  orig: 272, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack7
+  rotate: false
+  xy: 557, 2533
+  size: 264, 188
+  orig: 264, 188
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack8
+  rotate: false
+  xy: 2955, 1615
+  size: 264, 204
+  orig: 264, 204
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack9
+  rotate: false
+  xy: 449, 2723
+  size: 264, 184
+  orig: 264, 184
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash1
+  rotate: false
+  xy: 1941, 535
+  size: 164, 212
+  orig: 164, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash2
+  rotate: false
+  xy: 2821, 2229
+  size: 160, 212
+  orig: 160, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash3
+  rotate: false
+  xy: 2987, 1397
+  size: 160, 216
+  orig: 160, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash4
+  rotate: false
+  xy: 449, 2909
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball1
+  rotate: false
+  xy: 1, 3711
+  size: 136, 192
+  orig: 136, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball2
+  rotate: false
+  xy: 2593, 3095
+  size: 140, 172
+  orig: 140, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball3
+  rotate: false
+  xy: 1395, 3147
+  size: 136, 172
+  orig: 136, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball4
+  rotate: false
+  xy: 3085, 2469
+  size: 136, 200
+  orig: 136, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball5
+  rotate: false
+  xy: 3929, 1995
+  size: 148, 228
+  orig: 148, 228
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle1
+  rotate: false
+  xy: 3585, 1911
+  size: 160, 216
+  orig: 160, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle2
+  rotate: false
+  xy: 2599, 2355
+  size: 160, 212
+  orig: 160, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle3
+  rotate: false
+  xy: 2437, 2347
+  size: 160, 220
+  orig: 160, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle4
+  rotate: false
+  xy: 1339, 1059
+  size: 160, 232
+  orig: 160, 232
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle1
+  rotate: false
+  xy: 3175, 897
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle2
+  rotate: false
+  xy: 2525, 471
+  size: 244, 232
+  orig: 244, 232
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle3
+  rotate: false
+  xy: 2843, 1821
+  size: 212, 224
+  orig: 212, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle4
+  rotate: false
+  xy: 609, 2299
+  size: 216, 232
+  orig: 216, 232
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle5
+  rotate: false
+  xy: 1147, 2371
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockIdle6
+  rotate: false
+  xy: 1195, 2137
+  size: 240, 232
+  orig: 240, 232
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack1
+  rotate: false
+  xy: 3221, 1615
+  size: 216, 224
+  orig: 216, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack2
+  rotate: false
+  xy: 2513, 1939
+  size: 236, 228
+  orig: 236, 228
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack3
+  rotate: false
+  xy: 1373, 2575
+  size: 228, 176
+  orig: 228, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack4
+  rotate: false
+  xy: 1953, 2345
+  size: 240, 176
+  orig: 240, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack5
+  rotate: false
+  xy: 2369, 2169
+  size: 244, 176
+  orig: 244, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockAttack6
+  rotate: false
+  xy: 1953, 2523
+  size: 232, 176
+  orig: 232, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockDash1
+  rotate: false
+  xy: 2983, 2331
+  size: 244, 136
+  orig: 244, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GreatWarlockDash2
+  rotate: false
+  xy: 1307, 2847
+  size: 240, 136
+  orig: 240, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/BomberIdle1
+  rotate: false
+  xy: 3413, 897
+  size: 76, 212
+  orig: 76, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/BomberIdle2
+  rotate: false
+  xy: 2751, 1939
+  size: 88, 220
+  orig: 88, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/BomberIdle3
+  rotate: false
+  xy: 3991, 1133
+  size: 96, 208
+  orig: 96, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/BomberIdle4
+  rotate: false
+  xy: 3977, 453
+  size: 92, 212
+  orig: 92, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle1
+  rotate: false
+  xy: 1687, 3171
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle2
+  rotate: false
+  xy: 1373, 3321
+  size: 144, 160
+  orig: 144, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle3
+  rotate: false
+  xy: 1219, 3463
+  size: 144, 160
+  orig: 144, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle4
+  rotate: false
+  xy: 1069, 3257
+  size: 148, 160
+  orig: 148, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle5
+  rotate: false
+  xy: 1245, 3147
+  size: 148, 160
+  orig: 148, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle6
+  rotate: false
+  xy: 1069, 3419
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfDash1
+  rotate: false
+  xy: 3439, 1615
+  size: 276, 136
+  orig: 276, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfDash2
+  rotate: false
+  xy: 3525, 2185
+  size: 248, 136
+  orig: 248, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfDash3
+  rotate: false
+  xy: 2691, 3557
+  size: 164, 112
+  orig: 164, 112
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack1
+  rotate: false
+  xy: 915, 3253
+  size: 152, 180
+  orig: 152, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack2
+  rotate: false
+  xy: 765, 3419
+  size: 148, 180
+  orig: 148, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack3
+  rotate: false
+  xy: 359, 2299
+  size: 248, 220
+  orig: 248, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack4
+  rotate: false
+  xy: 2843, 2047
+  size: 256, 180
+  orig: 256, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack5
+  rotate: false
+  xy: 3137, 2839
+  size: 168, 128
+  orig: 168, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle1
+  rotate: false
+  xy: 2769, 1147
+  size: 404, 248
+  orig: 404, 248
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle2
+  rotate: false
+  xy: 1129, 805
+  size: 404, 252
+  orig: 404, 252
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle3
+  rotate: false
+  xy: 1535, 797
+  size: 404, 256
+  orig: 404, 256
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle4
+  rotate: false
+  xy: 1535, 535
+  size: 404, 260
+  orig: 404, 260
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle5
+  rotate: false
+  xy: 1129, 535
+  size: 404, 268
+  orig: 404, 268
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle6
+  rotate: false
+  xy: 2119, 471
+  size: 404, 276
+  orig: 404, 276
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle7
+  rotate: false
+  xy: 723, 535
+  size: 404, 272
+  orig: 404, 272
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle8
+  rotate: false
+  xy: 1, 555
+  size: 404, 268
+  orig: 404, 268
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle9
+  rotate: false
+  xy: 407, 809
+  size: 404, 248
+  orig: 404, 248
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperIdle10
+  rotate: false
+  xy: 2769, 897
+  size: 404, 248
+  orig: 404, 248
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack1
+  rotate: false
+  xy: 3503, 717
+  size: 264, 428
+  orig: 264, 428
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack2
+  rotate: false
+  xy: 3507, 1
+  size: 396, 288
+  orig: 396, 288
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack3
+  rotate: false
+  xy: 723, 1
+  size: 720, 532
+  orig: 720, 532
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack4
+  rotate: false
+  xy: 1, 1
+  size: 720, 552
+  orig: 720, 552
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack5
+  rotate: false
+  xy: 1445, 1
+  size: 672, 532
+  orig: 672, 532
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack6
+  rotate: false
+  xy: 2119, 1
+  size: 684, 468
+  orig: 684, 468
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack7
+  rotate: false
+  xy: 2805, 459
+  size: 696, 436
+  orig: 696, 436
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperAttack8
+  rotate: false
+  xy: 2805, 1
+  size: 700, 456
+  orig: 700, 456
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash1
+  rotate: false
+  xy: 3589, 1147
+  size: 400, 240
+  orig: 400, 240
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash2
+  rotate: false
+  xy: 1941, 749
+  size: 412, 252
+  orig: 412, 252
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash3
+  rotate: false
+  xy: 2355, 749
+  size: 412, 252
+  orig: 412, 252
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash4
+  rotate: false
+  xy: 1535, 1055
+  size: 404, 240
+  orig: 404, 240
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash5
+  rotate: false
+  xy: 1, 825
+  size: 404, 248
+  orig: 404, 248
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash6
+  rotate: false
+  xy: 3175, 1147
+  size: 412, 240
+  orig: 412, 240
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash7
+  rotate: false
+  xy: 1669, 1601
+  size: 404, 212
+  orig: 404, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash8
+  rotate: false
+  xy: 1, 1075
+  size: 396, 188
+  orig: 396, 188
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash9
+  rotate: false
+  xy: 1, 2137
+  size: 356, 200
+  orig: 356, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash10
+  rotate: false
+  xy: 415, 1479
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash11
+  rotate: false
+  xy: 2643, 2569
+  size: 112, 52
+  orig: 112, 52
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash12
+  rotate: false
+  xy: 1, 3905
+  size: 208, 124
+  orig: 208, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash13
+  rotate: false
+  xy: 1603, 2575
+  size: 264, 144
+  orig: 264, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash14
+  rotate: false
+  xy: 2513, 1773
+  size: 328, 164
+  orig: 328, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash15
+  rotate: false
+  xy: 379, 2129
+  size: 452, 168
+  orig: 452, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash16
+  rotate: false
+  xy: 2075, 1605
+  size: 436, 184
+  orig: 436, 184
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash17
+  rotate: false
+  xy: 2529, 1397
+  size: 456, 180
+  orig: 456, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ReaperDash18
+  rotate: false
+  xy: 3507, 291
+  size: 432, 160
+  orig: 432, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin23
+  rotate: false
+  xy: 3307, 2905
+  size: 148, 140
+  orig: 148, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin22
+  rotate: false
+  xy: 2921, 3101
+  size: 152, 136
+  orig: 152, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin21
+  rotate: false
+  xy: 3563, 3397
+  size: 148, 132
+  orig: 148, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin20
+  rotate: false
+  xy: 3453, 3531
+  size: 148, 124
+  orig: 148, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin19
+  rotate: false
+  xy: 3279, 3811
+  size: 148, 116
+  orig: 148, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin18
+  rotate: false
+  xy: 3607, 3559
+  size: 144, 108
+  orig: 144, 108
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin17
+  rotate: false
+  xy: 1813, 3433
+  size: 144, 104
+  orig: 144, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin16
+  rotate: false
+  xy: 2121, 3443
+  size: 144, 104
+  orig: 144, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin15
+  rotate: false
+  xy: 3907, 3787
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin14
+  rotate: false
+  xy: 3859, 3893
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin13
+  rotate: false
+  xy: 3757, 3787
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin12
+  rotate: false
+  xy: 3757, 3681
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin11
+  rotate: false
+  xy: 3907, 3681
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin10
+  rotate: false
+  xy: 1837, 3327
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin9
+  rotate: false
+  xy: 3607, 3669
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin8
+  rotate: false
+  xy: 3607, 3775
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin7
+  rotate: false
+  xy: 3555, 3901
+  size: 148, 112
+  orig: 148, 112
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin6
+  rotate: false
+  xy: 3029, 3501
+  size: 148, 124
+  orig: 148, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin5
+  rotate: false
+  xy: 3807, 3153
+  size: 144, 144
+  orig: 144, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin4
+  rotate: false
+  xy: 2447, 2949
+  size: 144, 172
+  orig: 144, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin3
+  rotate: false
+  xy: 599, 3233
+  size: 144, 192
+  orig: 144, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin2
+  rotate: false
+  xy: 1, 3013
+  size: 144, 220
+  orig: 144, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin1
+  rotate: false
+  xy: 3899, 1753
+  size: 144, 240
+  orig: 144, 240
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin0
+  rotate: false
+  xy: 3905, 1
+  size: 144, 280
+  orig: 144, 280
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle1
+  rotate: false
+  xy: 2735, 3171
+  size: 152, 136
+  orig: 152, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle2
+  rotate: false
+  xy: 3137, 2969
+  size: 148, 140
+  orig: 148, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle3
+  rotate: false
+  xy: 3623, 3125
+  size: 148, 136
+  orig: 148, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle4
+  rotate: false
+  xy: 3623, 3263
+  size: 152, 132
+  orig: 152, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle5
+  rotate: false
+  xy: 3649, 2849
+  size: 156, 136
+  orig: 156, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle6
+  rotate: false
+  xy: 3653, 2707
+  size: 156, 140
+  orig: 156, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle7
+  rotate: false
+  xy: 3649, 2987
+  size: 156, 136
+  orig: 156, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle8
+  rotate: false
+  xy: 2245, 3309
+  size: 156, 132
+  orig: 156, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash1
+  rotate: false
+  xy: 3451, 2587
+  size: 216, 104
+  orig: 216, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash2
+  rotate: false
+  xy: 915, 3589
+  size: 220, 104
+  orig: 220, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash3
+  rotate: false
+  xy: 3439, 2693
+  size: 212, 104
+  orig: 212, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash4
+  rotate: false
+  xy: 3439, 2799
+  size: 208, 104
+  orig: 208, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack1
+  rotate: false
+  xy: 3941, 283
+  size: 148, 168
+  orig: 148, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack2
+  rotate: false
+  xy: 3811, 2833
+  size: 132, 164
+  orig: 132, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack3
+  rotate: false
+  xy: 1, 2339
+  size: 256, 212
+  orig: 256, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack4
+  rotate: false
+  xy: 715, 2735
+  size: 240, 160
+  orig: 240, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack5
+  rotate: false
+  xy: 2889, 3239
+  size: 144, 132
+  orig: 144, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack6
+  rotate: false
+  xy: 2857, 3779
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostFrozen
+  rotate: false
+  xy: 2615, 2169
+  size: 204, 184
+  orig: 204, 184
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle1
+  rotate: false
+  xy: 2473, 3269
+  size: 136, 152
+  orig: 136, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle2
+  rotate: false
+  xy: 3287, 3197
+  size: 136, 148
+  orig: 136, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle3
+  rotate: false
+  xy: 3425, 3303
+  size: 136, 144
+  orig: 136, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle4
+  rotate: false
+  xy: 3287, 3047
+  size: 136, 148
+  orig: 136, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle5
+  rotate: false
+  xy: 1, 3449
+  size: 140, 148
+  orig: 140, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack1
+  rotate: false
+  xy: 3429, 3901
+  size: 124, 136
+  orig: 124, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack2
+  rotate: false
+  xy: 3165, 3347
+  size: 124, 152
+  orig: 124, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack3
+  rotate: false
+  xy: 3691, 2391
+  size: 160, 144
+  orig: 160, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack4
+  rotate: false
+  xy: 3853, 2391
+  size: 152, 148
+  orig: 152, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge1
+  rotate: false
+  xy: 3807, 3031
+  size: 176, 120
+  orig: 176, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge2
+  rotate: false
+  xy: 3029, 3627
+  size: 132, 136
+  orig: 132, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge3
+  rotate: false
+  xy: 3425, 3161
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge4
+  rotate: false
+  xy: 1533, 3301
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge5
+  rotate: false
+  xy: 2369, 2005
+  size: 140, 152
+  orig: 140, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge6
+  rotate: false
+  xy: 3953, 3153
+  size: 140, 148
+  orig: 140, 148
+  offset: 0, 0
+  index: -1

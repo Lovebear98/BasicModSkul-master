@@ -1,0 +1,67 @@
+{
+  "${modID}:Cannonball": {
+    "NAME": "Cannonball",
+    "DESCRIPTION": [
+      "#yEvoke: Add a #yFire! to your hand, or add #b",
+      " damage to one already in your hand.",
+      "",
+      ""
+    ]
+  },
+  "${modID}:CannonballPlus": {
+  "NAME": "Enhanced Cannonball",
+  "DESCRIPTION": [
+    "#yEvoke: Add a #yFire!+ to your hand, or add #b",
+    " damage to one already in your hand. If it isn't #yUpgraded, upgrade it instead.",
+    "",
+    ""
+  ]
+},
+  "${modID}:Meteor": {
+    "NAME": "Meteor",
+    "DESCRIPTION": [
+      "#yEvoke: Deal #b",
+      " damage #b",
+      " times.",
+      ""
+    ]
+  },
+  "${modID}:Barrier": {
+    "NAME": "Barrier",
+    "DESCRIPTION": [
+      "#yPassive: At the end of each turn, gain #b",
+      " #yDexterity until your next turn. NL #yEvoke: Gain #b",
+      " #yDexterity until your next turn.",
+      ""
+    ]
+  },
+  "${modID}:NewOrb": {
+    "NAME": "Empty Head",
+    "DESCRIPTION": [
+      "#yEvoke: #yBonepile. NL Does not scale with #yFocus.",
+      "",
+      "",
+      ""
+    ]
+  },
+  "${modID}:Arrow": {
+    "NAME": "Arrow",
+    "DESCRIPTION": [
+      "#yPassive: Channel #b",
+      " #yArrow at the start of your turn. NL #yEvoke: Randomly deal #b",
+      " damage and #yEvoke ALL other #yArrows, including any new ones.",
+      "",
+      "",
+      ""
+    ]
+  },
+  "${modID}:Concentration": {
+    "NAME": "Concentration",
+    "DESCRIPTION": [
+      "#yEvoke: Deal #b",
+      " damage to a random enemy. NL ##yPassive: Increase this orb's damage by #b",
+      " when you play a card.",
+      ""
+    ]
+  }
+}

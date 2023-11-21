@@ -1,0 +1,29 @@
+{
+  "${modID}:PotionID": {
+    "NAME": "Some Kind of Potion",
+    "DESCRIPTIONS": [
+      "Little",
+      " pieces ",
+      "that get put together",
+      " into a description.",
+      " Exactly how depends on the potion, and you can set it up however you want."
+    ]
+  },
+  "${modID}:Calcium": {
+    "NAME": "Calcium",
+    "DESCRIPTIONS": [
+      "Bonepile #b",
+      ".",
+      "Bonepile",
+      "A triggered effect that changes with your #gactive #ySkull."
+    ]
+  },
+  "${modID}:SwapPotion": {
+    "NAME": "Unstable Quartz",
+    "DESCRIPTIONS": [
+      "Pay 1 [E] to #ySwap. NL Unaffected by #yPotency.",
+      "Swap",
+      "Your #rinactive #ySkull becomes #gactive and triggers its #ySwap effect."
+    ]
+  }
+}

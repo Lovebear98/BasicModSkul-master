@@ -1,0 +1,132 @@
+
+Champion.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/ChampionIdle1
+  rotate: false
+  xy: 713, 455
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle2
+  rotate: false
+  xy: 1, 143
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChamionIdle3
+  rotate: false
+  xy: 409, 1
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle4
+  rotate: false
+  xy: 373, 285
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle5
+  rotate: false
+  xy: 579, 163
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle6
+  rotate: false
+  xy: 1, 313
+  size: 164, 168
+  orig: 164, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle7
+  rotate: false
+  xy: 239, 1
+  size: 168, 168
+  orig: 168, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionIdle8
+  rotate: false
+  xy: 543, 329
+  size: 168, 164
+  orig: 168, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionBlock1
+  rotate: false
+  xy: 749, 285
+  size: 164, 168
+  orig: 164, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionBlock2
+  rotate: false
+  xy: 167, 471
+  size: 164, 152
+  orig: 164, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionBlock3
+  rotate: false
+  xy: 337, 451
+  size: 164, 152
+  orig: 164, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack1
+  rotate: false
+  xy: 579, 1
+  size: 176, 160
+  orig: 176, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack2
+  rotate: false
+  xy: 167, 313
+  size: 168, 156
+  orig: 168, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack3
+  rotate: false
+  xy: 1, 1
+  size: 236, 140
+  orig: 236, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack4
+  rotate: false
+  xy: 757, 1
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack5
+  rotate: false
+  xy: 757, 143
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack6
+  rotate: false
+  xy: 171, 171
+  size: 200, 140
+  orig: 200, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ChampionAttack7
+  rotate: false
+  xy: 333, 605
+  size: 172, 144
+  orig: 172, 144
+  offset: 0, 0
+  index: -1

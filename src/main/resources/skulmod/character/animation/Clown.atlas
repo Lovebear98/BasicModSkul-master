@@ -1,0 +1,111 @@
+
+Clown.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/ClownIdle1
+  rotate: false
+  xy: 285, 1
+  size: 144, 200
+  orig: 144, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle2
+  rotate: false
+  xy: 1, 191
+  size: 140, 212
+  orig: 140, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle3
+  rotate: false
+  xy: 431, 171
+  size: 144, 176
+  orig: 144, 176
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle4
+  rotate: false
+  xy: 431, 1
+  size: 164, 168
+  orig: 164, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle5
+  rotate: false
+  xy: 285, 203
+  size: 144, 200
+  orig: 144, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownIdle6
+  rotate: false
+  xy: 143, 191
+  size: 140, 212
+  orig: 140, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge1
+  rotate: false
+  xy: 431, 349
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge2
+  rotate: false
+  xy: 695, 345
+  size: 140, 128
+  orig: 140, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge3
+  rotate: false
+  xy: 837, 345
+  size: 124, 120
+  orig: 124, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownDodge4
+  rotate: false
+  xy: 735, 1
+  size: 164, 124
+  orig: 164, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack1
+  rotate: false
+  xy: 577, 171
+  size: 132, 168
+  orig: 132, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack2
+  rotate: false
+  xy: 597, 1
+  size: 136, 160
+  orig: 136, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack3
+  rotate: false
+  xy: 1, 1
+  size: 168, 188
+  orig: 168, 188
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack4
+  rotate: false
+  xy: 711, 163
+  size: 120, 180
+  orig: 120, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ClownAttack5
+  rotate: false
+  xy: 577, 341
+  size: 116, 168
+  orig: 116, 168
+  offset: 0, 0
+  index: -1

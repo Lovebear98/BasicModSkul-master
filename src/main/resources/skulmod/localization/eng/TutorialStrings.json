@@ -1,0 +1,11 @@
+{
+  "${modID}:ReloadButtonUITip": {
+    "TEXT": [
+      "Swap to your #rinactive #ySkull, triggering its #ySwap effect."
+    ],
+    "LABEL": [
+      "Swap Skulls",
+      "Swap Skulls"
+    ]
+  }
+}

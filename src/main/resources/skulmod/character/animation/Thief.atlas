@@ -1,0 +1,118 @@
+
+Thief.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/PettyThiefIdle1
+  rotate: false
+  xy: 353, 131
+  size: 140, 132
+  orig: 140, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefIdle2
+  rotate: false
+  xy: 211, 131
+  size: 140, 136
+  orig: 140, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefIdle3
+  rotate: false
+  xy: 353, 265
+  size: 140, 132
+  orig: 140, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefIdle4
+  rotate: false
+  xy: 1, 175
+  size: 140, 124
+  orig: 140, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack1
+  rotate: false
+  xy: 301, 399
+  size: 84, 148
+  orig: 84, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack2
+  rotate: false
+  xy: 1, 427
+  size: 84, 160
+  orig: 84, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack3
+  rotate: false
+  xy: 1, 1
+  size: 208, 172
+  orig: 208, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack4
+  rotate: false
+  xy: 211, 1
+  size: 208, 128
+  orig: 208, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefAttack5
+  rotate: false
+  xy: 1, 301
+  size: 128, 124
+  orig: 128, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash1
+  rotate: false
+  xy: 143, 269
+  size: 168, 96
+  orig: 168, 96
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash2
+  rotate: false
+  xy: 131, 367
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash3
+  rotate: false
+  xy: 87, 535
+  size: 144, 68
+  orig: 144, 68
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash4
+  rotate: false
+  xy: 87, 449
+  size: 128, 84
+  orig: 128, 84
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash5
+  rotate: false
+  xy: 421, 1
+  size: 88, 76
+  orig: 88, 76
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash6
+  rotate: false
+  xy: 387, 501
+  size: 88, 64
+  orig: 88, 64
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/PettyThiefDash7
+  rotate: false
+  xy: 387, 399
+  size: 108, 100
+  orig: 108, 100
+  offset: 0, 0
+  index: -1

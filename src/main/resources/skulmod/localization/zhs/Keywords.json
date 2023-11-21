@@ -1,0 +1,374 @@
+[
+  {
+    "PROPER_NAME": "This is displayed in the tooltip.",
+    "NAMES": [
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "This is displayed in the tooltip. Note, spaces are not allowed in NAMES. Also, they should be entirely lowercase. For multi-word keywords, see the next one."
+  },
+  {
+    "PROPER_NAME": "Multiword Keyword",
+    "NAMES": [
+      "Multiword Keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "Make sure the first element in the NAMES is the same as your PROPER_NAME. The rest should use _ to replace spaces and be entirely lowercase. In card text, you'll use the underscore versions."
+  },
+  {
+    "PROPER_NAME": "Total Cards",
+    "NAMES": [
+      "Total Cards",
+      "Total_Cards",
+      "total_cards"
+    ],
+    "DESCRIPTION": "The sum of your discard pile, draw pile, and hand."
+  },
+  {
+    "PROPER_NAME": "Masterpiece",
+    "NAMES": [
+      "Masterpiece",
+      "masterpiece"
+    ],
+    "DESCRIPTION": "#g3: Gain 1 #yStrength, #yDexterity, and #yFocus. NL #g5: Unlock the #yMasterpiece effect of all your current sets."
+  },
+  {
+    "PROPER_NAME": "Omen",
+    "NAMES": [
+      "Omen",
+      "omen"
+    ],
+    "DESCRIPTION": "#r1: Take #b50% more damage. NL #r2: Take #b100% more damage. NL #r3: Take #b150% more damage."
+  },
+  {
+  "PROPER_NAME": "Courage",
+  "NAMES": [
+    "Courage",
+    "courage"
+  ],
+  "DESCRIPTION": "#p3: Gain 1 #yStrength. NL #p5: Gain 2 #yStrength. NL NL [#ff8000]Masterpiece NL [#ff8000]8: [#ff8000]Gain [#ff8000]4 [#ff8000]Strength."
+},
+
+  {
+    "PROPER_NAME": "Absolute Zero",
+    "NAMES": [
+      "Absolute Zero",
+      "absolute_zero"
+    ],
+    "DESCRIPTION":"#g3: Once every two turns, #yEvoking channels a #yFrost orb. NL #g5: At the start of your turn, #yEvoke an orb. NL #gMasterpiece #g6: Gain #b1 #yFocus."
+  },
+  {
+    "PROPER_NAME": "Artifact",
+    "NAMES": [
+      "Artifact",
+      "artifact"
+    ],
+    "DESCRIPTION":"  #g2: #yChannel a #yMeteor at the start of combat. NL #g5: #yChannel a #yMeteor every 3 turns. NL #gMasterpiece #g6: Gain #b1 #yFocus."
+  },
+  {
+    "PROPER_NAME": "Bone",
+    "NAMES": [
+      "Bone",
+      "bone"
+    ],
+    "DESCRIPTION":"#g3: Your first #ySwap each combat will grant #yBuffer."
+  },
+  {
+    "PROPER_NAME": "Excessive Bleeding",
+    "NAMES": [
+      "Excessive Bleeding",
+      "Excessive_Bleeding",
+      "excessive_bleeding"
+    ],
+    "DESCRIPTION":"#g3: Your first attack each turn #yWounds the target for half its damage. NL #g4: Your first attack each turn #yWounds the target for full damage. NL #gMasterpiece #g6: Your #yWounding attacks deal #b20% more damage. NL "
+  },
+  {
+    "PROPER_NAME": "Fortress",
+    "NAMES": [
+      "Fortress",
+      "fortress"
+    ],
+    "DESCRIPTION":"#g2: Gain #b2 #yBlock each turn, affected by #yDexterity. NL #g5: Gain #b2 more #yBlock each turn. NL #gMasterpiece #g6: Gain #b2 #yDexterity."
+  },
+  {
+    "PROPER_NAME": "Revenge",
+    "NAMES": [
+      "Revenge",
+      "revenge"
+    ],
+    "DESCRIPTION":"#g3: Inflict #b25% of the first damage you take each turn to the attacker as #yRevenge. NL #g5: The #yRevenge applied becomes #b50%. NL #gMasterpiece #g6: Also gain [E] the turn after you take unblocked damage. NL "
+  },
+  {
+    "PROPER_NAME": "Item",
+    "NAMES": [
+      "Set Effect",
+      "Set_Effect",
+      "set_effect",
+      "set effect",
+      "Item",
+      "item",
+      "Items",
+      "items"
+    ],
+    "DESCRIPTION": "Increase the listed #ySet #yEffect #gpermanently on pickup. #yPurges at the start of combat if it has no other effects. "
+  },
+  {
+    "PROPER_NAME": "Skull",
+    "NAMES": [
+      "Skull",
+      "skull",
+      "Skulls",
+      "skulls"
+    ],
+    "DESCRIPTION": "Your #gactive #ySkull changes your #yPassive and #yBonepile. If you own more than 2 #ySkulls at the start of combat, shatter your choice until you have 2. NL NL #ySkulls are always #yExhausted, #ycannot #yupgrade, and #ycannot #ybe #ybottled."
+  },
+  {
+    "PROPER_NAME": "Passive",
+    "NAMES": [
+      "Passive",
+      "passive"
+    ],
+    "DESCRIPTION": "A constant effect provided by the #gactive #ySkull."
+  },
+  {
+    "PROPER_NAME": "Bonepile",
+    "NAMES": [
+      "Bonepile",
+      "bonepile"
+    ],
+    "DESCRIPTION": "A triggered effect based on your #gactive #ySkull. NL Defaults to #b2 #yBlock."
+  },
+  {
+    "PROPER_NAME": "Swap",
+    "NAMES": [
+      "Swap",
+      "swap"
+    ],
+    "DESCRIPTION": "Your #rinactive #ySkull becomes #gactive and triggers its #ySwap effect."
+  },
+  {
+    "PROPER_NAME": "Cannonball",
+    "NAMES": [
+      "Cannonball",
+      "cannonball",
+      "Cannonballs",
+      "cannonballs"
+    ],
+    "DESCRIPTION": "#yEvoke: Add a #yFire! to your hand, or increase the damage if you already have one. Every fourth #yCannonball is enhanced."
+  },
+  {
+    "PROPER_NAME": "Empty Head",
+    "NAMES": [
+      "Empty Head",
+      "Empty_Head",
+      "empty_head"
+    ],
+    "DESCRIPTION": "#yEvoke: #yBonepile"
+  },
+  {
+    "PROPER_NAME": "Unobstructed",
+    "NAMES": [
+      "unobstructed"
+    ],
+    "DESCRIPTION": "Damage not prevented by #Temporary #yHP or #yBlock."
+  },
+  {
+    "PROPER_NAME": "Counterattack",
+    "NAMES": [
+      "Counterattack",
+      "counterattack"
+    ],
+    "DESCRIPTION": "Deal #ynon-attack damage equal to the unblocked damage taken."
+  },
+
+  {
+    "PROPER_NAME": "Meteor",
+    "NAMES": [
+      "Meteor",
+      "meteor",
+      "Meteors",
+      "meteors"
+    ],
+    "DESCRIPTION": "#yEvoke: Randomly deal b1 damage #b1 time."
+  },
+  {
+    "PROPER_NAME": "Arrow",
+    "NAMES": [
+      "Arrow",
+      "arrow",
+      "Arrows",
+      "arrows"
+    ],
+    "DESCRIPTION": "#yEvoke: Deal #b3 damage. #yEvoke #yALL other arrows. NL #yPassive: #yChannel #b1 #yArrow at the start of your turn."
+  },
+  {
+    "PROPER_NAME": "Barrier",
+    "NAMES": [
+      "Barrier",
+      "barrier",
+      "Barriers",
+      "barriers"
+    ],
+    "DESCRIPTION":"#yPassive: At the end of your turn, gain #b1 #yDexterity until your next turn. NL #yEvoke: Gain #b1 #yDexterity until your next turn."
+  },
+  {
+    "PROPER_NAME": "Oblivion",
+    "NAMES": [
+      "Oblivion",
+      "oblivion"
+    ],
+    "DESCRIPTION":"Reduce the next unblocked damage you take once. NL Once per turn, increase the next damage you deal."
+  },
+  {
+    "PROPER_NAME": "Gamble",
+    "NAMES": [
+      "Gamble",
+      "gamble",
+      "Gambles",
+      "gambles"
+    ],
+    "DESCRIPTION": "#b20% chance to gain 1 #yStrength, #yDexterity, or #yFocus."
+  },
+  {
+    "PROPER_NAME": "Charge",
+    "NAMES": [
+      "Charge",
+      "charge"
+    ],
+    "DESCRIPTION": "After gathering #b5 stacks, choose an #yAttack. It becomes a #b3 cost #yStrike with increased effects."
+  },
+  {
+    "PROPER_NAME": "Charged",
+    "NAMES": [
+      "Charged",
+      "charged"
+    ],
+    "DESCRIPTION": "#yWarrior can #yCharge cards. NL A #yCharged card's cost becomes #b3, and its effects increase based on the cost increase. NL #yCharged cards are treated as #yStrikes."
+  },
+  {
+    "PROPER_NAME": "Burn",
+    "NAMES": [
+      "Burn",
+      "burn"
+    ],
+    "DESCRIPTION": "Unblocked #yNon-Attack damage against the owner will be doubled once."
+  },
+  {
+    "PROPER_NAME": "Pay",
+    "NAMES": [
+      "Pay",
+      "pay"
+    ],
+    "DESCRIPTION": "Use #yGold to play this card. Cannot be played without #yGold."
+  },
+  {
+    "PROPER_NAME": "Stamina",
+    "NAMES": [
+      "Stamina",
+      "stamina"
+    ],
+    "DESCRIPTION": "Reduce this to #gheal #yafter taking damage."
+  },
+  {
+    "PROPER_NAME": "Ripped Pocket",
+    "NAMES": [
+      "Ripped Pocket",
+      "ripped_pocket",
+      "Ripped_Pocket"
+    ],
+    "DESCRIPTION": "Attacking the target removes half of this, at least #b5, and grants #yGold equal to that amount."
+  },
+  {
+    "PROPER_NAME": "Imitation",
+    "NAMES": [
+      "Imitation",
+      "imitation",
+      "Imitations",
+      "imitations"
+    ],
+    "DESCRIPTION": "A random card of any color. Its cost becomes #b0 and it #yPurges. #yImitations in your hand are #yPurged when you play a card."
+  },
+  {
+    "PROPER_NAME": "Concentration",
+    "NAMES": [
+      "Concentration",
+      "concentration"
+    ],
+    "DESCRIPTION": "Deals damage when #yreduced. When #yremoved, deal the #ytotal damage dealt to ALL enemies."
+  },
+  {
+    "PROPER_NAME": "Soul",
+    "NAMES": [
+      "Souls",
+      "souls",
+      "Soul",
+      "soul"
+    ],
+    "DESCRIPTION": "A #ppermanent power. As #yGrim #yReaper, #yAttacks #rkill units under a percentage of #yYOUR missing #yHP, based on your #pSouls."
+  },
+  {
+    "PROPER_NAME": "Embrace",
+    "NAMES": [
+      "Embrace",
+      "embrace"
+    ],
+    "DESCRIPTION": "Temporarily #rlose #gHP until the start of your next turn. You can die from the HP loss."
+  },
+  {
+    "PROPER_NAME": "Harvest",
+    "NAMES": [
+      "Harvest",
+      "harvest"
+    ],
+    "DESCRIPTION": "Apply the following to EVERYONE: NL #b20 #pSouls: #b2 #yStrength. NL #b40 #pSouls: #b2 #yVulnerable. NL #b60+ #pSouls: #yYOU become immune to #rdeath this turn."
+  },
+  {
+    "PROPER_NAME": "Quintessence",
+    "NAMES": [
+      "Quintessence",
+      "quintessence"
+    ],
+    "DESCRIPTION": "You can use this relic at #yANY time, including the enemy's turn."
+  },
+  {
+    "PROPER_NAME": "Bleached",
+    "NAMES": [
+      "Bleached",
+      "bleached"
+    ],
+    "DESCRIPTION": "Card cannot be #yDuplicated, #yDouble #yTapped, #yBurst, or #yAmplified."
+  },
+  {
+    "PROPER_NAME": "Frozen",
+    "NAMES": [
+      "Frozen",
+      "frozen",
+      "Freeze",
+      "freeze"
+    ],
+    "DESCRIPTION": "You take and deal 1 less damage this turn."
+  },
+  {
+    "PROPER_NAME": "Grit",
+    "NAMES": [
+      "grit"
+    ],
+    "DESCRIPTION": "Retain the next #b1 #yBlock you'd lose at the start of the turn."
+  },
+  {
+    "PROPER_NAME": "Wedged Spear",
+    "NAMES": [
+      "Wedged Spear",
+      "Wedged_Spear",
+      "Wedged_spear",
+      "wedged_Spear",
+      "wedged_spear"
+    ],
+    "DESCRIPTION": "After #b3 turns or when the target dies, refresh the cooldown of #yCentauros."
+  }
+]

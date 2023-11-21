@@ -1,0 +1,125 @@
+
+UnknownKing.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UpscaledArthur/IdleB1
+  rotate: false
+  xy: 331, 505
+  size: 328, 196
+  orig: 328, 196
+  offset: 0, 0
+  index: -1
+UpscaledArthur/IdleB2
+  rotate: false
+  xy: 661, 615
+  size: 328, 196
+  orig: 328, 196
+  offset: 0, 0
+  index: -1
+UpscaledArthur/IdleB3
+  rotate: false
+  xy: 1, 303
+  size: 328, 200
+  orig: 328, 200
+  offset: 0, 0
+  index: -1
+UpscaledArthur/IdleB4
+  rotate: false
+  xy: 673, 1
+  size: 328, 204
+  orig: 328, 204
+  offset: 0, 0
+  index: -1
+UpscaledArthur/IdleB5
+  rotate: false
+  xy: 335, 299
+  size: 328, 204
+  orig: 328, 204
+  offset: 0, 0
+  index: -1
+UpscaledArthur/IdleB6
+  rotate: false
+  xy: 673, 207
+  size: 328, 204
+  orig: 328, 204
+  offset: 0, 0
+  index: -1
+UpscaledArthur/IdleB7
+  rotate: false
+  xy: 665, 413
+  size: 328, 200
+  orig: 328, 200
+  offset: 0, 0
+  index: -1
+UpscaledArthur/IdleB8
+  rotate: false
+  xy: 1, 505
+  size: 328, 196
+  orig: 328, 196
+  offset: 0, 0
+  index: -1
+UpscaledArthur/DashB1
+  rotate: false
+  xy: 195, 877
+  size: 316, 172
+  orig: 316, 172
+  offset: 0, 0
+  index: -1
+UpscaledArthur/DashB2
+  rotate: false
+  xy: 1, 1051
+  size: 312, 172
+  orig: 312, 172
+  offset: 0, 0
+  index: -1
+UpscaledArthur/DashB3
+  rotate: false
+  xy: 513, 987
+  size: 316, 172
+  orig: 316, 172
+  offset: 0, 0
+  index: -1
+UpscaledArthur/DashB4
+  rotate: false
+  xy: 195, 703
+  size: 320, 172
+  orig: 320, 172
+  offset: 0, 0
+  index: -1
+UpscaledArthur/DashB5
+  rotate: false
+  xy: 517, 813
+  size: 316, 172
+  orig: 316, 172
+  offset: 0, 0
+  index: -1
+UpscaledArthur/AttackB1
+  rotate: false
+  xy: 1, 1225
+  size: 220, 172
+  orig: 220, 172
+  offset: 0, 0
+  index: -1
+UpscaledArthur/AttackB2
+  rotate: false
+  xy: 335, 1
+  size: 336, 296
+  orig: 336, 296
+  offset: 0, 0
+  index: -1
+UpscaledArthur/AttackB3
+  rotate: false
+  xy: 1, 1
+  size: 332, 300
+  orig: 332, 300
+  offset: 0, 0
+  index: -1
+UpscaledArthur/AttackB4
+  rotate: false
+  xy: 1, 703
+  size: 192, 296
+  orig: 192, 296
+  offset: 0, 0
+  index: -1

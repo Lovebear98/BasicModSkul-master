@@ -1,0 +1,104 @@
+
+Warrior.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/WarriorIdle1
+  rotate: false
+  xy: 509, 323
+  size: 220, 128
+  orig: 220, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorIdle2
+  rotate: false
+  xy: 757, 307
+  size: 220, 132
+  orig: 220, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorIdle3
+  rotate: false
+  xy: 287, 323
+  size: 220, 128
+  orig: 220, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorIdle4
+  rotate: false
+  xy: 1, 547
+  size: 220, 120
+  orig: 220, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorDash1
+  rotate: false
+  xy: 759, 551
+  size: 236, 96
+  orig: 236, 96
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorDash2
+  rotate: false
+  xy: 307, 453
+  size: 232, 116
+  orig: 232, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorDash3
+  rotate: false
+  xy: 541, 551
+  size: 216, 112
+  orig: 216, 112
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack1
+  rotate: false
+  xy: 731, 441
+  size: 252, 108
+  orig: 252, 108
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WariorAttack2
+  rotate: false
+  xy: 1, 1
+  size: 472, 256
+  orig: 472, 256
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack3
+  rotate: false
+  xy: 757, 1
+  size: 256, 304
+  orig: 256, 304
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack4
+  rotate: false
+  xy: 475, 1
+  size: 280, 320
+  orig: 280, 320
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack5
+  rotate: false
+  xy: 1, 259
+  size: 284, 152
+  orig: 284, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack6
+  rotate: false
+  xy: 1, 453
+  size: 304, 92
+  orig: 304, 92
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WarriorAttack7
+  rotate: false
+  xy: 223, 571
+  size: 276, 72
+  orig: 276, 72
+  offset: 0, 0
+  index: -1

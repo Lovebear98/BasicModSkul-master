@@ -1,0 +1,160 @@
+
+Mage.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/MageAttack1
+  rotate: false
+  xy: 1, 211
+  size: 220, 224
+  orig: 220, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack2
+  rotate: false
+  xy: 223, 211
+  size: 224, 220
+  orig: 224, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack3
+  rotate: false
+  xy: 811, 1
+  size: 208, 236
+  orig: 208, 236
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack4
+  rotate: false
+  xy: 223, 433
+  size: 192, 252
+  orig: 192, 252
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack5
+  rotate: false
+  xy: 275, 1
+  size: 268, 208
+  orig: 268, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack6
+  rotate: false
+  xy: 1, 1
+  size: 272, 208
+  orig: 272, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack7
+  rotate: false
+  xy: 545, 207
+  size: 264, 188
+  orig: 264, 188
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack8
+  rotate: false
+  xy: 545, 1
+  size: 264, 204
+  orig: 264, 204
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageAttack9
+  rotate: false
+  xy: 449, 397
+  size: 264, 184
+  orig: 264, 184
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash1
+  rotate: false
+  xy: 811, 239
+  size: 164, 212
+  orig: 164, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash2
+  rotate: false
+  xy: 1, 893
+  size: 160, 212
+  orig: 160, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash3
+  rotate: false
+  xy: 715, 453
+  size: 160, 216
+  orig: 160, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageDash4
+  rotate: false
+  xy: 325, 801
+  size: 160, 200
+  orig: 160, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball1
+  rotate: false
+  xy: 877, 453
+  size: 136, 192
+  orig: 136, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball2
+  rotate: false
+  xy: 877, 647
+  size: 140, 172
+  orig: 140, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball3
+  rotate: false
+  xy: 729, 671
+  size: 136, 172
+  orig: 136, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball4
+  rotate: false
+  xy: 163, 901
+  size: 136, 200
+  orig: 136, 200
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageFireball5
+  rotate: false
+  xy: 579, 671
+  size: 148, 228
+  orig: 148, 228
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle1
+  rotate: false
+  xy: 417, 583
+  size: 160, 216
+  orig: 160, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle2
+  rotate: false
+  xy: 163, 687
+  size: 160, 212
+  orig: 160, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle3
+  rotate: false
+  xy: 1, 671
+  size: 160, 220
+  orig: 160, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/MageIdle4
+  rotate: false
+  xy: 1, 437
+  size: 160, 232
+  orig: 160, 232
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+{
+  "${modID}:SkulMod": {
+    "NAMES": [
+      "Little Bone",
+      "the Hero Slayer"
+    ],
+    "TEXT": [
+      "Reassemble, rise, and re-rise again! Channel the power of fallen warriors through the skulls they left behind! NL Utilize #ySwaps and #yBonepiles to your advantage to pull the most value out of the Skulls and your deck!",
+      " NL You swing with all your might, for everyone at the castle that's counting on you!",
+      "Sneaking through an unlit street, you stumble across a camp of pale-skinned demons in a dark alley. The tallest among them notices you immediately, and comes to greet you warmly. He offers you something dark and ~wrong~ feeling - it's @Dark@ @Quartz@ ! NL ~\"A~ ~little~ ~something~ ~to~ ~dull~ ~the~ ~pain?\"~"
+    ]
+  }
+}

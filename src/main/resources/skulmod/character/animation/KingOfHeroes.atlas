@@ -1,0 +1,258 @@
+
+KingOfHeroes.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UpscaledArthur2/IdleU1
+  rotate: false
+  xy: 2297, 1583
+  size: 548, 196
+  orig: 548, 196
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/IdleU2
+  rotate: false
+  xy: 2261, 1385
+  size: 552, 196
+  orig: 552, 196
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/IdleU3
+  rotate: false
+  xy: 2389, 2249
+  size: 564, 200
+  orig: 564, 200
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/IdleU4
+  rotate: false
+  xy: 1827, 2249
+  size: 560, 204
+  orig: 560, 204
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/IdleU5
+  rotate: false
+  xy: 1261, 2305
+  size: 564, 204
+  orig: 564, 204
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/IdleU6
+  rotate: false
+  xy: 1723, 1545
+  size: 536, 204
+  orig: 536, 204
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/IdleU7
+  rotate: false
+  xy: 1751, 1183
+  size: 544, 200
+  orig: 544, 200
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/IdleU8
+  rotate: false
+  xy: 2847, 1583
+  size: 548, 196
+  orig: 548, 196
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/DashU1
+  rotate: false
+  xy: 3153, 1967
+  size: 536, 176
+  orig: 536, 176
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/DashU2
+  rotate: false
+  xy: 2081, 1967
+  size: 540, 180
+  orig: 540, 180
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/DashU3
+  rotate: false
+  xy: 3397, 1583
+  size: 552, 184
+  orig: 552, 184
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/DashU4
+  rotate: false
+  xy: 2081, 1781
+  size: 548, 184
+  orig: 548, 184
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/DashU5
+  rotate: false
+  xy: 2623, 1967
+  size: 528, 180
+  orig: 528, 180
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/AttackU1
+  rotate: false
+  xy: 3691, 1781
+  size: 336, 260
+  orig: 336, 260
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/AttackU2
+  rotate: false
+  xy: 2149, 3559
+  size: 548, 448
+  orig: 548, 448
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/AttackU3
+  rotate: false
+  xy: 715, 3579
+  size: 504, 460
+  orig: 504, 460
+  offset: 0, 0
+  index: -1
+UpscaledArthur2/AttackU4
+  rotate: false
+  xy: 1679, 3563
+  size: 432, 452
+  orig: 432, 452
+  offset: 0, 0
+  index: -1
+ArthurtTransform/IdleB1
+  rotate: false
+  xy: 3691, 2043
+  size: 328, 196
+  orig: 328, 196
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar0
+  rotate: false
+  xy: 1, 2581
+  size: 712, 1128
+  orig: 712, 1128
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar1
+  rotate: false
+  xy: 1, 1
+  size: 696, 1284
+  orig: 696, 1284
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar2
+  rotate: false
+  xy: 1, 1287
+  size: 656, 1292
+  orig: 656, 1292
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar3
+  rotate: false
+  xy: 659, 1287
+  size: 600, 1284
+  orig: 600, 1284
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar4
+  rotate: false
+  xy: 699, 1
+  size: 548, 1204
+  orig: 548, 1204
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar5
+  rotate: false
+  xy: 1249, 1
+  size: 524, 1180
+  orig: 524, 1180
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar6
+  rotate: false
+  xy: 1205, 2573
+  size: 472, 1004
+  orig: 472, 1004
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar7
+  rotate: false
+  xy: 2149, 2573
+  size: 452, 984
+  orig: 452, 984
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar8
+  rotate: false
+  xy: 715, 2573
+  size: 488, 988
+  orig: 488, 988
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar9
+  rotate: false
+  xy: 1679, 2573
+  size: 468, 988
+  orig: 468, 988
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar10
+  rotate: false
+  xy: 1221, 3579
+  size: 456, 424
+  orig: 456, 424
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar11
+  rotate: false
+  xy: 1261, 1903
+  size: 384, 400
+  orig: 384, 400
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar12
+  rotate: false
+  xy: 1261, 1545
+  size: 460, 356
+  orig: 460, 356
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar13
+  rotate: false
+  xy: 1, 3711
+  size: 492, 376
+  orig: 492, 376
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar14
+  rotate: false
+  xy: 1261, 1183
+  size: 488, 360
+  orig: 488, 360
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar15
+  rotate: false
+  xy: 1647, 1903
+  size: 432, 344
+  orig: 432, 344
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar16
+  rotate: false
+  xy: 1751, 1385
+  size: 448, 148
+  orig: 448, 148
+  offset: 0, 0
+  index: -1
+ArthurtTransform/Pillar17
+  rotate: false
+  xy: 1221, 4005
+  size: 408, 40
+  orig: 408, 40
+  offset: 0, 0
+  index: -1

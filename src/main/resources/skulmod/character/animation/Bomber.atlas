@@ -1,0 +1,34 @@
+
+Bomber.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/BomberIdle1
+  rotate: false
+  xy: 283, 1
+  size: 76, 212
+  orig: 76, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/BomberIdle2
+  rotate: false
+  xy: 193, 1
+  size: 88, 220
+  orig: 88, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/BomberIdle3
+  rotate: false
+  xy: 1, 1
+  size: 96, 208
+  orig: 96, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/BomberIdle4
+  rotate: false
+  xy: 99, 1
+  size: 92, 212
+  orig: 92, 212
+  offset: 0, 0
+  index: -1

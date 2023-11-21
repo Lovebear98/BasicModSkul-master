@@ -1,0 +1,474 @@
+{
+
+  "${modID}:NAME": {
+    "NAME": "NAME",
+    "DESCRIPTIONS": [
+      "Description here.",
+      "."
+    ]
+  },
+  "${modID}:LittleBonePower": {
+    "NAME": "Little Bone",
+    "DESCRIPTIONS": [
+      "#yPassive: Take #b1 less damage. NL NL #yBonepile: Gain #b2 #yBlock. NL NL #ySwap: Gain [E] [E] ."
+    ]
+  },
+  "${modID}:GamblerPower": {
+    "NAME": "Gambler",
+    "DESCRIPTIONS": [
+      "#yPassive: #b20% chance to #yGamble. NL NL #yBonepile: Shuffle a #yLoaded #yDice into the draw pile. NL NL #ySwap: Double your #yPassive chance this turn."
+    ]
+  },
+  "${modID}:DavyJonesPower": {
+    "NAME": "Davy Jones",
+    "DESCRIPTIONS": [
+      "#yPassive: Gain #yVigor on #yEvoke. NL NL #yBonepile: Channel a #yCannonball. NL NL #ySwap: Channel #b4 #yCannonballs."
+    ]
+  },
+  "${modID}:ShieldSkullPower": {
+    "NAME": "Skeleton-Shield",
+    "DESCRIPTIONS": [
+      "#yPassive: Deal your #yDexterity as damage to attackers. NL NL #yBonepile: Channel a #yBarrier. NL NL #ySwap: Gain #b5 #yDexterity until your next turn."
+    ]
+  },
+  "${modID}:FrostSkullPower": {
+    "NAME": "Frost Skull",
+    "DESCRIPTIONS": [
+      "#yPassive: #yBlock lost at the start of the turn becomes a #yHibernation. NL #yBonepile: #yFreeze 1. NL #ySwap: Gain #b10 #yBlock."
+    ]
+  },
+  "${modID}:BomberSkullPower": {
+    "NAME": "Skeleton-Bomber",
+    "DESCRIPTIONS": [
+      "#yPassive: #yEntangled. At the start of your turn, #ySwap and explode for #b",
+      " damage to ALL enemies. NL #yBonepile: Increase explosion damage by #b1. NL #ySwap: None NL NL The cornerstone of all #ySkull addictions.",
+      " damage to #yALL enemies."
+    ]
+  },
+  "${modID}:HunterPower": {
+    "NAME": "Hunter",
+    "DESCRIPTIONS": [
+      "#yPassive: #yChannel an #yArrow when you play an #yAttack. NL NL #yBonepile: Channel #b1 #yArrow. NL NL #ySwap: Gain an empty orb slot."
+    ]
+  },
+  "${modID}:PettyThiefPower": {
+    "NAME": "Petty Thief",
+    "DESCRIPTIONS": [
+      "#yPassive: Gaining #yGold randomly deals that much damage. NL NL #yBonepile: Gain #b4 #yGold. NL NL #ySwap: #yBlock with #yGold this turn."
+    ]
+  },
+  "${modID}:GreatWarlockPower": {
+    "NAME": "Great Warlock",
+    "DESCRIPTIONS": [
+      "#yPassive: Unblocked attack damage also applies #yConcentration. NL NL #yBonepile: Reduce ALL #yConcentration. NL NL #ySwap: Remove #rALL #yConcentration."
+    ]
+  },
+  "${modID}:WarriorSkullPower": {
+    "NAME": "Warrior",
+    "DESCRIPTIONS": [
+      "#yPassive: Gain [E] after playing a #yStrike. NL NL #yBonepile: Gain #b1 stack of #yCharge. NL NL #ySwap: Gain #b5 stacks of #yCharge."
+    ]
+  },
+  "${modID}:ChampionPower": {
+    "NAME": "Champion",
+    "DESCRIPTIONS": [
+      "#yPassive: #yCounterattack unblocked damage.  NL NL #yBonepile: Heal the next #b3 HP you lose. NL NL #ySwap: Enter or Exit #yWrath."
+    ]
+  },
+  "${modID}:MagePower": {
+    "NAME": "Mage",
+    "DESCRIPTIONS": [
+      "#yPassive: Deal #b2 damage randomly each time you play a #ySkill. NL NL #yBonepile: Apply #yBurn randomly. NL #ySwap: Create an #yAwakening."
+    ]
+  },
+  "${modID}:WerewolfPower": {
+    "NAME": "Werewolf",
+    "DESCRIPTIONS": [
+      "#yPassive: Deal #b",
+      " damage when you #yReshuffle. NL NL #yBonepile: Draw and randomly discard #b1 card. NL NL #ySwap: #yReshuffle."
+    ]
+  },
+  "${modID}:ClownPower": {
+    "NAME": "Clown",
+    "DESCRIPTIONS": [
+      "#yPassive: The first card you play each turn costs 0. NL NL #yBonepile: Add a random #yImitation to your hand. NL NL #ySwap: #yBonepile 2."
+    ]
+  },
+  "${modID}:DrinkingPotionPower": {
+    "NAME": "Drinking Potion",
+    "DESCRIPTIONS": [
+      "Drinking a #rPotion that #gheals more each turn. Won't attack, and will immediately change intents after being hit #b",
+      " times."
+    ]
+  },
+  "${modID}:MageAdventurerPower": {
+    "NAME": "Mage of Carleon",
+    "DESCRIPTIONS": [
+      "Deals #yNon-Attack damage. NL NL When damaged to below #b50% health, channels an #yUltimate which can be #yInterrupted by dealing #b10% of their #gmaximum #ghealth as damage to #yStun them for #b1 turn. NL NL This adventurer will #yLevel #yUp between encounters.",
+      " cards played will be played as #bX cost cards based on their cost. NL NL #b0 cost cards will be treated as if they cost #b1.",
+      " damage to #yALL enemies."
+    ]
+  },
+  "${modID}:TemporaryMaxHP": {
+    "NAME": "Stamina",
+    "DESCRIPTIONS": [
+      "#gHeal for the next #b",
+      " HP you lose."
+    ]
+  },
+  "${modID}:Lucky7": {
+    "NAME": "Lucky 7",
+    "DESCRIPTIONS": [
+      "Your next attack this turn will deal #b",
+      "% more damage."
+    ]
+  },
+  "${modID}:AbsoluteZeroSet": {
+    "NAME": "Absolute Zero",
+    "DESCRIPTIONS": [
+      "[#808080]3: [#808080]Once [#808080]every [#808080]two [#808080]turns, [#808080]Evoking [#808080]channels [#808080]a [#808080]Frost [#808080]orb. NL ",
+      "#g3: Once every two turns, #yEvoking channels a #yFrost orb. NL ",
+      "[#808080]5: [#808080]At [#808080]the [#808080]start [#808080]of [#808080]your [#808080]turn, [#808080]Evoke [#808080]an [#808080]orb. NL ",
+      "#g5: At the start of your turn, #yEvoke an orb. NL ",
+      "[#808080]Masterpiece [#808080]6: [#808080]Gain [#808080]1 [#808080]Focus.",
+      "#gMasterpiece #g6: Gain #b1 #yFocus."
+
+    ]
+  },
+  "${modID}:AntiqueSet": {
+    "NAME": "Antique",
+    "DESCRIPTIONS": [
+      "[#808080]2: [#808080]While [#808080]above [#808080]70% [#808080]HP, [#808080]take [#808080]1 [#808080]less [#808080]damage. NL ",
+      "#g2: While above #b70% HP, take #b1 less damage. NL ",
+      "[#808080]5: [#808080]Start [#808080]combat [#808080]with [#808080]8 [#808080]Temporary [#808080]HP. NL ",
+      "#g5: Start combat with #b8 #yTemporary #yHP. NL ",
+      "[#808080]Masterpiece [#808080]6: [#808080]Take [#808080]2 [#808080]less [#808080]damage [#808080]above [#808080]50% [#808080]HP [#808080]instead.",
+      "#gMasterpiece #g6: Take 2 less damage above 50% instead."
+
+    ]
+  },
+  "${modID}:ArtifactSet": {
+    "NAME": "Artifact",
+    "DESCRIPTIONS": [
+      "[#808080]2: [#808080]Channel [#808080]a [#808080]Meteor [#808080]at [#808080]the [#808080]start [#808080]of [#808080]combat. NL ",
+      "#g2: #yChannel a #yMeteor at the start of combat. NL ",
+      "[#808080]5: [#808080]Channel [#808080]a [#808080]Meteor [#808080]every [#808080]3 [#808080]turns. NL ",
+      "#g5: #yChannel a #yMeteor every 3 turns. NL ",
+      "[#808080]Masterpiece [#808080]6: [#808080]Gain [#808080]1 [#808080]Focus.",
+      "#gMasterpiece #g6: Gain #b1 #yFocus."
+
+    ]
+  },
+  "${modID}:BoneSet": {
+  "NAME": "Bone",
+  "DESCRIPTIONS": [
+    "[#808080]3: [#808080]Your [#808080]first [#808080]Swap [#808080]each [#808080]combat [#808080]will [#808080]grant [#808080]Buffer.",
+    "#g3: Your first #ySwap each combat will grant #yBuffer."
+  ]
+},
+  "${modID}:ExcessiveBleedingSet": {
+    "NAME": "Excessive Bleeding",
+    "DESCRIPTIONS": [
+      "[#808080]3: [#808080]Your [#808080]first [#808080]attack [#808080]each [#808080]turn [#808080]Wounds [#808080]the [#808080]target [#808080]for [#808080]half [#808080]its [#808080]damage. NL ",
+      "#g3: Your first attack each turn #yWounds the target for half its damage. NL ",
+      "[#808080]4: [#808080]Your [#808080]first [#808080]attack [#808080]each [#808080]turn [#808080]Wounds [#808080]the [#808080]target [#808080]for [#808080]full [#808080]damage. NL ",
+      "#g4: Your first attack each turn #yWounds the target for full damage. NL ",
+      "[#808080]Masterpiece [#808080]6: [#808080]Your [#808080]Wounding [#808080]attacks [#808080]deal [#808080]20% [#808080]more [#808080]damage. NL",
+      "#gMasterpiece #g6: Your #yWounding attacks deal #b20% more damage. NL "
+
+    ]
+  },
+  "${modID}:FortressSet": {
+    "NAME": "Fortress",
+    "DESCRIPTIONS": [
+      "[#808080]2: [#808080]Gain [#808080]2 [#808080]Block [#808080]each [#808080]turn, [#808080]affected [#808080]by [#808080]Dexterity. NL ",
+      "#g2: Gain #b2 #yBlock each turn, affected by #yDexterity. NL ",
+      "[#808080]5: [#808080]Gain [#808080]2 [#808080]more [#808080]Block [#808080]each [#808080]turn. NL ",
+      "#g5: Gain #b2 more #yBlock each turn. NL ",
+      "[#808080]Masterpiece [#808080]6: [#808080]Gain [#808080]2 [#808080]Dexterity. NL ",
+      "#gMasterpiece #g6: Gain #b2 #yDexterity."
+
+    ]
+  },
+  "${modID}:MasterpieceSet": {
+    "NAME": "Masterpiece",
+    "DESCRIPTIONS": [
+      "[#808080]3: [#808080]Gain [#808080]1 [#808080]Strength, [#808080]Dexterity, [#808080]and [#808080]Focus. NL ",
+      "#g3: Gain 1 #yStrength, #yDexterity, and #yFocus. NL ",
+      "[#808080]5: [#808080]Unlock [#808080]the [#808080]Masterpiece [#808080]set [#808080]effect [#808080]of [#808080]all [#808080]your [#808080]current [#808080]sets. NL ",
+      "#g5: Unlock the #yMasterpiece effect of all your current sets. NL "
+
+
+    ]
+  },
+  "${modID}:Wound": {
+    "NAME": "Wound",
+    "DESCRIPTIONS": [
+      "The next time this target is #yWounded, it takes damage equal to the sum of both #yWounded.",
+      " attacks this turn will deal #b50% more damage."
+
+    ]
+  },
+  "${modID}:RevengeSet": {
+    "NAME": "Revenge",
+    "DESCRIPTIONS": [
+      "[#808080]3: [#808080]Inflict [#808080]25% [#808080]of [#808080]the [#808080]first [#808080]damage [#808080]you [#808080]take [#808080]each [#808080]turn [#808080]to [#808080]the [#808080]attacker [#808080]as [#808080]Revenge. NL ",
+      "#g3: Inflict #b25% of the first damage you take each turn to the attacker as #yRevenge. NL ",
+      "[#808080]5: [#808080]The [#808080]Revenge [#808080]applied [#808080]becomes [#808080]50%. NL ",
+      "#g5: The #yRevenge applied becomes #b50%. NL ",
+      "[#808080]Masterpiece [#808080]6: [#808080]Also [#808080]gain [E] [#808080]the [#808080]turn [#808080]after [#808080]you [#808080]take [#808080]unblocked [#808080]damage. NL ",
+      "#gMasterpiece #g6: Also gain [E] the turn after you take unblocked damage. NL "
+
+    ]
+  },
+  "${modID}:OmenSet": {
+    "NAME": "Omen",
+    "DESCRIPTIONS": [
+      "[#808080]1: [#808080]Take [#808080]50% [#808080]more [#808080]damage. NL ",
+      "#r1: #pTake #p50% #pmore #pdamage. NL ",
+      "[#808080]2: [#808080]Take [#808080]100% [#808080]more [#808080]damage. NL ",
+      "#r2: #pTake #p100% #pmore #pdamage. NL ",
+      "[#808080]3: [#808080]Take [#808080]150% [#808080]more [#808080]damage. NL ",
+      "#r3: #pTake #p150% #pmore #pdamage. NL "
+
+    ]
+  },
+  "${modID}:RevengePower": {
+    "NAME": "Revenge",
+    "DESCRIPTIONS": [
+      "Attacking this target will heal you for #b",
+      " HP."
+    ]
+  },
+  "${modID}:EnergyDown": {
+    "NAME": "Energy Debt",
+    "DESCRIPTIONS": [
+      "Lose [E] at the start of the turn, until you've lost #b",
+      "."
+    ]
+  },
+  "${modID}:LaterDexterityDown": {
+    "NAME": "Lose Dexterity (Later)",
+    "DESCRIPTIONS": [
+      "At the start of your turn, lose #b",
+      " #yDexterity."
+    ]
+  },
+  "${modID}:Charge": {
+    "NAME": "Charging",
+    "DESCRIPTIONS": [
+      "After gathering #b5 stacks, choose an #yAttack. It becomes a #b3 cost #yStrike with increased effects."
+    ]
+  },
+  "${modID}:Burn": {
+    "NAME": "Burn",
+    "DESCRIPTIONS": [
+      "The next #b",
+      " sources of non-attack damage against this unit will deal double damage."
+    ]
+  },
+  "${modID}:RippedPocket": {
+    "NAME": "Ripped Pocket",
+    "DESCRIPTIONS": [
+      "The next attacker gains #b",
+      " #yGold, out of a pool of #b",
+      "."
+    ]
+  },
+  "${modID}:IAmTheSeaPower": {
+    "NAME": "Everwinter",
+    "DESCRIPTIONS": [
+      "#yFrozen decays by half instead of falling off."
+    ]
+  },
+  "${modID}:DarkPaladinPower": {
+    "NAME": "Dark Paladin",
+    "DESCRIPTIONS": [
+      "#yPassive: Fully #yBlocking grants #b4 #yOblivion. NL NL #yBonepile: #yGrit #b2. NL NL #ySwap: Gain #b8 #yOblivion this turn."
+    ]
+  },
+  "${modID}:DarkPower": {
+    "NAME": "Oblivion",
+    "DESCRIPTIONS": [
+      "Consume this to reduce the next unblocked damage you take by #b",
+      " . NL Once each turn, your next attack deals #b",
+      " more damage."
+    ]
+  },
+  "${modID}:GrimReaperPower": {
+    "NAME": "Grim Reaper",
+    "DESCRIPTIONS": [
+      "#yPassive: Fatal #yAttacks grant a #pSoul. NL NL #yBonepile: #yEmbrace #b2 #gHP. NL NL #ySwap: #yHarvest, based on your current #pSouls.",
+      "It's sooo janky",
+      "And I thought all the REST of this was janky"
+    ]
+  },
+  "${modID}:Souls": {
+    "NAME": "Souls",
+    "DESCRIPTIONS": [
+      "#yGrim #yReaper: After #yAttacking an enemy, if their Current HP is below #b",
+      "% of YOUR missing HP, #rkill #rthem. NL ",
+      "Threshold: #b"
+    ]
+  },
+  "${modID}:RageMode": {
+    "NAME": "Rage Mode",
+    "DESCRIPTIONS": [
+      "#yWrath is #b",
+      " times as effective #rBOTH ways. NL If you would take #yFatal damage in #yWrath, consume this to make it #b0."
+    ]
+  },
+  "${modID}:Concentration": {
+    "NAME": "Concentration",
+    "DESCRIPTIONS": [
+      "Deal up to #b",
+      " damage in total as this reduces. NL NL When removed, deal #b",
+      " damage to #yALL enemies."
+    ]
+  },
+  "${modID}:LoseFocusPower": {
+    "NAME": "Focus Down",
+    "DESCRIPTIONS": [
+      "Lose #b",
+      " #yFocus next turn.",
+      " damage to #yALL enemies."
+    ]
+  },
+  "${modID}:EntertainerForm": {
+    "NAME": "Joker Form",
+    "DESCRIPTIONS": [
+      "Your first #yImitation each turn will #yBonepile #b",
+      " times."
+    ]
+  },
+  "${modID}:AllInForm": {
+    "NAME": "All-In Form",
+    "DESCRIPTIONS": [
+      "At the start of your turn, EVERYONE will #yGamble #b",
+      " times. #yGambler will also be paid out when an enemy wins a #yGamble."
+    ]
+  },
+  "${modID}:BlackbeardForm": {
+    "NAME": "Nobeard Form",
+    "DESCRIPTIONS": [
+      "#yRetain #yAttacks. For each #yAttack retained, #yChannel #b",
+      " #yCannonball."
+    ]
+  },
+  "${modID}:FrozenSoulForm": {
+    "NAME": "Frozen Soul Form",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #b",
+      " #yFreeze to #rEVERYONE."
+    ]
+  },
+  "${modID}:GuardianForm": {
+    "NAME": "Guardian Form",
+    "DESCRIPTIONS": [
+      "After gaining #b",
+      " more #yBlock, convert #b",
+      " #yDexterity to #yStrength."
+    ]
+  },
+  "${modID}:OutlawForm": {
+    "NAME": "Outlaw Form",
+    "DESCRIPTIONS": [
+      "At the end of each turn, gain #b",
+      " #yGold.",
+      " #yDexterity to #yStrength."
+    ]
+  },
+  "${modID}:JackInTheBox": {
+    "NAME": "Jack-In-The-Box",
+    "DESCRIPTIONS": [
+      "Your next #b",
+      " cards played will be played as #bX cost cards based on their cost. NL NL #b0 cost cards will be treated as if they cost #b1."
+    ]
+  },
+  "${modID}:DoomedDance": {
+    "NAME": "Doomed Dance",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " #yBlock. NL If you take unblocked damage, this becomes #b",
+      " #yPoison",
+      " #yConstricted",
+      "."
+    ]
+  },
+  "${modID}:AvengerForm": {
+    "NAME": "Avenger Form",
+    "DESCRIPTIONS": [
+      "Gain [E] the first time you take or #yBlock damage during your turn."
+
+    ]
+  },
+  "${modID}:WarlordForm": {
+    "NAME": "Warlord Form",
+    "DESCRIPTIONS": [
+      "The first #yStrike you play each turn has its cost reduced by #b",
+      " this combat."
+    ]
+  },
+  "${modID}:SniperForm": {
+    "NAME": "Sniper Form",
+    "DESCRIPTIONS": [
+      "#yAttack damage becomes #r1. NL Playing #ySkills grants #b",
+      " #yTemporary #yFocus. NL #yAttacks inflict #b",
+      " #yLock-On."
+    ]
+  },
+  "${modID}:EternalForm": {
+    "NAME": "Eternal Form",
+    "DESCRIPTIONS": [
+      "Whenever you draw a card, discard #b",
+      " cards from the top of your draw pile.",
+      " card from the top of your draw pile.",
+      "Sundial waiting room."
+    ]
+  },
+  "${modID}:AbyssForm": {
+    "NAME": "Abyss Form",
+    "DESCRIPTIONS": [
+      "#yConcentration will damage ALL enemies twice when removed."
+    ]
+  },
+  "${modID}:SageForm": {
+    "NAME": "Sage Form",
+    "DESCRIPTIONS": [
+      "Applying a power to an enemy deals #b",
+      " damage."
+    ]
+  },
+  "${modID}:DeathKnight": {
+    "NAME": "Death Knight",
+    "DESCRIPTIONS": [
+      "As impossibly strong as he is incredibly timid. NL NL #ySteals #yBlock before attacking, and gains #yBlock when attacked. NL NL Does less damage with more #yBlock."
+    ]
+  },
+  "${modID}:WedgedSpear": {
+    "NAME": "Wedged Spear",
+    "DESCRIPTIONS": [
+      "Centauros' spear is #ywedged in this enemy. You can #ykill them to get it back, or #ywait for it to fall out."
+    ]
+  },
+  "${modID}:ReaperShroud": {
+    "NAME": "Reaper's Shroud",
+    "DESCRIPTIONS": [
+      "Take full damage, but you are immune to #rdeath this turn."
+    ]
+  },
+  "${modID}:Frozen": {
+    "NAME": "Frozen",
+    "DESCRIPTIONS": [
+      "Incoming and outgoing damage are reduced by #b",
+      "."
+    ]
+  },
+  "${modID}:Grit": {
+    "NAME": "Grit",
+    "DESCRIPTIONS": [
+      "Retain the next #b",
+      " #yBlock you'd lose at the start of the turn."
+    ]
+  }
+}

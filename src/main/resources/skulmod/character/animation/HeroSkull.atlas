@@ -1,0 +1,300 @@
+
+HeroSkull.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/HeroWalkin23
+  rotate: false
+  xy: 609, 1
+  size: 148, 140
+  orig: 148, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin22
+  rotate: false
+  xy: 665, 879
+  size: 152, 136
+  orig: 152, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin21
+  rotate: false
+  xy: 1281, 879
+  size: 148, 132
+  orig: 148, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin20
+  rotate: false
+  xy: 591, 735
+  size: 148, 124
+  orig: 148, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin19
+  rotate: false
+  xy: 649, 277
+  size: 148, 116
+  orig: 148, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin18
+  rotate: false
+  xy: 759, 1
+  size: 144, 108
+  orig: 144, 108
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin17
+  rotate: false
+  xy: 949, 213
+  size: 144, 104
+  orig: 144, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin16
+  rotate: false
+  xy: 807, 469
+  size: 144, 104
+  orig: 144, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin15
+  rotate: false
+  xy: 807, 363
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin14
+  rotate: false
+  xy: 807, 713
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin13
+  rotate: false
+  xy: 905, 107
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin12
+  rotate: false
+  xy: 905, 1
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin11
+  rotate: false
+  xy: 657, 395
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin10
+  rotate: false
+  xy: 799, 257
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin9
+  rotate: false
+  xy: 661, 607
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin8
+  rotate: false
+  xy: 657, 501
+  size: 148, 104
+  orig: 148, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin7
+  rotate: false
+  xy: 755, 143
+  size: 148, 112
+  orig: 148, 112
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin6
+  rotate: false
+  xy: 511, 609
+  size: 148, 124
+  orig: 148, 124
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin5
+  rotate: false
+  xy: 503, 277
+  size: 144, 144
+  orig: 144, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin4
+  rotate: false
+  xy: 243, 457
+  size: 144, 172
+  orig: 144, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin3
+  rotate: false
+  xy: 259, 1
+  size: 144, 192
+  orig: 144, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin2
+  rotate: false
+  xy: 1, 659
+  size: 144, 220
+  orig: 144, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin1
+  rotate: false
+  xy: 147, 215
+  size: 144, 240
+  orig: 144, 240
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroWalkin0
+  rotate: false
+  xy: 1, 215
+  size: 144, 280
+  orig: 144, 280
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle1
+  rotate: false
+  xy: 511, 879
+  size: 152, 136
+  orig: 152, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle2
+  rotate: false
+  xy: 441, 737
+  size: 148, 140
+  orig: 148, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle3
+  rotate: false
+  xy: 977, 879
+  size: 148, 136
+  orig: 148, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle4
+  rotate: false
+  xy: 1127, 879
+  size: 152, 132
+  orig: 152, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle5
+  rotate: false
+  xy: 451, 139
+  size: 156, 136
+  orig: 156, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle6
+  rotate: false
+  xy: 293, 195
+  size: 156, 140
+  orig: 156, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle7
+  rotate: false
+  xy: 405, 1
+  size: 156, 136
+  orig: 156, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroIdle8
+  rotate: false
+  xy: 819, 879
+  size: 156, 132
+  orig: 156, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash1
+  rotate: false
+  xy: 223, 829
+  size: 216, 104
+  orig: 216, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash2
+  rotate: false
+  xy: 1, 881
+  size: 220, 104
+  orig: 220, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash3
+  rotate: false
+  xy: 297, 631
+  size: 212, 104
+  orig: 212, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroDash4
+  rotate: false
+  xy: 293, 337
+  size: 208, 104
+  orig: 208, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack1
+  rotate: false
+  xy: 147, 659
+  size: 148, 168
+  orig: 148, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack2
+  rotate: false
+  xy: 389, 443
+  size: 132, 164
+  orig: 132, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack3
+  rotate: false
+  xy: 1, 1
+  size: 256, 212
+  orig: 256, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack4
+  rotate: false
+  xy: 1, 497
+  size: 240, 160
+  orig: 240, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack5
+  rotate: false
+  xy: 609, 143
+  size: 144, 132
+  orig: 144, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HeroAttack6
+  rotate: false
+  xy: 523, 423
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1

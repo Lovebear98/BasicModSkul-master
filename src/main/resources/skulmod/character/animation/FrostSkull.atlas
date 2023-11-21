@@ -1,0 +1,118 @@
+
+FrostSkull.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/FrostFrozen
+  rotate: false
+  xy: 1, 1
+  size: 204, 184
+  orig: 204, 184
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle1
+  rotate: false
+  xy: 321, 305
+  size: 136, 152
+  orig: 136, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle2
+  rotate: false
+  xy: 143, 605
+  size: 136, 148
+  orig: 136, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle3
+  rotate: false
+  xy: 1, 601
+  size: 136, 144
+  orig: 136, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle4
+  rotate: false
+  xy: 143, 455
+  size: 136, 148
+  orig: 136, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostIdle5
+  rotate: false
+  xy: 1, 309
+  size: 140, 148
+  orig: 140, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack1
+  rotate: false
+  xy: 261, 755
+  size: 124, 136
+  orig: 124, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack2
+  rotate: false
+  xy: 1, 747
+  size: 124, 152
+  orig: 124, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack3
+  rotate: false
+  xy: 207, 159
+  size: 160, 144
+  orig: 160, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostAttack4
+  rotate: false
+  xy: 357, 1
+  size: 152, 148
+  orig: 152, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge1
+  rotate: false
+  xy: 1, 187
+  size: 176, 120
+  orig: 176, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge2
+  rotate: false
+  xy: 127, 755
+  size: 132, 136
+  orig: 132, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge3
+  rotate: false
+  xy: 1, 459
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge4
+  rotate: false
+  xy: 207, 1
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge5
+  rotate: false
+  xy: 369, 151
+  size: 140, 152
+  orig: 140, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/FrostDodge6
+  rotate: false
+  xy: 179, 305
+  size: 140, 148
+  orig: 140, 148
+  offset: 0, 0
+  index: -1

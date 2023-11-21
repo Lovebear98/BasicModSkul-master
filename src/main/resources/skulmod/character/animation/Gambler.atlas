@@ -1,0 +1,132 @@
+
+Gambler.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/GamblerIdle1
+  rotate: false
+  xy: 429, 467
+  size: 192, 164
+  orig: 192, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle2
+  rotate: false
+  xy: 199, 349
+  size: 192, 164
+  orig: 192, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle3
+  rotate: false
+  xy: 675, 175
+  size: 192, 168
+  orig: 192, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle4
+  rotate: false
+  xy: 715, 1
+  size: 200, 172
+  orig: 200, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle5
+  rotate: false
+  xy: 473, 151
+  size: 200, 172
+  orig: 200, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle6
+  rotate: false
+  xy: 231, 175
+  size: 196, 172
+  orig: 196, 172
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerIdle7
+  rotate: false
+  xy: 1, 313
+  size: 196, 168
+  orig: 196, 168
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash1
+  rotate: false
+  xy: 623, 609
+  size: 220, 140
+  orig: 220, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash2
+  rotate: false
+  xy: 191, 657
+  size: 220, 140
+  orig: 220, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash3
+  rotate: false
+  xy: 199, 515
+  size: 224, 140
+  orig: 224, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash4
+  rotate: false
+  xy: 429, 325
+  size: 228, 140
+  orig: 228, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerDash5
+  rotate: false
+  xy: 623, 467
+  size: 224, 140
+  orig: 224, 140
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack1
+  rotate: false
+  xy: 1, 483
+  size: 188, 164
+  orig: 188, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack2
+  rotate: false
+  xy: 1, 649
+  size: 188, 164
+  orig: 188, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack3
+  rotate: false
+  xy: 473, 1
+  size: 240, 148
+  orig: 240, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack4
+  rotate: false
+  xy: 1, 1
+  size: 240, 152
+  orig: 240, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack5
+  rotate: false
+  xy: 243, 1
+  size: 228, 156
+  orig: 228, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/GamblerAttack6
+  rotate: false
+  xy: 1, 155
+  size: 228, 156
+  orig: 228, 156
+  offset: 0, 0
+  index: -1

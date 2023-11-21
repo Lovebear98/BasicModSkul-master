@@ -1,0 +1,104 @@
+
+Werewolf.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/WerewolfIdle1
+  rotate: false
+  xy: 1, 839
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle2
+  rotate: false
+  xy: 151, 705
+  size: 144, 160
+  orig: 144, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle3
+  rotate: false
+  xy: 301, 543
+  size: 144, 160
+  orig: 144, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle4
+  rotate: false
+  xy: 151, 543
+  size: 148, 160
+  orig: 148, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle5
+  rotate: false
+  xy: 279, 183
+  size: 148, 160
+  orig: 148, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfIdle6
+  rotate: false
+  xy: 1, 681
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfDash1
+  rotate: false
+  xy: 1, 223
+  size: 276, 136
+  orig: 276, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfDash2
+  rotate: false
+  xy: 1, 361
+  size: 248, 136
+  orig: 248, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfDash3
+  rotate: false
+  xy: 297, 705
+  size: 164, 112
+  orig: 164, 112
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack1
+  rotate: false
+  xy: 251, 361
+  size: 152, 180
+  orig: 152, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack2
+  rotate: false
+  xy: 1, 499
+  size: 148, 180
+  orig: 148, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack3
+  rotate: false
+  xy: 1, 1
+  size: 248, 220
+  orig: 248, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack4
+  rotate: false
+  xy: 251, 1
+  size: 256, 180
+  orig: 256, 180
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/WerewolfAttack5
+  rotate: false
+  xy: 151, 867
+  size: 168, 128
+  orig: 168, 128
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,195 @@
+
+DavyJones.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/DavyJonesDash1
+  rotate: false
+  xy: 1, 1253
+  size: 424, 192
+  orig: 424, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash2
+  rotate: false
+  xy: 1231, 881
+  size: 408, 192
+  orig: 408, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash3
+  rotate: false
+  xy: 1, 1447
+  size: 388, 204
+  orig: 388, 204
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash4
+  rotate: false
+  xy: 1, 615
+  size: 416, 208
+  orig: 416, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesDash5
+  rotate: false
+  xy: 1, 401
+  size: 420, 212
+  orig: 420, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle1
+  rotate: false
+  xy: 837, 869
+  size: 392, 212
+  orig: 392, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle2
+  rotate: false
+  xy: 1303, 663
+  size: 396, 216
+  orig: 396, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle3
+  rotate: false
+  xy: 933, 227
+  size: 412, 220
+  orig: 412, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle4
+  rotate: false
+  xy: 1021, 1
+  size: 420, 224
+  orig: 420, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle5
+  rotate: false
+  xy: 1443, 1
+  size: 420, 224
+  orig: 420, 224
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle6
+  rotate: false
+  xy: 423, 1031
+  size: 396, 220
+  orig: 396, 220
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle7
+  rotate: false
+  xy: 1347, 445
+  size: 412, 216
+  orig: 412, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesIdle8
+  rotate: false
+  xy: 881, 659
+  size: 420, 208
+  orig: 420, 208
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack1
+  rotate: false
+  xy: 1, 825
+  size: 408, 212
+  orig: 408, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack2
+  rotate: false
+  xy: 837, 1083
+  size: 380, 216
+  orig: 380, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack3
+  rotate: false
+  xy: 1219, 1083
+  size: 364, 216
+  orig: 364, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack4
+  rotate: false
+  xy: 427, 1253
+  size: 376, 216
+  orig: 376, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack5
+  rotate: false
+  xy: 1, 1
+  size: 520, 192
+  orig: 520, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack6
+  rotate: false
+  xy: 523, 1
+  size: 496, 192
+  orig: 496, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack7
+  rotate: false
+  xy: 455, 195
+  size: 476, 192
+  orig: 476, 192
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesAttack8
+  rotate: false
+  xy: 1, 195
+  size: 452, 204
+  orig: 452, 204
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload1
+  rotate: false
+  xy: 455, 389
+  size: 424, 212
+  orig: 424, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload2
+  rotate: false
+  xy: 423, 817
+  size: 412, 212
+  orig: 412, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload3
+  rotate: false
+  xy: 1, 1039
+  size: 408, 212
+  orig: 408, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload4
+  rotate: false
+  xy: 423, 603
+  size: 412, 212
+  orig: 412, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload5
+  rotate: false
+  xy: 1347, 227
+  size: 412, 216
+  orig: 412, 216
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/DavyJonesReload6
+  rotate: false
+  xy: 881, 449
+  size: 420, 208
+  orig: 420, 208
+  offset: 0, 0
+  index: -1

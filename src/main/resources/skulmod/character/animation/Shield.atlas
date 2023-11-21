@@ -1,0 +1,90 @@
+
+Shield.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/ShieldIdle1
+  rotate: false
+  xy: 333, 305
+  size: 152, 156
+  orig: 152, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldIdle2
+  rotate: false
+  xy: 1, 289
+  size: 152, 156
+  orig: 152, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldIdle3
+  rotate: false
+  xy: 333, 147
+  size: 152, 156
+  orig: 152, 156
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldIdle4
+  rotate: false
+  xy: 155, 463
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldBlock1
+  rotate: false
+  xy: 179, 147
+  size: 152, 160
+  orig: 152, 160
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldBlock2
+  rotate: false
+  xy: 1, 447
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldBlock3
+  rotate: false
+  xy: 1, 601
+  size: 152, 144
+  orig: 152, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack1
+  rotate: false
+  xy: 155, 309
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack2
+  rotate: false
+  xy: 309, 463
+  size: 152, 144
+  orig: 152, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack3
+  rotate: false
+  xy: 1, 1
+  size: 208, 144
+  orig: 208, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack4
+  rotate: false
+  xy: 211, 1
+  size: 176, 144
+  orig: 176, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/ShieldAttack5
+  rotate: false
+  xy: 1, 147
+  size: 176, 140
+  orig: 176, 140
+  offset: 0, 0
+  index: -1

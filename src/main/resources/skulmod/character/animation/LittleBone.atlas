@@ -1,0 +1,125 @@
+
+LittleBone.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/Idle1
+  rotate: false
+  xy: 1, 411
+  size: 144, 128
+  orig: 144, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Idle2
+  rotate: false
+  xy: 127, 277
+  size: 152, 132
+  orig: 152, 132
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Idle3
+  rotate: false
+  xy: 239, 147
+  size: 160, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Idle4
+  rotate: false
+  xy: 305, 525
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Dash
+  rotate: false
+  xy: 269, 879
+  size: 152, 96
+  orig: 152, 96
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk1
+  rotate: false
+  xy: 1, 769
+  size: 152, 108
+  orig: 152, 108
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk2
+  rotate: false
+  xy: 281, 407
+  size: 160, 116
+  orig: 160, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk3
+  rotate: false
+  xy: 151, 647
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk4
+  rotate: false
+  xy: 1, 879
+  size: 132, 120
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk5
+  rotate: false
+  xy: 135, 879
+  size: 132, 116
+  orig: 132, 116
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk6
+  rotate: false
+  xy: 281, 277
+  size: 156, 128
+  orig: 156, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk7
+  rotate: false
+  xy: 151, 525
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Walk8
+  rotate: false
+  xy: 305, 647
+  size: 152, 120
+  orig: 152, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack2
+  rotate: false
+  xy: 1, 215
+  size: 124, 164
+  orig: 124, 164
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack3
+  rotate: false
+  xy: 1, 1
+  size: 236, 212
+  orig: 236, 212
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack4
+  rotate: false
+  xy: 239, 1
+  size: 228, 144
+  orig: 228, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/Attack5
+  rotate: false
+  xy: 1, 541
+  size: 148, 124
+  orig: 148, 124
+  offset: 0, 0
+  index: -1

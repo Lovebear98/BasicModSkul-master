@@ -1,0 +1,125 @@
+
+Hunter.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SkulCharModelScaled/HunterIdle1
+  rotate: false
+  xy: 1, 151
+  size: 128, 144
+  orig: 128, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterIdle2
+  rotate: false
+  xy: 1, 1
+  size: 128, 148
+  orig: 128, 148
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterIdle3
+  rotate: false
+  xy: 147, 297
+  size: 128, 144
+  orig: 128, 144
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterIdle4
+  rotate: false
+  xy: 553, 1
+  size: 124, 136
+  orig: 124, 136
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack1
+  rotate: false
+  xy: 415, 297
+  size: 136, 128
+  orig: 136, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack2
+  rotate: false
+  xy: 277, 297
+  size: 136, 128
+  orig: 136, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack3
+  rotate: false
+  xy: 1, 297
+  size: 144, 128
+  orig: 144, 128
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack4
+  rotate: false
+  xy: 131, 1
+  size: 132, 120
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack5
+  rotate: false
+  xy: 131, 123
+  size: 128, 120
+  orig: 128, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterAttack6
+  rotate: false
+  xy: 261, 123
+  size: 124, 120
+  orig: 124, 120
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash1
+  rotate: false
+  xy: 265, 1
+  size: 140, 104
+  orig: 140, 104
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash2
+  rotate: false
+  xy: 1, 427
+  size: 140, 84
+  orig: 140, 84
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash3
+  rotate: false
+  xy: 387, 107
+  size: 128, 92
+  orig: 128, 92
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash4
+  rotate: false
+  xy: 387, 201
+  size: 104, 84
+  orig: 104, 84
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash5
+  rotate: false
+  xy: 277, 427
+  size: 84, 76
+  orig: 84, 76
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash6
+  rotate: false
+  xy: 407, 1
+  size: 96, 72
+  orig: 96, 72
+  offset: 0, 0
+  index: -1
+SkulCharModelScaled/HunterDash7
+  rotate: false
+  xy: 517, 139
+  size: 92, 112
+  orig: 92, 112
+  offset: 0, 0
+  index: -1

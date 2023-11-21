@@ -1,0 +1,117 @@
+{
+  "${modID}:Example": {
+    "TEXT": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "EXTRA_TEXT": [
+      "This is another",
+      "array of Strings."
+    ],
+    "TEXT_DICT": {
+      "This": "Contains pairs of Strings, used to get values based on keys.",
+      "This is a key": "This is a value."
+    }
+  },
+    "${modID}:ReloadButtonUI": {
+      "TEXT": [
+        "Swap",
+        "Swap",
+        "Swap"
+      ]
+    },
+    "${modID}:BulletToolTips": {
+      "TEXT": [
+        "Ammo",
+        "This is the current ammo. Some cards require the ammo to be used.",
+        "The #r ammo is empty."
+      ]
+    },
+    "${modID}:SkullTag": {
+      "TEXT": [
+        "Ammo",
+        "1",
+        "2"
+      ]
+    },
+  "${modID}:SwapButton": {
+    "TEXT": [
+      "Swap",
+      "1",
+      "2"
+    ]
+  },
+    "${modID}:ModConfigs": {
+      "NAME": [
+        "0"
+      ],
+      "FLAVOR": [
+        "1"
+      ],
+      "TEXT": [
+        "Enable Skul:The Hero Slayer Cards Content",
+        "1",
+        "2"
+      ],
+      "EXTRA_TEXT": [
+        "ExtraTitle",
+        "ExtraDescription"
+      ]
+    },
+  "${modID}:BonyMod": {
+    "TEXT": [
+      "Bony ",
+      "",
+      "Convert 25% of the card's original #yBlock and damage into #yBonepile."
+    ]
+  },
+  "${modID}:PunnyMod": {
+    "TEXT": [
+      "Punny ",
+      "",
+      "Increase cost by #b1. NL Make two #yImitations."
+    ]
+  },
+  "${modID}:CasinoMod": {
+    "TEXT": [
+      "",
+      " Casino",
+      "Increase cost by #b1. NL #yGamble #b2 times per #b1 cost."
+    ]
+  },
+  "${modID}:CrookMod": {
+    "TEXT": [
+      "Crook's ",
+      "",
+      "Replace [E] with 12 #yGold"
+    ]
+  },
+  "${modID}:FeintMod": {
+    "TEXT": [
+      "Feint ",
+      "",
+      "Gain [E] if you have no Block."
+    ]
+  },
+  "${modID}:WarMod": {
+    "TEXT": [
+      "",
+      " of War",
+      "Gain 1 #yCharge."
+    ]
+  },
+  "${modID}:FrozenMod": {
+    "TEXT": [
+      "Frozen ",
+      "",
+      "Reduce cost to #b0. NL Reduce damage to #b0."
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "${modID}:Cocoon": {
+    "NAME": "Spider's Hiding Place",
+    "DESCRIPTIONS": [
+      "You're not surprised to find #p~Arachne~ already set up and ~waiting~ to help you, no matter how dangerous it is here. She's #r@rough@ around the #r@edges@ and prideful, but it seems she cares more than she lets on. NL Luckily, you've kept enough #yBone #yFragments in your pocket to ask for her help, but you might need to ask if she has anything #yspecial ~hidden~ ~up~ ~her~ ~abdomen~ this time.",
+      "No sooner than you speak does everything go #p~dark~ . You can feel the silk ~wriggling~ into the very #y@core@ of your being, filling you with #g~skills~ , #r~power~ , #b~knowledge~ , and #p~concentration~ from places #y~unknown~ . And as soon as you realize, it stops - and Arachne is back to ~idly~ ~ignoring~ ~you~ as if she hadn't moments ago reshaped your very being.",
+      "She's already moved on to ~pretending~ to ignore you. She seems #yglad that you're strong enough to manage on your own, but ~slightly~ #ybitter that you denied her help. You're surprised there was no #r@vicious@ #r@mockery@ .",
+      "#r@RED@ #r@AND@ #r@VIBRATING@ #r@TEXT.@",
+      "#rRed #gGreen #yYellow #bBlue #pPurple. ~Wavy~ @vibrating.@",
+      "You have to mark every word individually.",
+      "You can also use [#ffffff]white[] hex color codes like this to color text.",
+      "This also works in card text! But not on keywords."
+    ],
+    "OPTIONS": [
+      "[Evolve] Add a #yForm card for a #ySkull you own to deck",
+      "[Scavenge] Add a random #yForm card from Skul #ror #gfrom #bthe #pothers to deck.",
+      "[Improvise] Add #y1 of #b3 random #yPowers of #yANY color to deck.",
+      "[Leave] Prepare for vicious mockery.",
+      "Choose a Card",
+      "[Wave Goodbye] She's pretending not to pay attention."
+    ]
+  }
+}
