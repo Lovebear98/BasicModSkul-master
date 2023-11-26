@@ -3,7 +3,6 @@ package skulmod.cards.generated.unrivaledstrike;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-import com.megacrit.cardcrawl.actions.common.ExhaustAction;
 import com.megacrit.cardcrawl.actions.common.ExhaustSpecificCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -15,7 +14,6 @@ import skulmod.cards.BaseCard;
 import skulmod.cards.Cardmods.UnrivaledStrikeMod;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
-import skulmod.util.CustomActions.DelayedAddCardModAction;
 
 import static skulmod.SkulMod.makeID;
 

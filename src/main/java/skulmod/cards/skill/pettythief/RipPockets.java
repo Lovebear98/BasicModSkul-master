@@ -1,7 +1,6 @@
 package skulmod.cards.skill.pettythief;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -12,7 +11,6 @@ import skulmod.character.LittleBone;
 import skulmod.powers.custompowers.RippedPocket;
 import skulmod.util.CardInfo;
 
-import static java.lang.Boolean.FALSE;
 import static skulmod.SkulMod.makeID;
 
 public class RipPockets extends BaseCard {

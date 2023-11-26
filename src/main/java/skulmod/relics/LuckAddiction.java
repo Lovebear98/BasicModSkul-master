@@ -3,16 +3,10 @@ package skulmod.relics;
 import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.powers.DexterityPower;
-import com.megacrit.cardcrawl.powers.FocusPower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import skulmod.cards.power.SkullPowers.GamblerSkull;
-import skulmod.cards.power.SkullPowers.PettyThiefSkull;
 import skulmod.character.LittleBone;
 
-import static java.lang.Boolean.FALSE;
 import static skulmod.SkulMod.makeID;
 
 @NoCompendium

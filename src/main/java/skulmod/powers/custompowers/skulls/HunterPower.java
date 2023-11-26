@@ -14,7 +14,6 @@ import skulmod.orbs.Arrow;
 import skulmod.powers.BasePower;
 import skulmod.util.animation.AtlasPaths;
 
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 
 public class HunterPower extends BasePower implements CloneablePowerInterface {

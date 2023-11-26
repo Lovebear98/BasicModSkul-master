@@ -1,6 +1,5 @@
 package skulmod.cards.generated;
 
-import CardAugments.cardmods.event.CultistMod;
 import basemod.helpers.CardModifierManager;
 import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.PurgeField;

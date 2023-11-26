@@ -2,18 +2,11 @@ package skulmod.powers.custompowers.forms;
 
 import basemod.helpers.CardModifierManager;
 import basemod.interfaces.CloneablePowerInterface;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.DoubleTapPower;
 import skulmod.powers.BasePower;
-import skulmod.powers.custompowers.EnergyDown;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;

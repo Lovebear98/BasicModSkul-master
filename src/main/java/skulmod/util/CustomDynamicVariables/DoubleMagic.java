@@ -2,8 +2,6 @@ package skulmod.util.CustomDynamicVariables;
 
 import basemod.abstracts.DynamicVariable;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.powers.watcher.VigorPower;
 
 public class DoubleMagic extends DynamicVariable
 {

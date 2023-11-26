@@ -1,6 +1,5 @@
 package skulmod.relics.quintessence;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.relics.ClickableRelic;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -17,8 +16,6 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import skulmod.character.LittleBone;
 import skulmod.powers.custompowers.WedgedSpear;
 import skulmod.relics.BaseRelic;
-
-import java.sql.Ref;
 
 import static skulmod.SkulMod.makeID;
 

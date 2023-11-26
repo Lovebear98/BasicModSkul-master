@@ -7,17 +7,14 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.CustomTags;
 import skulmod.SkulMod;
-import skulmod.util.CustomActions.SkullActions.BonepileAction;
 
 import static skulmod.SkulMod.makeID;
 import static skulmod.util.CustomActions.SkullActions.BonepileAction.ClownMakeImitation;
-import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 
 public class PunnyMod extends AbstractAugment {
     private static final CardStrings CARD_TEXT;

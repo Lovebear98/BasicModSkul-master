@@ -1,20 +1,17 @@
 package skulmod.cards.skill.pettythief;
 
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.vfx.ThoughtBubble;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.BonepileAction;
 
 import static java.lang.Boolean.FALSE;
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 

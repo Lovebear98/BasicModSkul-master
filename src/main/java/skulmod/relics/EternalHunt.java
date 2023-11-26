@@ -2,20 +2,13 @@ package skulmod.relics;
 
 import basemod.helpers.CardPowerTip;
 import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.powers.StrengthPower;
-import com.megacrit.cardcrawl.stances.AbstractStance;
-import com.megacrit.cardcrawl.stances.WrathStance;
 import skulmod.cards.generated.Acceleration;
-import skulmod.cards.power.SkullPowers.ChampionSkull;
 import skulmod.cards.power.SkullPowers.WerewolfSkull;
 import skulmod.character.LittleBone;
-
-import java.util.Objects;
 
 import static skulmod.SkulMod.makeID;
 

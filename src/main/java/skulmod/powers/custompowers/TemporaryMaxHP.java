@@ -10,7 +10,6 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import skulmod.powers.BasePower;
 
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 
 public class TemporaryMaxHP extends BasePower implements CloneablePowerInterface {

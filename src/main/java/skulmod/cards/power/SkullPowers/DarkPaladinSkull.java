@@ -11,7 +11,6 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.CustomTags;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
-import skulmod.powers.custompowers.skulls.ChampionPower;
 import skulmod.powers.custompowers.skulls.DarkPaladinPower;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.GotSkullAction;

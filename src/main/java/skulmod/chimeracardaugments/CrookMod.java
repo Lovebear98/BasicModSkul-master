@@ -2,25 +2,16 @@ package skulmod.chimeracardaugments;
 
 import CardAugments.cardmods.AbstractAugment;
 import basemod.abstracts.AbstractCardModifier;
-import com.badlogic.gdx.utils.Predicate;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.localization.UIStrings;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.CustomTags;
-import skulmod.character.LittleBone;
-import skulmod.util.CustomActions.SkullActions.BonepileAction;
 
 import static skulmod.SkulMod.makeID;
-import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 
 public class CrookMod extends AbstractAugment {
     public static final String ID = makeID(CrookMod.class.getSimpleName());

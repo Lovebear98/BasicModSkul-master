@@ -16,7 +16,8 @@ import com.megacrit.cardcrawl.localization.OrbStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.orbs.AbstractOrb;
 import com.megacrit.cardcrawl.powers.LockOnPower;
-import com.megacrit.cardcrawl.vfx.combat.*;
+import com.megacrit.cardcrawl.vfx.combat.PlasmaOrbActivateEffect;
+import com.megacrit.cardcrawl.vfx.combat.PlasmaOrbPassiveEffect;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;

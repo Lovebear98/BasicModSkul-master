@@ -12,7 +12,6 @@ import skulmod.character.LittleBone;
 import skulmod.powers.BasePower;
 import skulmod.util.animation.AtlasPaths;
 
-import static java.lang.Boolean.FALSE;
 import static skulmod.SkulMod.makeID;
 
 public class LittleBonePower extends BasePower implements CloneablePowerInterface {

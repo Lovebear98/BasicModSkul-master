@@ -8,7 +8,6 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.cards.BaseCard;
-import skulmod.cards.power.SkullPowers.ClownSkull;
 import skulmod.cards.power.SkullPowers.GreatWarlockSkull;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;

@@ -1,14 +1,11 @@
 package skulmod.relics;
 
-import com.megacrit.cardcrawl.actions.common.LoseHPAction;
-import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import skulmod.character.LittleBone;
 import skulmod.util.CustomActions.SlimeKingAction;
 
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 
 public class SlimeKing extends BaseRelic {

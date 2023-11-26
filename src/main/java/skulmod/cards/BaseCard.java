@@ -2,11 +2,11 @@ package skulmod.cards;
 
 import basemod.abstracts.CustomCard;
 import com.evacipated.cardcrawl.mod.stslib.cards.interfaces.OnObtainCard;
-import skulmod.SkulMod;
-import skulmod.util.CardInfo;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
+import skulmod.SkulMod;
+import skulmod.util.CardInfo;
 
 import static skulmod.SkulMod.makeID;
 import static skulmod.util.TextureLoader.getCardTextureString;

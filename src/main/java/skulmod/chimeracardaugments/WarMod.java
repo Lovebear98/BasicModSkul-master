@@ -5,19 +5,16 @@ import basemod.abstracts.AbstractCardModifier;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.localization.UIStrings;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.CustomTags;
 import skulmod.SkulMod;
 import skulmod.powers.custompowers.Charge;
 
 import static skulmod.SkulMod.makeID;
-import static skulmod.util.CustomActions.SkullActions.BonepileAction.ClownMakeImitation;
 
 public class WarMod extends AbstractAugment {
     private static final CardStrings CARD_TEXT;

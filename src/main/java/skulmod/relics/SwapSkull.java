@@ -2,19 +2,15 @@ package skulmod.relics;
 
 import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.relics.ClickableRelic;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.powers.BufferPower;
 import skulmod.character.LittleBone;
 import skulmod.util.CustomActions.SkullActions.ChooseASkull;
-import skulmod.util.CustomActions.SkullActions.GotSkullAction;
 
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
-import static skulmod.util.CustomActions.SkullActions.GotSkullAction.countSkullsInDeck;
 @NoCompendium
 public class SwapSkull extends BaseRelic implements ClickableRelic {
     private static final String NAME = "SwapSkull"; //The name will be used for determining the image file as well as the ID.

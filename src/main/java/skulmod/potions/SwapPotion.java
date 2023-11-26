@@ -1,7 +1,6 @@
 package skulmod.potions;
 
 import basemod.abstracts.CustomPotion;
-import basemod.devcommands.energy.Energy;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.unique.LoseEnergyAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;

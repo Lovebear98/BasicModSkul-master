@@ -10,13 +10,9 @@ import CardAugments.cardmods.event.*;
 import CardAugments.cardmods.rare.*;
 import CardAugments.cardmods.uncommon.*;
 import basemod.AutoAdd;
-import basemod.helpers.CardModifierManager;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import skulmod.CustomTags;
 import skulmod.SkulMod;
-import skulmod.cards.Cardmods.SlimeMod;
-import skulmod.cards.attack.FreeDamage;
-import skulmod.cards.attack.warrior.RisingSlash;
 import skulmod.cards.attack.werewolf.Momentum;
 import skulmod.cards.attack.werewolf.Predation;
 import skulmod.cards.generated.Cannonfire;
@@ -26,7 +22,6 @@ import skulmod.character.LittleBone;
 
 import java.util.ArrayList;
 
-import static org.lwjgl.util.mapped.MappedObject.foreach;
 import static skulmod.SkulMod.makeID;
 
 public class AugmentHelper {

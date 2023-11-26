@@ -15,7 +15,6 @@ import skulmod.cards.generated.grapple.FakeHydraSlam;
 import skulmod.cards.generated.grapple.HydraSlam;
 import skulmod.character.LittleBone;
 import skulmod.powers.custompowers.skulls.AbsoluteSkullPower;
-import skulmod.powers.custompowers.skulls.LittleBonePower;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.GotSkullAction;
 import skulmod.util.Patches.NotInDeck.StartExhaustedField;

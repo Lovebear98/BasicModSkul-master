@@ -1,7 +1,6 @@
 package skulmod.cards.attack.littlebone;
 
 import basemod.helpers.CardModifierManager;
-import com.evacipated.cardcrawl.mod.stslib.StSLib;
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.PurgeField;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -14,13 +13,10 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.cards.BaseCard;
-import skulmod.cards.generated.AbyssSpike;
 import skulmod.cards.generated.RecallHead;
 import skulmod.character.LittleBone;
 import skulmod.orbs.EmptyHead;
 import skulmod.util.CardInfo;
-
-import javax.smartcardio.Card;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;

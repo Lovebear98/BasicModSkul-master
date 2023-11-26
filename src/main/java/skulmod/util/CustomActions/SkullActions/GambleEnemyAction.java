@@ -12,7 +12,6 @@ import com.megacrit.cardcrawl.powers.FocusPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import skulmod.powers.custompowers.skulls.GamblerPower;
 
-import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
 public class GambleEnemyAction extends AbstractGameAction {

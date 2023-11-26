@@ -2,17 +2,11 @@ package skulmod.util.CustomActions.SkullActions;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.defect.ChannelAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.orbs.AbstractOrb;
-import skulmod.CustomTags;
 import skulmod.orbs.Cannonball;
 import skulmod.orbs.CannonballPlus;
-
-import java.util.Iterator;
 
 public class GenerateCannonballAction extends AbstractGameAction {
     ///Thank you, Aris. I spent more time on this than I would have liked or was probably healthy

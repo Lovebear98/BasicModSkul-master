@@ -9,7 +9,6 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.cards.BaseCard;
 import skulmod.cards.power.SkullPowers.ChampionSkull;
-import skulmod.cards.power.SkullPowers.ClownSkull;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
 

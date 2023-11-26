@@ -1,7 +1,6 @@
 package skulmod.cards.skill.gambler;
 
 import com.megacrit.cardcrawl.actions.common.BetterDrawPileToHandAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.PutOnDeckAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;

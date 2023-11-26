@@ -9,9 +9,9 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.cards.BaseCard;
+import skulmod.cards.Cardmods.MomentumMod;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
-import skulmod.cards.Cardmods.MomentumMod;
 
 import static skulmod.SkulMod.makeID;
 

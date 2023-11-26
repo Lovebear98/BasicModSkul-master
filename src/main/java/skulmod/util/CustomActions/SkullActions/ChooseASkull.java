@@ -14,7 +14,6 @@ import java.util.ArrayList;
 
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
-import static org.lwjgl.util.mapped.MappedObject.foreach;
 import static skulmod.util.CustomActions.SkullActions.GotSkullAction.countSkullsInDeck;
 import static skulmod.util.CustomActions.SkullActions.GotSkullAction.getSkullsInDeck;
 

@@ -1,6 +1,5 @@
 package skulmod.powers.custompowers.forms;
 
-import basemod.helpers.CardModifierManager;
 import basemod.interfaces.CloneablePowerInterface;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
@@ -13,7 +12,6 @@ import com.megacrit.cardcrawl.powers.LockOnPower;
 import skulmod.powers.BasePower;
 import skulmod.powers.custompowers.LoseFocusPower;
 
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 
 public class SniperForm extends BasePower implements CloneablePowerInterface {

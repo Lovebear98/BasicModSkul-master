@@ -11,7 +11,6 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.CustomTags;
-import skulmod.util.CustomActions.SkullActions.GambleAction;
 
 import static skulmod.SkulMod.makeID;
 

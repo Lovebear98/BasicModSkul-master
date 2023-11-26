@@ -1,24 +1,14 @@
 package skulmod.cards.skill.gambler;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
-import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.DexterityPower;
-import com.megacrit.cardcrawl.powers.FocusPower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import skulmod.cards.BaseCard;
-import skulmod.cards.generated.LoadedDice;
 import skulmod.character.LittleBone;
-import skulmod.powers.custompowers.skulls.GamblerPower;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.GambleAction;
 
-import static java.lang.Boolean.FALSE;
 import static skulmod.SkulMod.makeID;
 
 public class RoyalFlush extends BaseCard {

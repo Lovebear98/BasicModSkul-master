@@ -4,15 +4,11 @@ import basemod.interfaces.CloneablePowerInterface;
 import com.megacrit.cardcrawl.actions.common.GainGoldAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import skulmod.powers.BasePower;
-import skulmod.util.CustomActions.SkullActions.BonepileAction;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
-import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 
 public class OutlawForm extends BasePower implements CloneablePowerInterface {
     public static final String POWER_ID = makeID("OutlawForm");

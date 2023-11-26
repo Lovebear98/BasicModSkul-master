@@ -1,10 +1,9 @@
 package skulmod.cards.skill.werewolf;
 
-import com.evacipated.cardcrawl.mod.stslib.actions.common.SelectCardsInHandAction;
-import com.megacrit.cardcrawl.actions.common.*;
+import com.megacrit.cardcrawl.actions.common.DiscardAction;
+import com.megacrit.cardcrawl.actions.common.PlayTopCardAction;
+import com.megacrit.cardcrawl.actions.common.PutOnDeckAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.red.Havoc;
-import com.megacrit.cardcrawl.cards.red.Warcry;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -12,12 +11,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
-import skulmod.util.CustomActions.SkullActions.BonepileAction;
-
-import java.util.ArrayList;
 
 import static skulmod.SkulMod.makeID;
-import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 
 public class Hunt extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(

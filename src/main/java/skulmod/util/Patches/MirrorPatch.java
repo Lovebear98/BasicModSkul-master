@@ -1,21 +1,11 @@
 package skulmod.util.Patches;
 
-import com.evacipated.cardcrawl.modthespire.lib.SpireInsertPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.relics.DeadBranch;
 import com.megacrit.cardcrawl.relics.DollysMirror;
-import skulmod.CustomTags;
-import skulmod.cards.power.SkullPowers.*;
 import skulmod.character.LittleBone;
-
-import java.util.ArrayList;
-
-import static java.lang.Boolean.TRUE;
 
 public class MirrorPatch {
     @SpirePatch(

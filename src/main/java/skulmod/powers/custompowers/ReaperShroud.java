@@ -9,8 +9,6 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import skulmod.powers.BasePower;
 
-import static java.lang.Boolean.FALSE;
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 
 public class ReaperShroud extends BasePower implements CloneablePowerInterface {

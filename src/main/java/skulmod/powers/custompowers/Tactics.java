@@ -9,7 +9,6 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import skulmod.cards.generated.unrivaledstrike.StrategyBook;
 import skulmod.powers.BasePower;
-import skulmod.powers.custompowers.skulls.AbsoluteSkullPower;
 
 import static skulmod.SkulMod.makeID;
 

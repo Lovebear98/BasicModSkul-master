@@ -12,7 +12,6 @@ import skulmod.CustomTags;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
 import skulmod.powers.custompowers.skulls.GreatWarlockPower;
-import skulmod.powers.custompowers.skulls.LittleBonePower;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.GotSkullAction;
 import skulmod.util.Patches.NotInDeck.StartExhaustedField;

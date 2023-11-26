@@ -12,14 +12,11 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.CustomTags;
 import skulmod.cards.BaseCard;
-import skulmod.cards.Cardmods.ClownModifier;
 import skulmod.cards.attack.littlebone.ThrowHead;
 import skulmod.character.LittleBone;
 import skulmod.orbs.EmptyHead;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.Cardgen.MakeTempUpgradedCardinHandAction;
-
-import javax.smartcardio.Card;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;

@@ -1,7 +1,6 @@
 package skulmod.cards.skill.absolute;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -10,7 +9,6 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.RagePower;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
-import skulmod.powers.custompowers.Labors;
 import skulmod.powers.custompowers.skulls.AbsoluteSkullPower;
 import skulmod.util.CardInfo;
 

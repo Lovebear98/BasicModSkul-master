@@ -5,13 +5,9 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.audio.MainMusic;
-import com.megacrit.cardcrawl.dungeons.*;
 import skulmod.SkulMod;
-import skulmod.character.LittleBone;
 
-import static com.megacrit.cardcrawl.audio.MainMusic.newMusic;
 import static java.lang.Boolean.TRUE;
-import static skulmod.SkulMod.SKUL_MUSIC;
 import static skulmod.SkulMod.SkulMusic;
 ///Thank you The Drifter, for showing me where to patch!
 @SpirePatch(

@@ -2,9 +2,9 @@ package skulmod.relics;
 
 import basemod.abstracts.CustomRelic;
 import basemod.helpers.RelicType;
-import skulmod.util.TextureLoader;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
+import skulmod.util.TextureLoader;
 
 import static skulmod.SkulMod.relicPath;
 

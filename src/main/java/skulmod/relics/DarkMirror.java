@@ -1,8 +1,5 @@
 package skulmod.relics;
 
-import com.badlogic.gdx.math.MathUtils;
-import com.megacrit.cardcrawl.actions.common.LoseHPAction;
-import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.Settings;
@@ -10,12 +7,12 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 import skulmod.CustomTags;
-import skulmod.cards.power.SkullPowers.*;
+import skulmod.cards.power.SkullPowers.ChampionSkull;
+import skulmod.cards.power.SkullPowers.DavyJonesSkull;
 import skulmod.character.LittleBone;
 
 import java.util.ArrayList;
 
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 
 public class DarkMirror extends BaseRelic {
@@ -54,7 +51,7 @@ public class DarkMirror extends BaseRelic {
         super.update();
         if (!this.cardSelected && AbstractDungeon.gridSelectScreen.selectedCards.size() == 1) {
             this.cardSelected = true;
-            AbstractCard c = ((AbstractCard)AbstractDungeon.gridSelectScreen.selectedCards.get(0)).makeStatEquivalentCopy();
+            AbstractCard c = (AbstractDungeon.gridSelectScreen.selectedCards.get(0)).makeStatEquivalentCopy();
             if(c.hasTag(CustomTags.Skull)){
                 ArrayList<AbstractCard> DarkMirrorSkull = new ArrayList<>();
                 DarkMirrorSkull.add(new ChampionSkull());

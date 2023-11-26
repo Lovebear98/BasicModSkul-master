@@ -14,8 +14,6 @@ import skulmod.character.LittleBone;
 import skulmod.orbs.EmptyHead;
 import skulmod.util.CardInfo;
 
-import javax.smartcardio.Card;
-
 import static skulmod.SkulMod.makeID;
 
 public class FreeDamage extends BaseCard {

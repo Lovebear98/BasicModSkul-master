@@ -14,7 +14,6 @@ import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.GambleAction;
 
-
 import static skulmod.SkulMod.makeID;
 
 public class RussianRoulette extends BaseCard {

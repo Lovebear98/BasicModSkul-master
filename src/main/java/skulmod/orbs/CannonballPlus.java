@@ -11,8 +11,6 @@ import com.megacrit.cardcrawl.localization.OrbStrings;
 import com.megacrit.cardcrawl.orbs.AbstractOrb;
 import com.megacrit.cardcrawl.vfx.combat.DarkOrbActivateEffect;
 import com.megacrit.cardcrawl.vfx.combat.DarkOrbPassiveEffect;
-import skulmod.cards.generated.Cannonfire;
-import skulmod.util.CustomActions.Cardgen.MakeTempUpgradedCardinHandAction;
 import skulmod.util.CustomActions.SkullActions.CannonballEvokeAction;
 
 import static skulmod.SkulMod.makeID;

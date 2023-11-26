@@ -1,8 +1,6 @@
 package skulmod.cards.skill.warrior;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.GainGoldAction;
-import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -10,11 +8,9 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.watcher.VigorPower;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
-import skulmod.orbs.EmptyHead;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.BonepileAction;
 
-import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
 import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 

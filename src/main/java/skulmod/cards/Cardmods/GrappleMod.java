@@ -5,7 +5,6 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import skulmod.orbs.Cannonball;
 import skulmod.powers.custompowers.HerculeanStrength;
 
 public class GrappleMod extends AbstractCardModifier {

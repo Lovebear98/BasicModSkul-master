@@ -13,13 +13,13 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
+import skulmod.cards.Cardmods.ClownModifier;
 import skulmod.cards.generated.LoadedDice;
 import skulmod.cards.power.SkullPowers.*;
 import skulmod.orbs.Arrow;
 import skulmod.orbs.Barrier;
 import skulmod.powers.custompowers.*;
 import skulmod.powers.custompowers.skulls.BomberSkullPower;
-import skulmod.cards.Cardmods.ClownModifier;
 import skulmod.util.CustomActions.Cardgen.MakeTempUpgradedCardinDrawAction;
 
 import java.util.Arrays;
