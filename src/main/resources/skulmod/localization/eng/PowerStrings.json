@@ -69,6 +69,12 @@
       "#yPassive: Gain [E] after playing a #yStrike. NL NL #yBonepile: Gain #b1 stack of #yCharge. NL NL #ySwap: Gain #b5 stacks of #yCharge."
     ]
   },
+  "${modID}:BerserkerSkullPower": {
+    "NAME": "Berserker",
+    "DESCRIPTIONS": [
+      "#yPassive: You have no #yBonepile and no #ySwap. NL Losing HP grants that much #yUnshackled. #yFatal damage less than your #yStrength heals you to half HP and applies #rBone #rScream."
+    ]
+  },
   "${modID}:ChampionPower": {
     "NAME": "Champion",
     "DESCRIPTIONS": [
@@ -356,10 +362,20 @@
   "${modID}:BoneScreamPower": {
     "NAME": "Bone Scream",
     "DESCRIPTIONS": [
-      "Prevent fatal damage. At the end of your turn, remove all of your powers and #rdie. NL NL If you deal #yFatal attack damage or #b25% of a #yBoss or #yElite monster's HP as attack damage, remove this. NL NL",
-      "You have dealt #b",
-      "% of ",
-      "'s HP."
+      "Survive fatal damage. At the end of ",
+      "this",
+      " turn",
+      "s",
+      ", remove all of your powers and #rdie. NL NL If you deal #yFatal attack damage, even to minions, remove this.",
+      "0 + amount(or 1) + 2 (+3 for 2+) + 4"
+    ]
+  },
+  "${modID}:UnshackledPower": {
+    "NAME": "Unshackled",
+    "DESCRIPTIONS": [
+      "At the start of the turn, gain #b",
+      "At the end of the turn, gain #b",
+      " #yStrength."
     ]
   }
 }

@@ -430,6 +430,29 @@
       "Peerlessly",
       "peerlessly"
     ],
-    "DESCRIPTION": "*Cost has been increased, and the attack has become single target. *Refund twice the cards cost when played."
+    "DESCRIPTION": "#yCost has been increased, and the attack has become single target. #yRefund twice the card's cost when played."
+  },
+  {
+    "PROPER_NAME": "Unshackled",
+    "NAMES": [
+      "Unshackled",
+      "unshackled",
+      "unshackles",
+      "Unshackles",
+      "Unshackle",
+      "unshackle"
+    ],
+    "DESCRIPTION": "The next time you start or end your turn, gain #b1 #yStrength."
+  },
+  {
+    "PROPER_NAME": "Bone Scream",
+    "NAMES": [
+      "Bone Scream",
+      "Bone_Scream",
+      "Bone_scream",
+      "bone_Scream",
+      "bone_scream"
+    ],
+    "DESCRIPTION": "At the end of the turn, #premove #pall #ppowers and #rdie. When dealing #yFatal #yAttack damage, remove this. During #yBoss or #yElite combat, die next turn instead."
   }
 ]

@@ -34,14 +34,14 @@ UpscaledBerserker/Idle4
   index: -1
 UpscaledBerserker/Idle5
   rotate: false
-  xy: 1, 505
+  xy: 529, 359
   size: 228, 180
   orig: 228, 180
   offset: 0, 0
   index: -1
 UpscaledBerserker/Idle6
   rotate: false
-  xy: 529, 359
+  xy: 1, 505
   size: 228, 180
   orig: 228, 180
   offset: 0, 0

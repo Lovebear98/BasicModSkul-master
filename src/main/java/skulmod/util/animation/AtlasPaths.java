@@ -77,6 +77,8 @@ public class AtlasPaths {
 
 
     ///Booster pack Taunt skull that focuses on perfect block.
+    ///Overblocking or underblocking by more than 5 causes him to lose resources and get debuffs
+    ///He has Temperance as a way to control the block he gains each turn
     public static String DemiGod(){
         return "DemiGod";
     }
@@ -92,24 +94,24 @@ public class AtlasPaths {
         return "Sword";
     }
 
-    ///Booster pack berserker - relies on team for block, but does HUGE damage
+    ///Booster pack Berserker - Can't provide block to himself, but does huge damage that echoes out to teammates
     public static String Minotaurus(){
         return "Minotaurus";
     }
 
 
-    ///Base mod Champion counterpart
-    public static String Berserker(){
+    ///Base mod Champion counterpart, designed to play well with Reaper
+    public static String BerserkerAnim(){
         return "Berserker";
     }
 
-    ///Base mod Mark skull
-    public static String Samurai(){
+    ///Booster Mark skull - more fun synergies with more people
+    public static String SamuraiAnim(){
         return "Samurai";
     }
 
     ///Base mod Unknown King damage-based analog
-    public static String Yakhsa(){
+    public static String YakhsaAnim(){
         return "Yaksha";
     }
 

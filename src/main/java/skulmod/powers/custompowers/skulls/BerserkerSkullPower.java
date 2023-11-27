@@ -10,10 +10,11 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import com.megacrit.cardcrawl.powers.GainStrengthPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 import skulmod.character.LittleBone;
 import skulmod.powers.BasePower;
+import skulmod.powers.custompowers.BoneScreamPower;
+import skulmod.powers.custompowers.UnshackledPower;
 import skulmod.util.animation.AtlasPaths;
 
 import static skulmod.SkulMod.makeID;
@@ -49,7 +50,8 @@ public class BerserkerSkullPower extends BasePower implements CloneablePowerInte
 
     @Override
     public int onLoseHp(int damageAmount) {
-        addToBot(new ApplyPowerAction(owner, owner, new GainStrengthPower(owner, damageAmount)));
+        ///When we lose HP, gain that much Shackled
+            addToBot(new ApplyPowerAction(owner, owner, new UnshackledPower(owner, damageAmount)));
         return super.onLoseHp(damageAmount);
     }
 
@@ -64,7 +66,11 @@ public class BerserkerSkullPower extends BasePower implements CloneablePowerInte
                 ///Set the heal amount to half our max health minus 1 to account for us being at 1 HP
                 int AmountToHeal = (owner.maxHealth/2 - 1);
                 ///Heal us to half HP
-                addToBot(new HealAction(owner, owner, AmountToHeal));
+                addToTop(new HealAction(owner, owner, AmountToHeal));
+                ///And apply Bone Scream for 1 turn if we don't already have it
+                if(!owner.hasPower(BoneScreamPower.POWER_ID)){
+                    addToTop(new ApplyPowerAction(owner, owner, new BoneScreamPower(owner, 1)));
+                }
 
             }
         }
@@ -76,7 +82,7 @@ public class BerserkerSkullPower extends BasePower implements CloneablePowerInte
         if (info.owner != this.owner && info.type != DamageInfo.DamageType.THORNS && damageAmount - owner.currentBlock > 0) {// 372
             ///Play that Skull's animations
             if(owner instanceof LittleBone){
-                ((LittleBone) (AbstractDungeon.player)).AnimateSkull(AtlasPaths.Berserker(), "DODGE");
+                ((LittleBone) (AbstractDungeon.player)).AnimateSkull(AtlasPaths.BerserkerAnim(), "DODGE");
             }
             ///We've found a skull, so we no longer need to default
             //
@@ -88,7 +94,7 @@ public class BerserkerSkullPower extends BasePower implements CloneablePowerInte
     public void onUseCard(AbstractCard card, UseCardAction action) {
 if(card.type == AbstractCard.CardType.ATTACK){
     if(owner instanceof LittleBone){
-        ((LittleBone) (AbstractDungeon.player)).AnimateSkull(AtlasPaths.Berserker(), "ATTACK");
+        ((LittleBone) (AbstractDungeon.player)).AnimateSkull(AtlasPaths.BerserkerAnim(), "ATTACK");
     }
 }
         super.onUseCard(card, action);

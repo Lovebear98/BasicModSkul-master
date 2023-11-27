@@ -74,20 +74,11 @@ public class ClearSkullPowers extends AbstractGameAction {
         if(p.hasPower(FrostSkullPower.POWER_ID)){
             addToBot(new RemoveSpecificPowerAction(p,p, FrostSkullPower.POWER_ID));
         }
-
-
-
-
-
-
+        if(p.hasPower(BerserkerSkullPower.POWER_ID)){
+            addToBot(new RemoveSpecificPowerAction(p,p, BerserkerSkullPower.POWER_ID));
+        }
+        ///EndOfActionSpace
+        ///EndOfActionSpace
         isDone = TRUE;
     }
-
-
-
-
-
-
-
-
 }

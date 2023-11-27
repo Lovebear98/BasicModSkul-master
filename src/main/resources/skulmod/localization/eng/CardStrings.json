@@ -902,6 +902,14 @@
       ""
     ]
   },
+  "${modID}:BerserkerSkull": {
+    "NAME": "Berserker",
+    "DESCRIPTION": "${modID}:Passive: Losing HP grants as much ${modID}:Unshackled. *Fatal damage less than Strength heals you to half HP and applies ${modID}:Bone_Scream.",
+    "UPGRADE_DESCRIPTION": "He's got 1 HP and a dream and a whole stack of Vajras to prove it.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
   "${modID}:BoarChase": {
     "NAME": "Boar Chase",
     "DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",

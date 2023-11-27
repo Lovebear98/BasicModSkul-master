@@ -144,13 +144,12 @@ public class BonepileAction extends AbstractGameAction {
         if(as.cardID.equals(FrostSkull.ID)){
                 addToBot(new ApplyPowerAction(p, p, (new Frozen(p, 1))));
         }
-
-
-
-
-
-
-
+        ///BERSERKER BONEPILE
+        if(as.cardID.equals(FrostSkull.ID)){
+            ///We keep this here in case we need it later.
+        }
+        ///Pre-Default Space
+        ///Pre-Default Space
         ///LITTLE BONE BONEPILE
         if(as.cardID.equals(LittleBoneSkull.ID)){
             addToBot(new GainBlockAction(p, 2));

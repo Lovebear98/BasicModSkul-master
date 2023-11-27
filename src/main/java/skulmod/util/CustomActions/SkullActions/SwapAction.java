@@ -57,13 +57,12 @@ this.p = AbstractDungeon.player;
                 CardModifierManager.addModifier(c, new UnrivaledStrikeMod(false, 0, 5, 0, 0));
             }
         }
-
         ///CHAMPION SWAP
         if(c.cardID.equals(ChampionSkull.ID)){
         if(p.stance.ID.equals("Wrath")){
            this.addToBot(new NotStanceCheckAction("Neutral", new VFXAction(new EmptyStanceEffect(p.hb.cX, p.hb.cY), 0.1F)));
            addToBot(new ChangeStanceAction("Neutral"));
-    }else{
+            }else{
            addToBot(new ChangeStanceAction("Wrath"));
             }
         }
@@ -133,19 +132,16 @@ this.p = AbstractDungeon.player;
             }
 
         }
-        ///WEREWOLF SWAP
+        ///FROST SKULL SWAP
         if(c.cardID.equals(FrostSkull.ID)){
             addToBot(new GainBlockAction(p, 10));
         }
-
-
-
-
-
-
-
-
-
+        ///BERSERKER SWAP
+        if(c.cardID.equals(BerserkerSkull.ID)){
+           ///We put this here in case we need it
+        }
+        ///Pre-Default Space
+        ///Pre-Default Space
         ///LITTLE BONE SWAP
         if(c.cardID.equals(LittleBoneSkull.ID)){
             addToBot(new GainEnergyAction(2));
