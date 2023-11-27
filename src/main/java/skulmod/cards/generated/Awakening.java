@@ -3,6 +3,7 @@ package skulmod.cards.generated;
 import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.unique.LoseEnergyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -10,6 +11,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.watcher.VigorPower;
 import com.megacrit.cardcrawl.relics.ChemicalX;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
@@ -21,7 +23,7 @@ import static skulmod.SkulMod.makeID;
 public class Awakening extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "Awakening",
-            -1,
+            2,
             CardType.SKILL,
             CardTarget.ENEMY,
             CardRarity.SPECIAL,
@@ -35,8 +37,8 @@ public class Awakening extends BaseCard {
     private static final int BLOCK = 0;
     private static final int UPG_BLOCK = 0;
 
-    private static final int MAGIC = 4;
-    private static final int UPG_MAGIC = 2;
+    private static final int MAGIC = 3;
+    private static final int UPG_MAGIC = 0;
     private int TotalEnergy;
 
 
@@ -47,6 +49,7 @@ public class Awakening extends BaseCard {
         setBlock(BLOCK, UPG_BLOCK);
         this.setMagic(MAGIC, UPG_MAGIC);
         purgeOnUse = TRUE;
+        setCostUpgrade(1);
         setEthereal(true);
 
 
@@ -80,17 +83,13 @@ public class Awakening extends BaseCard {
     @Override
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new LoseEnergyAction(energyOnUse));
-        TotalEnergy = energyOnUse;
-        if(AbstractDungeon.player.hasRelic(ChemicalX.ID)){
-            TotalEnergy += 2;
+        if(AbstractDungeon.player.hasPower(VigorPower.POWER_ID)){
+            int NumTimes = AbstractDungeon.player.getPower(VigorPower.POWER_ID).amount;
+            for(int Loops = NumTimes; Loops > 0; Loops -= 1){
+                addToBot(new DamageAction(m, new DamageInfo(p, magicNumber, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
+            }
+                addToBot(new RemoveSpecificPowerAction(AbstractDungeon.player, AbstractDungeon.player, VigorPower.POWER_ID));
         }
-        int Procs;
-        Procs = (TotalEnergy * magicNumber);
-        if(Procs > 0){
-            addToBot(new DamageAction(m, new DamageInfo(p, Procs, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.FIRE));
-        }
-
     }
 
     @Override

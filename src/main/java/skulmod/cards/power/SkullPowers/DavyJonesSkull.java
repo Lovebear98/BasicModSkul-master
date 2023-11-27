@@ -95,6 +95,9 @@ public class DavyJonesSkull extends BaseCard implements SpawnModificationCard {
     @Override
     public void upgrade() {
         super.upgrade();
+        if (cardsToPreview != null){
+            cardsToPreview.upgrade();
+        }
     }
 
     public DavyJonesSkull(CardInfo cardInfo) {

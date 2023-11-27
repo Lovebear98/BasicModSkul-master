@@ -5,12 +5,14 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.watcher.VigorPower;
 
+import static skulmod.SkulMod.makeID;
+
 public class BlockVigor extends DynamicVariable
 {
     @Override
     public String key()
     {
-        return "VB";
+        return makeID("VB");
         // What you put in your localization file between ! to show your value. Eg, !myKey!.
     }
 

@@ -64,11 +64,11 @@ public class PettyThiefPower extends BasePower implements CloneablePowerInterfac
             //
             if(RippedPocket == TRUE){
                 if(info.type != DamageInfo.DamageType.THORNS && info.type != DamageInfo.DamageType.HP_LOSS && damageAmount > 0){
-                    if(AbstractDungeon.player.gold >= damageAmount){
-                        AbstractDungeon.player.loseGold(damageAmount);
+                    if(AbstractDungeon.player.gold/2 >= damageAmount){
+                        AbstractDungeon.player.loseGold(damageAmount * 2);
                         damageAmount = 0;
                     }else{
-                        damageAmount -= AbstractDungeon.player.gold;
+                        damageAmount -= AbstractDungeon.player.gold/2;
                         AbstractDungeon.player.loseGold(AbstractDungeon.player.gold);
                     }
                 }

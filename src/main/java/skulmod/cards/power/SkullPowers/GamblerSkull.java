@@ -77,6 +77,9 @@ public class GamblerSkull extends BaseCard implements SpawnModificationCard {
     @Override
     public void upgrade() {
         super.upgrade();
+        if (cardsToPreview != null){
+            cardsToPreview.upgrade();
+        }
     }
 
     public GamblerSkull(CardInfo cardInfo) {

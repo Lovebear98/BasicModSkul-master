@@ -102,6 +102,9 @@ public class MageSkull extends BaseCard implements SpawnModificationCard {
     @Override
     public void upgrade() {
         super.upgrade();
+        if (cardsToPreview != null){
+            cardsToPreview.upgrade();
+        }
     }
 
     public MageSkull(CardInfo cardInfo) {

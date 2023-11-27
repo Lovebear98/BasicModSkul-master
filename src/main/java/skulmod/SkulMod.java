@@ -57,6 +57,7 @@ import skulmod.util.CustomActions.SkullActions.GotSkullAction;
 import skulmod.util.CustomDynamicVariables.BlockVigor;
 import skulmod.util.CustomDynamicVariables.DoubleMagic;
 import skulmod.util.CustomDynamicVariables.RouletteSelfDamage;
+import skulmod.util.CustomDynamicVariables.VigorNum;
 import skulmod.util.GeneralUtils;
 import skulmod.util.KeywordInfo;
 import skulmod.util.Patches.SwapButton.ReloadButton;
@@ -497,7 +498,7 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
         BaseMod.addDynamicVariable(new RouletteSelfDamage());
         BaseMod.addDynamicVariable(new BlockVigor());
         BaseMod.addDynamicVariable(new DoubleMagic());
-
+        BaseMod.addDynamicVariable(new VigorNum());
 
         new AutoAdd(modID) //Loads files from this mod
                 .packageFilter(BaseCard.class) //In the same package as this class

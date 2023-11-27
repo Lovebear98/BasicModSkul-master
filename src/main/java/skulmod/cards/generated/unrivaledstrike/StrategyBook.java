@@ -57,6 +57,9 @@ public class StrategyBook extends BaseCard {
     @Override
     public void upgrade() {
         super.upgrade();
+        if (cardsToPreview != null){
+            cardsToPreview.upgrade();
+        }
     }
 
     public StrategyBook(CardInfo cardInfo) {

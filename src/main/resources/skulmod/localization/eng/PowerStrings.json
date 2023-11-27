@@ -54,7 +54,7 @@
   "${modID}:PettyThiefPower": {
     "NAME": "Petty Thief",
     "DESCRIPTIONS": [
-      "#yPassive: Gaining #yGold randomly deals that much damage. NL NL #yBonepile: Gain #b4 #yGold. NL NL #ySwap: #yBlock with #yGold this turn."
+      "#yPassive: Gaining #yGold randomly deals that much damage. NL NL #yBonepile: Gain #b4 #yGold. NL NL #ySwap: #yBlock damage with twice as much #yGold this turn."
     ]
   },
   "${modID}:GreatWarlockPower": {
@@ -78,7 +78,7 @@
   "${modID}:MagePower": {
     "NAME": "Mage",
     "DESCRIPTIONS": [
-      "#yPassive: Deal #b2 damage randomly each time you play a #ySkill. NL NL #yBonepile: Apply #yBurn randomly. NL #ySwap: Create an #yAwakening."
+      "#yPassive: #ySkills grant #b2 #yVigor. NL NL #yBonepile: Apply #yBurn randomly. NL NL #ySwap: Create an #yAwakening."
     ]
   },
   "${modID}:WerewolfPower": {
@@ -209,6 +209,13 @@
     "DESCRIPTIONS": [
       "Your first #yImitation each turn will #yBonepile #b",
       " times."
+    ]
+  },
+  "${modID}:iFrameForm": {
+    "NAME": "i-Frame Form",
+    "DESCRIPTIONS": [
+      "After playing #b",
+      " #yAttacks, add a #yGrapple to your hand."
     ]
   },
   "${modID}:AllInForm": {
@@ -344,6 +351,15 @@
     "DESCRIPTIONS": [
       "After contemplating #b",
       " more #yTactics, create a #yStrategy #yBook in your hand."
+    ]
+  },
+  "${modID}:BoneScreamPower": {
+    "NAME": "Bone Scream",
+    "DESCRIPTIONS": [
+      "Prevent fatal damage. At the end of your turn, remove all of your powers and #rdie. NL NL If you deal #yFatal attack damage or #b25% of a #yBoss or #yElite monster's HP as attack damage, remove this. NL NL",
+      "You have dealt #b",
+      "% of ",
+      "'s HP."
     ]
   }
 }

@@ -81,7 +81,7 @@ public class AtlasPaths {
         return "DemiGod";
     }
 
-    ///Base mod Davy Jones/Absolute triad member - all in one big hit
+    ///MADE - Base mod Davy Jones/Absolute triad member - all in one big hit
     public static String GodOfWarAnim(){
         return "GodOfWar";
     }
@@ -99,8 +99,8 @@ public class AtlasPaths {
 
 
     ///Base mod Champion counterpart
-    public static String DevilBerserker(){
-        return "DevilBerserker";
+    public static String Berserker(){
+        return "Berserker";
     }
 
     ///Base mod Mark skull

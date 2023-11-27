@@ -77,6 +77,9 @@ public class FrostSkull extends BaseCard implements SpawnModificationCard {
     @Override
     public void upgrade() {
         super.upgrade();
+        if (cardsToPreview != null){
+            cardsToPreview.upgrade();
+        }
     }
 
     public FrostSkull(CardInfo cardInfo) {

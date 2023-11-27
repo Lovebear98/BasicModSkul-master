@@ -3,12 +3,14 @@ package skulmod.util.CustomDynamicVariables;
 import basemod.abstracts.DynamicVariable;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 
+import static skulmod.SkulMod.makeID;
+
 public class DoubleMagic extends DynamicVariable
 {
     @Override
     public String key()
     {
-        return "M2";
+        return makeID("M2");
         // What you put in your localization file between ! to show your value. Eg, !myKey!.
     }
 

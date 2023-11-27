@@ -87,7 +87,7 @@
   },
   "${modID}:PettyThiefSkull": {
     "NAME": "Petty Thief",
-    "DESCRIPTION": "${modID}:Passive: Gaining *Gold randomly deals that much damage. NL ${modID}:Bonepile: Gain 4 *Gold. NL ${modID}:Swap: Block with *Gold this turn.",
+    "DESCRIPTION": "${modID}:Passive: Gaining *Gold randomly deals that much damage. NL ${modID}:Bonepile: Gain 4 *Gold. NL ${modID}:Swap: Block damage with twice as much *Gold this turn.",
     "UPGRADE_DESCRIPTION": "He wishes he could rob you again, but there's only so many times he can put your wallet back before it gets boring.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -127,7 +127,7 @@
   },
   "${modID}:MageSkull": {
     "NAME": "Mage",
-    "DESCRIPTION": "${modID}:Passive: *Skills deal 2 damage randomly. NL ${modID}:Bonepile: Apply ${modID}:Burn randomly. NL ${modID}:Swap: Create an *Awakening.",
+    "DESCRIPTION": "${modID}:Passive: *Skills grant 2 Vigor. NL ${modID}:Bonepile: Apply ${modID}:Burn randomly. NL ${modID}:Swap: Create an *Awakening.",
     "UPGRADE_DESCRIPTION": "Master chef. Everything he cooks is grilled to black, inedible perfection.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -175,8 +175,8 @@
   },
   "${modID}:BrittleBones": {
     "NAME": "Brittle Bones",
-    "DESCRIPTION": "Gain !M! Frail. NL Gain !M2! Thorns.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Frail. NL Gain !M2! Thorns.",
+    "DESCRIPTION": "Gain !M! Frail. NL Gain !${modID}:M2! Thorns.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Frail. NL Gain !${modID}:M2! Thorns.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -198,8 +198,8 @@
 },
   "${modID}:Awakening": {
     "NAME": "Awakening",
-    "DESCRIPTION": "${modID}:Bleached. Ethereal. NL Deal !M!X non-attack damage to a target. NL Purge. ",
-    "UPGRADE_DESCRIPTION": "${modID}:Bleached. Ethereal. NL Deal !M!X non-attack damage to a target. NL Purge. ",
+    "DESCRIPTION": "${modID}:Bleached. Ethereal. NL Deal !M! non-attack damage !${modID}:VIG! times, equal to your Vigor, and remove it.",
+    "UPGRADE_DESCRIPTION": "${modID}:Bleached. Ethereal. NL Deal !M! non-attack damage !${modID}:VIG! times, equal to your Vigor, and remove it.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -454,8 +454,8 @@
   },
   "${modID}:RussianRoulette": {
     "NAME": "Russian Roulette",
-    "DESCRIPTION": "Randomly ${modID}:Gamble !M! times, deal !D! damage, or take !GSD! damage. NL Draw 1 card.",
-    "UPGRADE_DESCRIPTION": "Randomly ${modID}:Gamble !M! times, deal !D! damage, or take !GSD! damage. NL Draw 1 card.",
+    "DESCRIPTION": "Randomly ${modID}:Gamble !M! times, deal !D! damage, or take !${modID}:GSD! damage. NL Draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Randomly ${modID}:Gamble !M! times, deal !D! damage, or take !${modID}:GSD! damage. NL Draw 1 card.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -550,8 +550,8 @@
   },
   "${modID}:EyeOfTheStorm": {
     "NAME": "Eye of the Storm",
-    "DESCRIPTION": "Gain !VB! Block, applying Vigor.",
-    "UPGRADE_DESCRIPTION": "Gain !VB! Block, applying Vigor.",
+    "DESCRIPTION": "Gain !${modID}:VB! Block, applying Vigor.",
+    "UPGRADE_DESCRIPTION": "Gain !${modID}:VB! Block, applying Vigor.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -752,8 +752,8 @@
   },
   "${modID}:FireArrow": {
     "NAME": "Fire Arrow",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Burn.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Burn.",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Burn. If the target is already Burned, remove it and gain half as much Vigor instead.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! ${modID}:Burn. If the target is already Burned, remove it and gain half as much Vigor instead.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -846,10 +846,18 @@
       ""
     ]
   },
+  "${modID}:iFrameForm": {
+    "NAME": "i-Frame Form",
+    "DESCRIPTION": "Ethereal. NL After playing !M! attacks, add a random ${modID}:Grapple to your hand.",
+    "UPGRADE_DESCRIPTION": "After playing !M! attacks, add a random ${modID}:Grapple to your hand.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
   "${modID}:PriceOfPower": {
     "NAME": "Price Of Power",
-    "DESCRIPTION": "Gain !M2! Block each turn. NL Apply !M! Thorns.",
-    "UPGRADE_DESCRIPTION": "Gain !M2! Block each turn. NL Apply !M! Thorns.",
+    "DESCRIPTION": "Gain !${modID}:M2! Block each turn. NL Apply !M! Thorns.",
+    "UPGRADE_DESCRIPTION": "Gain !${modID}:M2! Block each turn. NL Apply !M! Thorns.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]

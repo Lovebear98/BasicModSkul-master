@@ -3,11 +3,13 @@ package skulmod.cards.attack.mage;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.watcher.VigorPower;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
 import skulmod.powers.custompowers.Burn;
@@ -26,14 +28,14 @@ public class FireArrow extends BaseCard {
 
     public static final String ID = makeID(cardInfo.baseId);
     public static final String[] EXTENDED_DESCRIPTION = CardStrings.getMockCardString().EXTENDED_DESCRIPTION;
-    private static final int DAMAGE = 4;
-    private static final int UPG_DAMAGE = 3;
+    private static final int DAMAGE = 2;
+    private static final int UPG_DAMAGE = 1;
 
     private static final int BLOCK = 0;
     private static final int UPG_BLOCK = 0;
 
-    private static final int MAGIC = 2;
-    private static final int UPG_MAGIC = 1;
+    private static final int MAGIC = 4;
+    private static final int UPG_MAGIC = 2;
 
 
 
@@ -76,7 +78,13 @@ public class FireArrow extends BaseCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.FIRE));
-        addToBot(new ApplyPowerAction(m, p, new Burn(m, magicNumber)));
+        if(m.hasPower(Burn.POWER_ID)){
+            int TargetBurn = m.getPower(Burn.POWER_ID).amount/2;
+            addToBot(new ApplyPowerAction(p, p, new VigorPower(p, TargetBurn)));
+            addToBot(new RemoveSpecificPowerAction(m, p, Burn.POWER_ID));
+        }else{
+            addToBot(new ApplyPowerAction(m, p, new Burn(m, magicNumber)));
+        }
     }
 
     @Override

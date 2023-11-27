@@ -60,7 +60,9 @@ public class Blackjack extends BaseCard {
     @Override
     public void upgrade() {
         super.upgrade();
-
+        if (cardsToPreview != null){
+            cardsToPreview.upgrade();
+        }
     }
 
     public Blackjack(CardInfo cardInfo) {

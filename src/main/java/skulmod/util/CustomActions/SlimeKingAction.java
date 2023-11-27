@@ -30,10 +30,10 @@ public class SlimeKingAction extends AbstractGameAction {
     public void update() {
     int index = MathUtils.random(0, AbstractDungeon.player.masterDeck.size() - 1);
     AbstractCard card = AbstractDungeon.player.masterDeck.group.get(index).makeCopy();
-    if(card.hasTag(CustomTags.Skull)){
+    if(card.hasTag(CustomTags.Skull) || card.hasTag(AbstractCard.CardTags.HEALING)){
         boolean GotReplacement = false;
         if(index != AbstractDungeon.player.masterDeck.size()-1){
-            if(!AbstractDungeon.player.masterDeck.group.get(index+1).hasTag(CustomTags.Skull)){
+            if(!AbstractDungeon.player.masterDeck.group.get(index+1).hasTag(CustomTags.Skull) && !AbstractDungeon.player.masterDeck.group.get(index+1).hasTag(CustomTags.Skull)){
                 AbstractCard card2 = AbstractDungeon.player.masterDeck.group.get(index+1).makeCopy();
                 CardModifierManager.addModifier(card2, new SlimeMod());
                 addToBot(new MakeTempCardInHandAction(card2));

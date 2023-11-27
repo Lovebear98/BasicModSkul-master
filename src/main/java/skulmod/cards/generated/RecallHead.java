@@ -68,9 +68,6 @@ public class RecallHead extends BaseCard {
 
     @Override
     public void upgrade() {
-        if (cardsToPreview != null){
-            cardsToPreview.upgrade();
-        }
         super.upgrade();
     }
 
