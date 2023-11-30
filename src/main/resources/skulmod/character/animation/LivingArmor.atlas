@@ -1,0 +1,188 @@
+
+LivingArmor.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UpscaledLivingArmor/Idle_1
+  rotate: false
+  xy: 643, 893
+  size: 184, 220
+  orig: 184, 220
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Idle_2
+  rotate: false
+  xy: 1, 1091
+  size: 184, 224
+  orig: 184, 224
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Idle_3
+  rotate: false
+  xy: 449, 869
+  size: 192, 224
+  orig: 192, 224
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Idle_4
+  rotate: false
+  xy: 1, 869
+  size: 200, 220
+  orig: 200, 220
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Idle_5
+  rotate: false
+  xy: 715, 675
+  size: 200, 216
+  orig: 200, 216
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Idle_6
+  rotate: false
+  xy: 203, 1071
+  size: 192, 216
+  orig: 192, 216
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Dodge_1
+  rotate: false
+  xy: 559, 1115
+  size: 184, 184
+  orig: 184, 184
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Dodge_2
+  rotate: false
+  xy: 231, 679
+  size: 252, 180
+  orig: 252, 180
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Dodge_3
+  rotate: false
+  xy: 1, 275
+  size: 332, 184
+  orig: 332, 184
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Dodge_4
+  rotate: false
+  xy: 633, 215
+  size: 300, 220
+  orig: 300, 220
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Dodge_5
+  rotate: false
+  xy: 397, 1095
+  size: 160, 220
+  orig: 160, 220
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Attack_1
+  rotate: false
+  xy: 187, 1289
+  size: 164, 212
+  orig: 164, 212
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Attack_2
+  rotate: false
+  xy: 267, 473
+  size: 236, 204
+  orig: 236, 204
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Attack_3
+  rotate: false
+  xy: 1, 659
+  size: 228, 208
+  orig: 228, 208
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Attack_4
+  rotate: false
+  xy: 601, 437
+  size: 236, 208
+  orig: 236, 208
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Attack_5
+  rotate: false
+  xy: 231, 861
+  size: 216, 208
+  orig: 216, 208
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_1
+  rotate: false
+  xy: 839, 437
+  size: 184, 236
+  orig: 184, 236
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_2
+  rotate: false
+  xy: 505, 647
+  size: 208, 220
+  orig: 208, 220
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_3
+  rotate: false
+  xy: 745, 1115
+  size: 156, 216
+  orig: 156, 216
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_4
+  rotate: false
+  xy: 1, 1
+  size: 324, 272
+  orig: 324, 272
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_5
+  rotate: false
+  xy: 633, 1
+  size: 324, 212
+  orig: 324, 212
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_6
+  rotate: false
+  xy: 1, 461
+  size: 264, 196
+  orig: 264, 196
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_7
+  rotate: false
+  xy: 335, 251
+  size: 264, 220
+  orig: 264, 220
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_8
+  rotate: false
+  xy: 327, 1
+  size: 304, 248
+  orig: 304, 248
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_9
+  rotate: false
+  xy: 1, 1317
+  size: 160, 212
+  orig: 160, 212
+  offset: 0, 0
+  index: -1
+UpscaledLivingArmor/Combust_10
+  rotate: false
+  xy: 829, 893
+  size: 184, 220
+  orig: 184, 220
+  offset: 0, 0
+  index: -1

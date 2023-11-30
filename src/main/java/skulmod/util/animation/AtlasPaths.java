@@ -4,7 +4,13 @@ public class AtlasPaths {
     ///The string that decides our animations.
     // We'll store all skulls in Little Bone, even if they're from the booster,
     // since it makes things simple and the design of this makes that less of a sin.
-    //Bless Draco
+    //Bless Draco 17(+1)
+    public static String AbsoluteAnim(){
+        return "Absolute";
+    }
+    public static String BerserkerAnim(){
+        return "Berserker";
+    }
     public static String BomberAnim(){
         return "Bomber";
     }
@@ -25,6 +31,9 @@ public class AtlasPaths {
     }
     public static String GamblerAnim(){
         return "Gambler";
+    }
+    public static String GodOfWarAnim(){
+        return "GodOfWar";
     }
     public static String GreatWarlockAnim(){
         return "GreatWarlock";
@@ -51,12 +60,16 @@ public class AtlasPaths {
         return "Werewolf";
     }
 
-    ///Booster Pack Skulls
+    ///Booster Pack Skulls (5)
     public static String HeroSkullAnim(){
         return "HeroSkull";
     }
     public static String GrimReaperAnim(){
         return "GrimReaper";
+    }
+    public static String LivingArmorAnim(){return "LivingArmor";}
+    public static String Minotaurus(){
+        return "Minotaurus";
     }
     public static String UnknownKingAnim(){
         return "UnknownKing";
@@ -67,55 +80,16 @@ public class AtlasPaths {
 
 
 
-    ///Mythology Skulls
-    public static String AbsoluteAnim(){
-        return "Absolute";
-    }
-
-
-    ///Possible Future Skulls
-
-
-    ///Booster pack Taunt skull that focuses on perfect block.
-    ///Overblocking or underblocking by more than 5 causes him to lose resources and get debuffs
-    ///He has Temperance as a way to control the block he gains each turn
     public static String DemiGod(){
         return "DemiGod";
     }
-
-    ///MADE - Base mod Davy Jones/Absolute triad member - all in one big hit
-    public static String GodOfWarAnim(){
-        return "GodOfWar";
-    }
-
-
-    ///Booster Pack skull focused on Bleed
     public static String Sword(){
         return "Sword";
     }
-
-    ///Booster pack Berserker - Can't provide block to himself, but does huge damage that echoes out to teammates
-    public static String Minotaurus(){
-        return "Minotaurus";
-    }
-
-
-    ///Base mod Champion counterpart, designed to play well with Reaper
-    public static String BerserkerAnim(){
-        return "Berserker";
-    }
-
-    ///Booster Mark skull - more fun synergies with more people
     public static String SamuraiAnim(){
         return "Samurai";
     }
-
-    ///Base mod Unknown King damage-based analog
     public static String YakhsaAnim(){
         return "Yaksha";
     }
-
-
-
-
 }
