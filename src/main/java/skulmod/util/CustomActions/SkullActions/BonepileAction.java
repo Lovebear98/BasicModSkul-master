@@ -133,7 +133,7 @@ public class BonepileAction extends AbstractGameAction {
         }
         ///BOMBER SKULL BONEPILE
         if(as.cardID.equals(BomberSkull.ID)){
-            addToBot(new ApplyPowerAction(p, p, new BomberSkullPower(p, 1)));
+            addToBot(new ApplyPowerAction(p, p, new Gunpowder(p, 1)));
         }
         ///WEREWOLF BONEPILE
         if(as.cardID.equals(WerewolfSkull.ID)){

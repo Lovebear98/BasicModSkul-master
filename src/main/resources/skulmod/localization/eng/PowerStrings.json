@@ -40,9 +40,9 @@
   "${modID}:BomberSkullPower": {
     "NAME": "Skeleton-Bomber",
     "DESCRIPTIONS": [
-      "#yPassive: #yEntangled. At the start of your turn, #ySwap and explode for #b",
-      " damage to ALL enemies. NL #yBonepile: Increase explosion damage by #b1. NL #ySwap: None NL NL The cornerstone of all #ySkull addictions.",
-      " damage to #yALL enemies."
+      "#yPassive: NL #yEntangled after playing cards. NL ALL #yVigor and #yStrength becomes #yGunpowder. NL At the start of your turn, #ySwap and deal #b",
+      " damage to ALL enemies. NL NL #yBonepile: Gain #b1 #yGunpowder.",
+      " The cornerstone of all single #ySkull addictions."
     ]
   },
   "${modID}:HunterPower": {
@@ -376,6 +376,12 @@
       "At the start of the turn, gain #b",
       "At the end of the turn, gain #b",
       " #yStrength."
+    ]
+  },
+  "${modID}:Gunpowder": {
+    "NAME": "Gunpowder",
+    "DESCRIPTIONS": [
+      "Increasing the damage of Skeleton-Bomber's explosion."
     ]
   }
 }
