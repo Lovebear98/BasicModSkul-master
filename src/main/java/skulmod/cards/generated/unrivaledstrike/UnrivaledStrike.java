@@ -31,7 +31,7 @@ public class UnrivaledStrike extends BaseCard {
     private static final int BLOCK = 0;
     private static final int UPG_BLOCK = 0;
 
-    private static final int MAGIC = 0;
+    private static final int MAGIC = 1;
     private static final int UPG_MAGIC = 0;
 
 
