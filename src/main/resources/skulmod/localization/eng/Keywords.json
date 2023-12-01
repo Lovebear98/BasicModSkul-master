@@ -454,5 +454,13 @@
       "bone_scream"
     ],
     "DESCRIPTION": "At the end of the turn, #premove #pall #ppowers and #rdie. When dealing #yFatal #yAttack damage, remove this. During #yBoss or #yElite combat, die next turn instead."
+  },
+  {
+    "PROPER_NAME": "Frostbite",
+    "NAMES": [
+      "Frostbite",
+      "frostbite"
+    ],
+    "DESCRIPTION": "While #yFrozen, take #b1 more #yAttack damage. Removed at the end of the turn after taking #yAttack damage."
   }
 ]

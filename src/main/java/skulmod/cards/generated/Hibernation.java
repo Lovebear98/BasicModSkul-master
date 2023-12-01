@@ -32,8 +32,8 @@ public class Hibernation extends BaseCard {
     private static final int BLOCK = 0;
     private static final int UPG_BLOCK = 0;
 
-    private static final int MAGIC = 0;
-    private static final int UPG_MAGIC = 0;
+    private static final int MAGIC = 10;
+    private static final int UPG_MAGIC = 6;
 
 
 

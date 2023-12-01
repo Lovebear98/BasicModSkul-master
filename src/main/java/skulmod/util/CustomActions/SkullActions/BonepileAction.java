@@ -19,7 +19,6 @@ import skulmod.cards.power.SkullPowers.*;
 import skulmod.orbs.Arrow;
 import skulmod.orbs.Barrier;
 import skulmod.powers.custompowers.*;
-import skulmod.powers.custompowers.skulls.BomberSkullPower;
 import skulmod.util.CustomActions.Cardgen.MakeTempUpgradedCardinDrawAction;
 
 import java.util.Arrays;
@@ -142,7 +141,10 @@ public class BonepileAction extends AbstractGameAction {
         }
         ///FROST SKULL BONEPILE
         if(as.cardID.equals(FrostSkull.ID)){
-                addToBot(new ApplyPowerAction(p, p, (new Frozen(p, 1))));
+                addToBot(new GainBlockAction(p, 2));
+                for(AbstractMonster mo: AbstractDungeon.getCurrRoom().monsters.monsters){
+                    addToBot(new GainBlockAction(mo, 2));
+                }
         }
         ///BERSERKER BONEPILE
         if(as.cardID.equals(FrostSkull.ID)){

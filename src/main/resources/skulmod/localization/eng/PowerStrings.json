@@ -34,7 +34,7 @@
   "${modID}:FrostSkullPower": {
     "NAME": "Frost Skull",
     "DESCRIPTIONS": [
-      "#yPassive: #yBlock lost at the start of the turn becomes a #yHibernation. NL #yBonepile: #yFreeze 1. NL #ySwap: Gain #b10 #yBlock."
+      "#yPassive: #yBlocked #yAttack damage applies that much #yFrostbite. NL #yBonepile: EVERYONE gains #b2 #yBlock. NL #ySwap: Add a #yHibernation to your hand."
     ]
   },
   "${modID}:BomberSkullPower": {
@@ -382,6 +382,13 @@
     "NAME": "Gunpowder",
     "DESCRIPTIONS": [
       "Increasing the damage of Skeleton-Bomber's explosion."
+    ]
+  },
+  "${modID}:Frostbite": {
+    "NAME": "Frostbite",
+    "DESCRIPTIONS": [
+      "Take #b",
+      " extra #yAttack damage while #yFrozen. NL NL Remove this at the end of the turn after triggering it."
     ]
   }
 }

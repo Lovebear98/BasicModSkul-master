@@ -17,6 +17,7 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.combat.EmptyStanceEffect;
 import skulmod.cards.Cardmods.UnrivaledStrikeMod;
 import skulmod.cards.generated.Awakening;
+import skulmod.cards.generated.Hibernation;
 import skulmod.cards.generated.unrivaledstrike.StrategyBook;
 import skulmod.cards.power.SkullPowers.*;
 import skulmod.powers.custompowers.*;
@@ -134,7 +135,7 @@ this.p = AbstractDungeon.player;
         }
         ///FROST SKULL SWAP
         if(c.cardID.equals(FrostSkull.ID)){
-            addToBot(new GainBlockAction(p, 10));
+            addToBot(new MakeTempCardInHandAction(new Hibernation()));
         }
         ///BERSERKER SWAP
         if(c.cardID.equals(BerserkerSkull.ID)){

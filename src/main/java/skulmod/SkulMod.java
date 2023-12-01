@@ -20,7 +20,6 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -36,7 +35,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.scannotation.AnnotationDB;
 import skulmod.cards.BaseCard;
-import skulmod.cards.generated.Hibernation;
 import skulmod.cards.generated.unrivaledstrike.*;
 import skulmod.cards.power.SkullPowers.*;
 import skulmod.character.LittleBone;
@@ -47,7 +45,6 @@ import skulmod.potions.SwapPotion;
 import skulmod.powers.custompowers.DoomedDance;
 import skulmod.powers.custompowers.Grit;
 import skulmod.powers.custompowers.skulls.ClownPower;
-import skulmod.powers.custompowers.skulls.FrostSkullPower;
 import skulmod.powers.custompowers.skulls.PettyThiefPower;
 import skulmod.powers.custompowers.skulls.WarriorSkullPower;
 import skulmod.relics.BaseRelic;
@@ -634,13 +631,6 @@ if(abstractCard.type == AbstractCard.CardType.ATTACK){
     @Override
     public int receiveOnPlayerLoseBlock(int i) {
 if(i > 0){
-    if(AbstractDungeon.player.hasPower(FrostSkullPower.POWER_ID)){
-    Hibernation Shard = new Hibernation();
-    Shard.baseMagicNumber = Shard.magicNumber = i;
-    Shard.update();
-    AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(Shard));
-    }
-
     if(AbstractDungeon.player.hasPower(Grit.POWER_ID)){
         int BlockLost;
         if(AbstractDungeon.player.getPower(Grit.POWER_ID).amount >= i){
