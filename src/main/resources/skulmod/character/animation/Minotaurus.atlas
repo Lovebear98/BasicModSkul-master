@@ -1,0 +1,125 @@
+
+Minotaurus.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Minotaurus/Idle1
+  rotate: false
+  xy: 283, 437
+  size: 280, 224
+  orig: 280, 224
+  offset: 0, 0
+  index: -1
+Minotaurus/Idle2
+  rotate: false
+  xy: 311, 211
+  size: 280, 224
+  orig: 280, 224
+  offset: 0, 0
+  index: -1
+Minotaurus/Idle3
+  rotate: false
+  xy: 1, 215
+  size: 280, 224
+  orig: 280, 224
+  offset: 0, 0
+  index: -1
+Minotaurus/Idle4
+  rotate: false
+  xy: 593, 227
+  size: 280, 224
+  orig: 280, 224
+  offset: 0, 0
+  index: -1
+Minotaurus/Idle5
+  rotate: false
+  xy: 621, 1
+  size: 280, 224
+  orig: 280, 224
+  offset: 0, 0
+  index: -1
+Minotaurus/Stomp1
+  rotate: false
+  xy: 227, 873
+  size: 196, 204
+  orig: 196, 204
+  offset: 0, 0
+  index: -1
+Minotaurus/Stomp2
+  rotate: false
+  xy: 1, 877
+  size: 192, 192
+  orig: 192, 192
+  offset: 0, 0
+  index: -1
+Minotaurus/Stomp3
+  rotate: false
+  xy: 847, 635
+  size: 160, 180
+  orig: 160, 180
+  offset: 0, 0
+  index: -1
+Minotaurus/Stomp4
+  rotate: false
+  xy: 565, 453
+  size: 324, 180
+  orig: 324, 180
+  offset: 0, 0
+  index: -1
+Minotaurus/Attack1
+  rotate: false
+  xy: 1, 441
+  size: 260, 240
+  orig: 260, 240
+  offset: 0, 0
+  index: -1
+Minotaurus/Attack2
+  rotate: false
+  xy: 311, 1
+  size: 308, 208
+  orig: 308, 208
+  offset: 0, 0
+  index: -1
+Minotaurus/Attack3
+  rotate: false
+  xy: 1, 1
+  size: 308, 212
+  orig: 308, 212
+  offset: 0, 0
+  index: -1
+Minotaurus/Attack4
+  rotate: false
+  xy: 565, 635
+  size: 280, 188
+  orig: 280, 188
+  offset: 0, 0
+  index: -1
+Minotaurus/Attack5
+  rotate: false
+  xy: 1, 1071
+  size: 192, 188
+  orig: 192, 188
+  offset: 0, 0
+  index: -1
+Minotaurus/Dodge1
+  rotate: false
+  xy: 263, 663
+  size: 212, 208
+  orig: 212, 208
+  offset: 0, 0
+  index: -1
+Minotaurus/Dodge2
+  rotate: false
+  xy: 1, 683
+  size: 224, 192
+  orig: 224, 192
+  offset: 0, 0
+  index: -1
+Minotaurus/Dodge3
+  rotate: false
+  xy: 477, 825
+  size: 224, 188
+  orig: 224, 188
+  offset: 0, 0
+  index: -1
