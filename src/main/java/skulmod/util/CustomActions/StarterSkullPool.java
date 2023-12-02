@@ -24,7 +24,7 @@ public class StarterSkullPool {
         starterSkull.add(new ClownSkull());
         starterSkull.add(new DarkPaladinSkull());
         starterSkull.add(new DavyJonesSkull());
-        starterSkull.add((new FrostSkull()));
+        ///starterSkull.add((new FrostSkull()));
         starterSkull.add(new GamblerSkull());
         starterSkull.add((new GodOfWarSkull()));
         starterSkull.add(new GreatWarlockSkull());
