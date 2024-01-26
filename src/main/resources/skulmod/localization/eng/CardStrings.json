@@ -63,7 +63,7 @@
   },
   "${modID}:FrostSkull": {
     "NAME": "Frost Skull",
-    "DESCRIPTION": "${modID}:Passive: Blocked *Attack damage becomes that much ${modID}:Frostbite. NL ${modID}:Bonepile: ${modID}:EVERYONE gains 2 Block. NL ${modID}:Swap: Add a *Hibernation to your hand..",
+    "DESCRIPTION": "*Passive: Give Block lost at the start of the turn to ALL enemies. NL *Bonepile: Gain 1 ${modID}:Frozen. NL *Swap: Channel 2 ${modID}:Blizzards.",
     "UPGRADE_DESCRIPTION": "He was informed that he'd need glasses to fix his poor socketsight, so he opted for the coolest pair he could find.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -558,8 +558,8 @@
   },
   "${modID}:IAmTheSea": {
     "NAME": "Everwinter",
-    "DESCRIPTION": "${modID}:Frozen decays by half instead of falling off. NL Gain !M! Strength.",
-    "UPGRADE_DESCRIPTION": "${modID}:Frozen decays by half instead of falling off. NL Gain !M! Strength.",
+    "DESCRIPTION": "Channel !M! ${modID}:Blizzard NL Channel !M! ${modID}:Blizzard at the start of the turn.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Channel !M! ${modID}:Blizzard NL Channel !M! ${modID}:Blizzard at the start of the turn.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -824,8 +824,8 @@
   },
   "${modID}:FrozenSoulForm": {
     "NAME": "Frozen Soul Form",
-    "DESCRIPTION": "Ethereal. NL At the start of your turn, ${modID}:Freeze !M! EVERYONE.",
-    "UPGRADE_DESCRIPTION": "At the start of your turn, ${modID}:Freeze !M! EVERYONE.",
+    "DESCRIPTION": "Ethereal. NL If you end your turn with [E] , spend it to Channel !M! ${modID}:Blizzards for each [E] left.",
+    "UPGRADE_DESCRIPTION": "If you end your turn with [E] , spend it to Channel !M! ${modID}:Blizzards for each [E] left.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]

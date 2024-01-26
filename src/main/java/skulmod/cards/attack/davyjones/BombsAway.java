@@ -75,6 +75,7 @@ public class BombsAway extends BaseCard {
     @Override
 
     public void use(AbstractPlayer p, AbstractMonster m) {
+        ///Make this an action using lastdamagetaken later
         addToBot(new DamageAction(m, new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_HEAVY));
 if(damage != 0){
     if(this.damage > m.currentBlock){

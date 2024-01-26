@@ -1,13 +1,11 @@
 package skulmod.powers.custompowers;
 
 import basemod.interfaces.CloneablePowerInterface;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import skulmod.powers.BasePower;
@@ -45,11 +43,7 @@ public class Frozen extends BasePower implements CloneablePowerInterface {
     @Override
     public void atEndOfRound() {
         super.atEndOfRound();
-if(AbstractDungeon.player.hasPower(EverwinterPower.POWER_ID) && this.amount > 1){
-    addToBot(new ApplyPowerAction(owner, owner, new Frozen(owner, -(this.amount/2))));
-}else{
     addToBot(new RemoveSpecificPowerAction(owner, owner, this));
-}
     }
 
     @Override

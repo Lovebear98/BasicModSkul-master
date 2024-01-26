@@ -83,6 +83,13 @@ public class HydraSlam extends BaseCard {
             loadCardImage(BASEIMG);
             Enhanced = false;
         }
+        if(Enhanced){
+            this.isMultiDamage = true;
+            this.target = CardTarget.ALL_ENEMY;
+        }else{
+            this.isMultiDamage = false;
+            this.target = CardTarget.ENEMY;
+        }
 
         if(CheckAgainst != Enhanced){
             initializeDescription();

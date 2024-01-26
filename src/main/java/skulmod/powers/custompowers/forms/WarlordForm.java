@@ -19,7 +19,7 @@ public class WarlordForm extends BasePower implements CloneablePowerInterface {
     private boolean CausedOutside = TRUE;
     public static Boolean FirstDarkAttack = TRUE;
     private boolean FirstTime = true;
-    private boolean FirstStrike;
+    private boolean FirstStrike = false;
 
 
     //The only thing this controls is the color of the number on the power icon.

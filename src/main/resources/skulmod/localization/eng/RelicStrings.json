@@ -173,6 +173,14 @@
       "#y${modID}:Quintessence. NL Once per combat, #yright #yclick to deal #b9 damage to a random enemy and inflict #y${modID}:Wedged_Spear.",
       ""
     ]
+  },
+  "${modID}:HuntersGift": {
+    "NAME": "Hunter's Gift",
+    "FLAVOR": "Another one? You're greedy like an ogre.",
+    "DESCRIPTIONS": [
+      "On pickup, choose a #y${modID}:Skull to add to your deck.",
+      "Choose a Skull to add to your deck"
+    ]
   }
 }
 

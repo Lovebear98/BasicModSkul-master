@@ -45,10 +45,12 @@ import skulmod.potions.SwapPotion;
 import skulmod.powers.custompowers.DoomedDance;
 import skulmod.powers.custompowers.Grit;
 import skulmod.powers.custompowers.skulls.ClownPower;
+import skulmod.powers.custompowers.skulls.FrostSkullPower;
 import skulmod.powers.custompowers.skulls.PettyThiefPower;
 import skulmod.powers.custompowers.skulls.WarriorSkullPower;
 import skulmod.relics.BaseRelic;
 import skulmod.util.CustomActions.SkullActions.ChooseASkull;
+import skulmod.util.CustomActions.SkullActions.FrostSkullBlockAction;
 import skulmod.util.CustomActions.SkullActions.GenerateCannonballAction;
 import skulmod.util.CustomActions.SkullActions.GotSkullAction;
 import skulmod.util.CustomDynamicVariables.BlockVigor;
@@ -630,20 +632,34 @@ if(abstractCard.type == AbstractCard.CardType.ATTACK){
 
     @Override
     public int receiveOnPlayerLoseBlock(int i) {
-if(i > 0){
-    if(AbstractDungeon.player.hasPower(Grit.POWER_ID)){
-        int BlockLost;
-        if(AbstractDungeon.player.getPower(Grit.POWER_ID).amount >= i){
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new Grit(AbstractDungeon.player, -i)));
-            BlockLost = 0;
-        }else{
-            BlockLost = i - AbstractDungeon.player.getPower(Grit.POWER_ID).amount;
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new Grit(AbstractDungeon.player, -AbstractDungeon.player.getPower(Grit.POWER_ID).amount)));
+        ///Our Block Lost is equal to the number it starts at, i.
+        int BlockLost = i;
+        ///If we're losing any block
+        if(i > 0){
+        ///If the player has Grit
+            if(AbstractDungeon.player.hasPower(Grit.POWER_ID)){
+            ///If Grit is equal to or greater than the block we lose
+                if(AbstractDungeon.player.getPower(Grit.POWER_ID).amount >= i){
+                ///Remove that much Grit
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new Grit(AbstractDungeon.player, -i)));
+                ///And we lose no Block
+                BlockLost = 0;
+                ///otherwise
+                }else{
+                ///The block we're losing is reduced by our current Grit
+                BlockLost = i - AbstractDungeon.player.getPower(Grit.POWER_ID).amount;
+                ///We remove grit equal to the block we lost
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new Grit(AbstractDungeon.player, -AbstractDungeon.player.getPower(Grit.POWER_ID).amount)));
+                }
+            }
+            ///If the player is in Frost Skull
+            if(AbstractDungeon.player.hasPower(FrostSkullPower.POWER_ID)){
+                ///Add to bot an action that uses the block we will be losing appropriately
+                AbstractDungeon.actionManager.addToBottom(new FrostSkullBlockAction(BlockLost));
+            }
         }
+        ///Return the higher between 0 and our Block Lost
         return Math.max(0, BlockLost);
-    }
-}
-        return i;
     }
 }
 

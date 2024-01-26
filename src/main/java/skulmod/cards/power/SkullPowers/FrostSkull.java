@@ -29,7 +29,7 @@ public class FrostSkull extends BaseCard implements SpawnModificationCard {
             -2,
             CardType.POWER,
             CardTarget.NONE,
-            CardRarity.SPECIAL,
+            CardRarity.RARE,
             LittleBone.Enums.CARD_COLOR);
 
     public static final String ID = makeID(cardInfo.baseId);

@@ -47,7 +47,6 @@ public class ChargeModifier extends AbstractCardModifier {
         }
         card.isCostModified = true;
         card.tags.add(AbstractCard.CardTags.STRIKE);
-
     }
 
     @Override

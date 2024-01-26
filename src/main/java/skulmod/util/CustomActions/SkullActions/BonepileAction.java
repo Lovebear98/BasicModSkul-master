@@ -141,10 +141,7 @@ public class BonepileAction extends AbstractGameAction {
         }
         ///FROST SKULL BONEPILE
         if(as.cardID.equals(FrostSkull.ID)){
-                addToBot(new GainBlockAction(p, 2));
-                for(AbstractMonster mo: AbstractDungeon.getCurrRoom().monsters.monsters){
-                    addToBot(new GainBlockAction(mo, 2));
-                }
+            addToBot(new ApplyPowerAction(p, p, new Frozen(p, 1)));
         }
         ///BERSERKER BONEPILE
         if(as.cardID.equals(FrostSkull.ID)){

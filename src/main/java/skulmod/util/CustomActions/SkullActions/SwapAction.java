@@ -4,6 +4,7 @@ import basemod.helpers.CardModifierManager;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.*;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.actions.defect.IncreaseMaxOrbAction;
 import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.actions.watcher.NotStanceCheckAction;
@@ -17,9 +18,9 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.combat.EmptyStanceEffect;
 import skulmod.cards.Cardmods.UnrivaledStrikeMod;
 import skulmod.cards.generated.Awakening;
-import skulmod.cards.generated.Hibernation;
 import skulmod.cards.generated.unrivaledstrike.StrategyBook;
 import skulmod.cards.power.SkullPowers.*;
+import skulmod.orbs.Blizzard;
 import skulmod.powers.custompowers.*;
 import skulmod.powers.custompowers.skulls.AbsoluteSkullPower;
 import skulmod.powers.custompowers.skulls.GamblerPower;
@@ -135,7 +136,8 @@ this.p = AbstractDungeon.player;
         }
         ///FROST SKULL SWAP
         if(c.cardID.equals(FrostSkull.ID)){
-            addToBot(new MakeTempCardInHandAction(new Hibernation()));
+            addToBot(new ChannelAction(new Blizzard()));
+            addToBot(new ChannelAction(new Blizzard()));
         }
         ///BERSERKER SWAP
         if(c.cardID.equals(BerserkerSkull.ID)){

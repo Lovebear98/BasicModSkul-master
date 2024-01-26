@@ -76,7 +76,7 @@ public class BlackbeardForm extends BasePower implements CloneablePowerInterface
                 AbstractCard c = (AbstractCard)var2.next();
                 if (!c.isEthereal && c.type == AbstractCard.CardType.ATTACK) {
                     c.retain = true;
-                    BallGen += 1;
+                    BallGen += this.amount;
                 }
             }
         }

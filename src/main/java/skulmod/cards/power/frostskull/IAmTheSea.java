@@ -1,13 +1,14 @@
 package skulmod.cards.power.frostskull;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
+import skulmod.orbs.Blizzard;
 import skulmod.powers.custompowers.EverwinterPower;
 import skulmod.util.CardInfo;
 
@@ -31,7 +32,7 @@ public class IAmTheSea extends BaseCard {
     private static final int UPG_BLOCK = 0;
 
     private static final int MAGIC = 1;
-    private static final int UPG_MAGIC = 1;
+    private static final int UPG_MAGIC = 0;
 
 
 
@@ -41,10 +42,7 @@ public class IAmTheSea extends BaseCard {
         setDamage(DAMAGE, UPG_DAMAGE);
         setBlock(BLOCK, UPG_BLOCK);
         this.setMagic(MAGIC, UPG_MAGIC);
-        setCostUpgrade(0);
-
-
-
+        setInnate(false, true);
     }
 
     @Override
@@ -75,8 +73,8 @@ public class IAmTheSea extends BaseCard {
     @Override
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-addToBot(new ApplyPowerAction(p, p, new EverwinterPower(p, -2)));
-addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, magicNumber)));
+        addToBot(new ChannelAction(new Blizzard()));
+        addToBot(new ApplyPowerAction(p, p, new EverwinterPower(p, 1)));
     }
 
     @Override

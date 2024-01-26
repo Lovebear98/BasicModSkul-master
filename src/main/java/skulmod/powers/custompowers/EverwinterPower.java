@@ -1,9 +1,11 @@
 package skulmod.powers.custompowers;
 
 import basemod.interfaces.CloneablePowerInterface;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import skulmod.orbs.Blizzard;
 import skulmod.powers.BasePower;
 
 import static java.lang.Boolean.TRUE;
@@ -29,7 +31,9 @@ public class EverwinterPower extends BasePower implements CloneablePowerInterfac
 
     @Override
     public void atStartOfTurn() {
-
+        for(int Loops = this.amount; Loops > 0; Loops -= 1){
+            addToBot(new ChannelAction(new Blizzard()));
+        }
     }
 
 
@@ -48,10 +52,7 @@ public class EverwinterPower extends BasePower implements CloneablePowerInterfac
 
 
 
-    @Override
-    public void atStartOfTurnPostDraw() {
 
-    }
 
 
 
@@ -73,7 +74,11 @@ public class EverwinterPower extends BasePower implements CloneablePowerInterfac
 
 
     public void updateDescription() {
-        this.description = DESCRIPTIONS[0];
+        if(this.amount == 1){
+            this.description = DESCRIPTIONS[0]+this.amount+DESCRIPTIONS[1]+DESCRIPTIONS[3];
+        }else{
+            this.description = DESCRIPTIONS[0]+this.amount+DESCRIPTIONS[1]+DESCRIPTIONS[2]+DESCRIPTIONS[3];
+        }
     }
 
     //Optional, for CloneablePowerInterface.

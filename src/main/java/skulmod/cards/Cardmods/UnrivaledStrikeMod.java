@@ -69,7 +69,6 @@ public class UnrivaledStrikeMod extends AbstractCardModifier {
             ExtraIcons.icon(CardmodIcons.BigLaughingArrow).render(card);
         }
     }
-
     @Override
     public boolean isInherent(AbstractCard card) {
         return true;
@@ -98,6 +97,7 @@ public class UnrivaledStrikeMod extends AbstractCardModifier {
                 targetCard.applyPowers();
             }
             targetCard.initializeDescription();
+            targetCard.applyPowers();
             return false;
         }
         return true;

@@ -1,16 +1,15 @@
 package skulmod.powers.custompowers.forms;
 
 import basemod.interfaces.CloneablePowerInterface;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
+import com.megacrit.cardcrawl.actions.unique.LoseEnergyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
+import skulmod.orbs.Blizzard;
 import skulmod.powers.BasePower;
-import skulmod.powers.custompowers.Frozen;
-
-import java.util.Iterator;
 
 import static skulmod.SkulMod.makeID;
 
@@ -56,20 +55,16 @@ public class FrozenSoulForm extends BasePower implements CloneablePowerInterface
 
     }
 
-
     @Override
-    public void atStartOfTurn() {
-        addToBot(new ApplyPowerAction(owner, owner, new Frozen(owner, this.amount)));
-        Iterator var3 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
-
-        AbstractMonster mo;
-        while(var3.hasNext()) {
-            mo = (AbstractMonster)var3.next();
-            if(!mo.isDeadOrEscaped() && !mo.isDying && !mo.isDead && !mo.halfDead){
-                addToBot(new ApplyPowerAction(mo, owner, new Frozen(mo, this.amount)));
+    public void atEndOfTurn(boolean isPlayer) {
+        super.atEndOfTurn(isPlayer);
+        if(EnergyPanel.totalCount > 0){
+            int En = EnergyPanel.totalCount;
+            addToBot(new LoseEnergyAction(En));
+            for(int Loops = En * this.amount; Loops > 0; Loops -= 1){
+                addToBot(new ChannelAction(new Blizzard()));
             }
         }
-        super.atStartOfTurn();
     }
 
     @Override

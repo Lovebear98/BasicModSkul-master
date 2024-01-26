@@ -328,6 +328,8 @@ public class LittleBone extends CustomPlayer {
 
         ///If we're calling our current Skull, skip loading a new atlas and just play an animation
         if(!Objects.equals(CurrentSkull, Skull)){
+            ///Set the 'Current Skull' to our current skull so we know not to load the atlas next time if we don't have to
+            CurrentSkull = Skull;
             ///Otherwise, load an animation using the string we chose for the Skull's file
             this.loadAnimation(characterPath("animation/"+Skull+".atlas"), characterPath("animation/"+Skull+".json"), 1f);
         }
@@ -340,10 +342,6 @@ public class LittleBone extends CustomPlayer {
 
     ///Then play the idle animation afterwards
     AbstractDungeon.player.state.addAnimation(0, "IDLE", true, 0.0F);// 375
-
-
-        ///Set the 'Current Skull' to our current skull so we know not to load the atlas if we don't have to
-        CurrentSkull = Skull;
     }
 
 }

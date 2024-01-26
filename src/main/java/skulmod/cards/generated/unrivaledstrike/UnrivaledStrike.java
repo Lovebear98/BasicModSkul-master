@@ -1,5 +1,6 @@
 package skulmod.cards.generated.unrivaledstrike;
 
+import basemod.abstracts.AbstractCardModifier;
 import basemod.helpers.CardModifierManager;
 import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -10,6 +11,8 @@ import skulmod.cards.BaseCard;
 import skulmod.cards.Cardmods.UnrivaledStrikeMod;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
+
+import java.util.List;
 
 import static skulmod.SkulMod.makeID;
 
@@ -73,7 +76,23 @@ public class UnrivaledStrike extends BaseCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
 
     }
-
+    @Override
+    public void applyPowers() {
+        super.applyPowers();
+        List<AbstractCardModifier> tensionMod = CardModifierManager.getModifiers(this, "UnrivaledStrikeMod");
+        if (!tensionMod.isEmpty()) {
+            if(((UnrivaledStrikeMod) tensionMod.get(0)).PeerlessBlow >= 1){
+                this.target = CardTarget.ENEMY;
+                this.isMultiDamage = false;
+            }else{
+                this.target = CardTarget.ALL_ENEMY;
+                this.isMultiDamage = true;
+            }
+        }else{
+            this.target = CardTarget.ALL_ENEMY;
+            this.isMultiDamage = true;
+        }
+    }
     @Override
     public void calculateCardDamage(AbstractMonster mo) {
         super.calculateCardDamage(mo);

@@ -54,5 +54,16 @@
       " when you play a card.",
       ""
     ]
+  },
+  "${modID}:Blizzard": {
+    "NAME": "Blizzard",
+    "DESCRIPTION": [
+      "#yPassive: At the end of your turn, ALL enemies lose HP equal to their #yBlock, up to #b",
+      ". NL #yEvoke: EVERYONE gains #b",
+      " #yBlock.",
+      "",
+      "",
+      ""
+    ]
   }
 }

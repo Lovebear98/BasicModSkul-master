@@ -22,19 +22,19 @@
   "${modID}:DavyJonesPower": {
     "NAME": "Davy Jones",
     "DESCRIPTIONS": [
-      "#yPassive: Gain #yVigor on #yEvoke. NL NL #yBonepile: Channel a #yCannonball. NL NL #ySwap: Channel #b4 #yCannonballs."
+      "#yPassive: Gain #yVigor on #yEvoke. NL NL #yBonepile: #yChannel a #yCannonball. NL NL #ySwap: #yChannel #b4 #yCannonballs."
     ]
   },
   "${modID}:ShieldSkullPower": {
     "NAME": "Skeleton-Shield",
     "DESCRIPTIONS": [
-      "#yPassive: Deal your #yDexterity as damage to attackers. NL NL #yBonepile: Channel a #yBarrier. NL NL #ySwap: Gain #b5 #yDexterity until your next turn."
+      "#yPassive: Deal your #yDexterity as damage to attackers. NL NL #yBonepile: #yChannel a #yBarrier. NL NL #ySwap: Gain #b5 #yDexterity until your next turn."
     ]
   },
   "${modID}:FrostSkullPower": {
     "NAME": "Frost Skull",
     "DESCRIPTIONS": [
-      "#yPassive: #yBlocked #yAttack damage applies that much #yFrostbite. NL #yBonepile: EVERYONE gains #b2 #yBlock. NL #ySwap: Add a #yHibernation to your hand."
+      "#yPassive: Give #yBlock lost at the start of the turn to ALL enemies. NL #yBonepile: Gain #b1 #yFrozen. NL #ySwap: #yChannel #b2 #yBlizzards."
     ]
   },
   "${modID}:BomberSkullPower": {
@@ -48,7 +48,7 @@
   "${modID}:HunterPower": {
     "NAME": "Hunter",
     "DESCRIPTIONS": [
-      "#yPassive: #yChannel an #yArrow when you play an #yAttack. NL NL #yBonepile: Channel #b1 #yArrow. NL NL #ySwap: Gain an empty orb slot."
+      "#yPassive: #yChannel an #yArrow when you play an #yAttack. NL NL #yBonepile: #yChannel #b1 #yArrow. NL NL #ySwap: Gain an empty orb slot."
     ]
   },
   "${modID}:PettyThiefPower": {
@@ -153,7 +153,11 @@
   "${modID}:IAmTheSeaPower": {
     "NAME": "Everwinter",
     "DESCRIPTIONS": [
-      "#yFrozen decays by half instead of falling off."
+      "#yChannel #b",
+      " #yBlizzard",
+      "s",
+      " at the start of the turn.",
+      "0+1+3"
     ]
   },
   "${modID}:DarkPaladinPower": {
@@ -241,8 +245,8 @@
   "${modID}:FrozenSoulForm": {
     "NAME": "Frozen Soul Form",
     "DESCRIPTIONS": [
-      "At the start of your turn, apply #b",
-      " #yFreeze to #rEVERYONE."
+      "If you end your turn with [E] left, #yChannel #b",
+      " #yBlizzards for each [E] remaining."
     ]
   },
   "${modID}:GuardianForm": {
@@ -278,7 +282,7 @@
   "${modID}:SniperForm": {
     "NAME": "Sniper Form",
     "DESCRIPTIONS": [
-      "#yAttack damage becomes #r1. NL Playing #ySkills grants #b",
+      "#yAttack damage becomes #r3. NL Playing #ySkills grants #b",
       " #yTemporary #yFocus. NL #yAttacks inflict #b",
       " #yLock-On."
     ]

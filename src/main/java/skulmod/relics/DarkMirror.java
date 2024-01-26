@@ -7,8 +7,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 import skulmod.CustomTags;
-import skulmod.cards.power.SkullPowers.ChampionSkull;
-import skulmod.cards.power.SkullPowers.DavyJonesSkull;
+import skulmod.cards.power.SkullPowers.*;
 import skulmod.character.LittleBone;
 
 import java.util.ArrayList;
@@ -54,8 +53,11 @@ public class DarkMirror extends BaseRelic {
             AbstractCard c = (AbstractDungeon.gridSelectScreen.selectedCards.get(0)).makeStatEquivalentCopy();
             if(c.hasTag(CustomTags.Skull)){
                 ArrayList<AbstractCard> DarkMirrorSkull = new ArrayList<>();
+                DarkMirrorSkull.add(new BerserkerSkull());
                 DarkMirrorSkull.add(new ChampionSkull());
                 DarkMirrorSkull.add(new DavyJonesSkull());
+                DarkMirrorSkull.add(new FrostSkull());
+                DarkMirrorSkull.add(new AbsoluteSkull());
                 c = DarkMirrorSkull.get(AbstractDungeon.cardRng.random(DarkMirrorSkull.size() - 1));
             }
             c.inBottleFlame = false;
