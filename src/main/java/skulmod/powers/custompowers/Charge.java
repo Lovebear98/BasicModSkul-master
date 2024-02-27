@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import skulmod.cards.Cardmods.ChargeModifier;
 import skulmod.powers.BasePower;
+import skulmod.util.vars;
 
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
@@ -47,7 +48,7 @@ public class Charge extends BasePower implements CloneablePowerInterface {
                 this.amount = 5;
                 if(HitMaxStacks == FALSE){
                     CardCrawlGame.sound.play("SKUL_CHARGECAP", 0.6f);
-                    addToBot(new SelectCardsInHandAction(1, "CHARGE", true, true, card -> card.type.equals(AbstractCard.CardType.ATTACK) && card.cost != -1 && card.cost != -2, ToExhaust -> {
+                    addToBot(new SelectCardsInHandAction(1, vars.Charge(), true, true, card -> card.type.equals(AbstractCard.CardType.ATTACK) && card.cost != -1 && card.cost != -2, ToExhaust -> {
                         for (AbstractCard c : ToExhaust) {
                             CardModifierManager.addModifier(c, new ChargeModifier());
 
@@ -70,7 +71,7 @@ public class Charge extends BasePower implements CloneablePowerInterface {
         if(this.amount >= 5){
             if(HitMaxStacks == FALSE){
                 CardCrawlGame.sound.play("SKUL_CHARGECAP", 0.6f);
-                addToBot(new SelectCardsInHandAction(1, "CHARGE", true, true, card -> card.type.equals(AbstractCard.CardType.ATTACK) && card.cost != -1 && card.cost != -2, ToExhaust -> {
+                addToBot(new SelectCardsInHandAction(1, vars.Charge(), true, true, card -> card.type.equals(AbstractCard.CardType.ATTACK) && card.cost != -1 && card.cost != -2, ToExhaust -> {
                     for (AbstractCard c : ToExhaust) {
                         CardModifierManager.addModifier(c, new ChargeModifier());
 

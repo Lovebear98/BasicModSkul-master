@@ -1,4 +1,11 @@
 {
+  "${modID}:SkulUI": {
+    "TEXT": [
+      "Choose a Skull to SHATTER. You will lose the Skull.",
+      "Discard",
+      "CHARGE"
+    ]
+  },
   "${modID}:Example": {
     "TEXT": [
       "1",
@@ -29,9 +36,9 @@
     },
     "${modID}:BulletToolTips": {
       "TEXT": [
-        "Ammo",
-        "This is the current ammo. Some cards require the ammo to be used.",
-        "The #r ammo is empty."
+        "",
+        "",
+        ""
       ]
     },
     "${modID}:SkullTag": {

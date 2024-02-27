@@ -1,4 +1,11 @@
 {
+  "${modID}:SkulUI": {
+    "TEXT": [
+      "Choose a Skull to SHATTER. You will lose the Skull.",
+      "丢弃",
+      "CHARGE"
+    ]
+  },
   "${modID}:Example": {
     "TEXT": [
       "1",
@@ -20,27 +27,27 @@
       "This is a key": "This is a value."
     }
   },
-    "${modID}:ReloadButtonUI": {
-      "TEXT": [
-        "Swap",
-        "Swap",
-        "Swap"
-      ]
-    },
-    "${modID}:BulletToolTips": {
-      "TEXT": [
-        "Ammo",
-        "This is the current ammo. Some cards require the ammo to be used.",
-        "The #r ammo is empty."
-      ]
-    },
-    "${modID}:SkullTag": {
-      "TEXT": [
-        "Ammo",
-        "1",
-        "2"
-      ]
-    },
+  "${modID}:ReloadButtonUI": {
+    "TEXT": [
+      "Swap",
+      "Swap",
+      "Swap"
+    ]
+  },
+  "${modID}:BulletToolTips": {
+    "TEXT": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "${modID}:SkullTag": {
+    "TEXT": [
+      "Ammo",
+      "1",
+      "2"
+    ]
+  },
   "${modID}:SwapButton": {
     "TEXT": [
       "Swap",
@@ -48,28 +55,28 @@
       "2"
     ]
   },
-    "${modID}:ModConfigs": {
-      "NAME": [
-        "0"
-      ],
-      "FLAVOR": [
-        "1"
-      ],
-      "TEXT": [
-        "Enable Skul:The Hero Slayer Cards Content",
-        "1",
-        "2"
-      ],
-      "EXTRA_TEXT": [
-        "ExtraTitle",
-        "ExtraDescription"
-      ]
-    },
+  "${modID}:ModConfigs": {
+    "NAME": [
+      "0"
+    ],
+    "FLAVOR": [
+      "1"
+    ],
+    "TEXT": [
+      "Enable Skul:The Hero Slayer Cards Content",
+      "1",
+      "2"
+    ],
+    "EXTRA_TEXT": [
+      "ExtraTitle",
+      "ExtraDescription"
+    ]
+  },
   "${modID}:BonyMod": {
     "TEXT": [
       "Bony ",
       "",
-      "Convert 25% of the card's original #yBlock and damage into #yBonepile."
+      "Convert 25% of the card's original #yBlock and damage into #y骨头能力."
     ]
   },
   "${modID}:PunnyMod": {
@@ -104,7 +111,7 @@
     "TEXT": [
       "",
       " of War",
-      "Gain 1 #yCharge."
+      "Gain #yCharge equal to its cost when played."
     ]
   },
   "${modID}:FrozenMod": {
@@ -112,6 +119,21 @@
       "Frozen ",
       "",
       "Reduce cost to #b0. NL Reduce damage to #b0."
+    ]
+  },
+  "${modID}:ZoomiesMod": {
+    "TEXT": [
+      "Zoo-",
+      "-mies",
+      "When played, 丢弃 #b2 cards from your draw pile and draw #b1 card."
+    ]
+  }
+,
+  "${modID}:DarkPalMod": {
+    "TEXT": [
+      "",
+      "'s Revenge",
+      "When played, take #b8 damage and gain [E] ."
     ]
   }
 }

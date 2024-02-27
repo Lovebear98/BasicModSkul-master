@@ -93,7 +93,7 @@
       "Fortress",
       "fortress"
     ],
-    "DESCRIPTION":"#g2: Gain #b2 #yBlock each turn, affected by #yDexterity. NL #g5: Gain #b2 more #yBlock each turn. NL #gMasterpiece #g6: Gain #b2 #yDexterity."
+    "DESCRIPTION":"#g2: Gain #b2 #y阻止 each turn, affected by #yDexterity. NL #g5: Gain #b2 more #y阻止 each turn. NL #gMasterpiece #g6: Gain #b2 #yDexterity."
   },
   {
     "PROPER_NAME": "Revenge",
@@ -101,7 +101,7 @@
       "Revenge",
       "revenge"
     ],
-    "DESCRIPTION":"#g3: Inflict #b25% of the first damage you take each turn to the attacker as #yRevenge. NL #g5: The #yRevenge applied becomes #b50%. NL #gMasterpiece #g6: Also gain [E] the turn after you take unblocked damage. NL "
+    "DESCRIPTION":"#g3: Inflict #b25% of the first damage you take each turn to the attacker as #yRevenge. NL #g5: The #yRevenge applied becomes #b50%. NL #gMasterpiece #g6: Also gain [E] the turn after you take 畅通无阻 damage. NL "
   },
   {
     "PROPER_NAME": "Item",
@@ -125,7 +125,7 @@
       "Skulls",
       "skulls"
     ],
-    "DESCRIPTION": "Your #gactive #ySkull changes your #yPassive and #yBonepile. If you own more than 2 #ySkulls at the start of combat, shatter your choice until you have 2. NL NL #ySkulls are always #yExhausted, #ycannot #yupgrade, and #ycannot #ybe #ybottled."
+    "DESCRIPTION": "Your #gactive #ySkull changes your #yPassive and #y骨头能力. If you own more than 2 #ySkulls at the start of combat, shatter your choice until you have 2. NL NL #ySkulls are always #yExhausted, #ycannot #yupgrade, and #ycannot #ybe #ybottled."
   },
   {
     "PROPER_NAME": "Passive",
@@ -136,12 +136,12 @@
     "DESCRIPTION": "A constant effect provided by the #gactive #ySkull."
   },
   {
-    "PROPER_NAME": "Bonepile",
+    "PROPER_NAME": "骨头能力",
     "NAMES": [
-      "Bonepile",
-      "bonepile"
+      "骨头能力",
+      "骨头能力"
     ],
-    "DESCRIPTION": "A triggered effect based on your #gactive #ySkull. NL Defaults to #b2 #yBlock."
+    "DESCRIPTION": "A triggered effect based on your #gactive #ySkull. NL Defaults to #b2 #y阻止."
   },
   {
     "PROPER_NAME": "Swap",
@@ -168,14 +168,14 @@
       "Empty_Head",
       "empty_head"
     ],
-    "DESCRIPTION": "#yEvoke: #yBonepile"
+    "DESCRIPTION": "#yEvoke: #y骨头能力"
   },
   {
     "PROPER_NAME": "Unobstructed",
     "NAMES": [
       "unobstructed"
     ],
-    "DESCRIPTION": "Damage not prevented by #Temporary #yHP or #yBlock."
+    "DESCRIPTION": "Damage not prevented by #Temporary #yHP or #y阻止."
   },
   {
     "PROPER_NAME": "Counterattack",
@@ -183,7 +183,7 @@
       "Counterattack",
       "counterattack"
     ],
-    "DESCRIPTION": "Deal #ynon-attack damage equal to the unblocked damage taken."
+    "DESCRIPTION": "Deal #ynon-attack damage equal to the 畅通无阻 damage taken."
   },
 
   {
@@ -222,15 +222,12 @@
       "Oblivion",
       "oblivion"
     ],
-    "DESCRIPTION":"Reduce the next unblocked damage you take once. NL Once per turn, increase the next damage you deal."
+    "DESCRIPTION":"Reduce the next 畅通无阻 damage you take once. NL Once per turn, increase the next damage you deal."
   },
   {
-    "PROPER_NAME": "Gamble",
+    "PROPER_NAME": "赌",
     "NAMES": [
-      "Gamble",
-      "gamble",
-      "Gambles",
-      "gambles"
+      "赌"
     ],
     "DESCRIPTION": "#b20% chance to gain 1 #yStrength, #yDexterity, or #yFocus."
   },
@@ -256,7 +253,7 @@
       "Burn",
       "burn"
     ],
-    "DESCRIPTION": "Unblocked #yNon-Attack damage against the owner will be doubled once."
+    "DESCRIPTION": "畅通无阻 #yNon-Attack damage against the owner will be doubled once."
   },
   {
     "PROPER_NAME": "Pay",
@@ -284,14 +281,12 @@
     "DESCRIPTION": "Attacking the target removes half of this, at least #b5, and grants #yGold equal to that amount."
   },
   {
-    "PROPER_NAME": "Imitation",
+    "PROPER_NAME": "仿制",
     "NAMES": [
-      "Imitation",
-      "imitation",
-      "Imitations",
-      "imitations"
+      "仿制品",
+      "仿制"
     ],
-    "DESCRIPTION": "A random card of any color. Its cost becomes #b0 and it #yPurges. #yImitations in your hand are #yPurged when you play a card."
+    "DESCRIPTION": "A random card of any color. Its cost becomes #b0 and it #yPurges. #y仿制品 in your hand are #yPurged when you play a card."
   },
   {
     "PROPER_NAME": "Concentration",
@@ -358,7 +353,7 @@
     "NAMES": [
       "grit"
     ],
-    "DESCRIPTION": "Retain the next #b1 #yBlock you'd lose at the start of the turn."
+    "DESCRIPTION": "Retain the next #b1 #y阻止 you'd lose at the start of the turn."
   },
   {
     "PROPER_NAME": "Wedged Spear",

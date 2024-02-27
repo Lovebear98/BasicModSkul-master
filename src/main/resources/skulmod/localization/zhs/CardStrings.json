@@ -1,21 +1,21 @@
 {
   "${modID}:NonCardKeywords": {
     "NAME": "Fake ",
-    "DESCRIPTION": "${modID}:Imitation. ",
-    "UPGRADE_DESCRIPTION": "${modID}:Imitation. ",
+    "DESCRIPTION": "${modID}:仿制. ",
+    "UPGRADE_DESCRIPTION": "${modID}:仿制. ",
     "EXTENDED_DESCRIPTION": [
-      "${modID}:Imitation. NL ",
-      " NL ${modID}:Bonepile ",
-      " NL Make 2 ${modID}:Imitations",
-      " NL ${modID}:Gamble ",
+      "${modID}:仿制. NL ",
+      " NL ${modID}:骨头能力 ",
+      " NL Make 2 ${modID}:仿制品",
+      " NL ${modID}:赌博 ",
       " times.",
       "Pay ",
-      " *Gold: NL ",
-      " NL Gain [E] if you have no Block.",
+      " *金: NL ",
+      " NL Gain [E] if you have no 阻止.",
       " NL Gain 1 ${modID}:Charge.",
       " NL After gaining ",
-      " *Gold, also gain !B! Block.",
-      " NL Gain !B! Block."
+      " *金, also gain !B! 阻止.",
+      " NL Gain !B! 阻止."
     ]
   },
   "${modID}:Cannonfire": {
@@ -36,15 +36,15 @@
   },
   "${modID}:Defend": {
     "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block.",
+    "DESCRIPTION": "Gain !B! 阻止.",
+    "UPGRADE_DESCRIPTION": "Gain !B! 阻止.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:DarkPaladinSkull": {
     "NAME": "Dark Paladin",
-    "DESCRIPTION": "${modID}:Passive: Fully *Blocking grants 4 ${modID}:Oblivion. NL ${modID}:Bonepile: ${modID}:Grit 2. NL ${modID}:Swap: Gain 8 *Oblivion.",
+    "DESCRIPTION": "${modID}:Passive: Fully *阻塞 grants 4 ${modID}:Oblivion. NL ${modID}:骨头能力: ${modID}:Grit 2. NL ${modID}:Swap: Gain 8 *Oblivion.",
     "UPGRADE_DESCRIPTION": "While he exudes an aura of bloodthirsty vengeance, he actually has a soft spot for stuffed animals - especially cats.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -52,7 +52,7 @@
   },
   "${modID}:WerewolfSkull": {
     "NAME": "Werewolf",
-    "DESCRIPTION": "${modID}:Passive: Deal damage equal to your ${modID}:Total_Cards when *Reshuffling. NL ${modID}:Bonepile: Draw and randomly discard 1 card. NL ${modID}:Swap: *Reshuffle.",
+    "DESCRIPTION": "${modID}:Passive: Deal damage equal to your ${modID}:Total_Cards when *Reshuffling. NL ${modID}:骨头能力: Draw and randomly discard 1 card. NL ${modID}:Swap: *Reshuffle.",
     "UPGRADE_DESCRIPTION": "Loaded up on caffeine and ADHD medication, the only thing stopping him from ascending to a higher plane is the Sundial he won't let go of.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -60,7 +60,7 @@
   },
   "${modID}:FrostSkull": {
     "NAME": "Frost Skull",
-    "DESCRIPTION": "${modID}:Passive: Block lost at turn start becomes a *Hibernation. NL ${modID}:Bonepile: ${modID}:Freeze 1. NL ${modID}:Swap: Gain 10 Block.",
+    "DESCRIPTION": "${modID}:Passive: 街区 lost at turn start becomes a *Hibernation. NL ${modID}:骨头能力: ${modID}:Freeze 1. NL ${modID}:Swap: Gain 10 阻止.",
     "UPGRADE_DESCRIPTION": "He was informed that he'd need glasses to fix his poor socketsight, so he opted for the coolest pair he could find.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -76,7 +76,7 @@
   },
   "${modID}:GrimReaperSkull": {
     "NAME": "Grim Reaper",
-    "DESCRIPTION": "*Passive: *Fatal *Attacks grant a ${modID}:Soul. NL *Bonepile: ${modID}:Embrace 2 HP. NL *Swap: ${modID}:Harvest.",
+    "DESCRIPTION": "*Passive: *Fatal *Attacks grant a ${modID}:Soul. NL *骨头能力: ${modID}:Embrace 2 HP. NL *Swap: ${modID}:Harvest.",
     "UPGRADE_DESCRIPTION": "He has successfully fooled you into reading a 12-line card broken up into 3 keywords.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -84,7 +84,7 @@
   },
   "${modID}:LittleBoneSkull": {
     "NAME": "Little Bone",
-    "DESCRIPTION": "${modID}:Passive: Take 1 less damage. NL ${modID}:Bonepile: Gain 2 Block. NL ${modID}:Swap: Gain [E] [E] .",
+    "DESCRIPTION": "${modID}:Passive: Take 1 less damage. NL ${modID}:骨头能力: Gain 2 阻止. NL ${modID}:Swap: Gain [E] [E] .",
     "UPGRADE_DESCRIPTION": "We suggest guarding your shins before attempting to engage the skeleton.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -92,7 +92,7 @@
   },
   "${modID}:PettyThiefSkull": {
     "NAME": "Petty Thief",
-    "DESCRIPTION": "${modID}:Passive: Gaining *Gold randomly deals that much damage. NL ${modID}:Bonepile: Gain 4 *Gold. NL ${modID}:Swap: Block with *Gold this turn.",
+    "DESCRIPTION": "${modID}:Passive: Gaining *金 randomly deals that much damage. NL ${modID}:骨头能力: Gain 4 *金. NL ${modID}:Swap: 阻止 with *金 this turn.",
     "UPGRADE_DESCRIPTION": "He wishes he could rob you again, but there's only so many times he can put your wallet back before it gets boring.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -100,15 +100,15 @@
   },
   "${modID}:ShieldSkull": {
     "NAME": "Skeleton-Shield",
-    "DESCRIPTION": "${modID}:Passive: *Dexterity doubles as *Thorns. NL ${modID}:Bonepile: *Channel 1 ${modID}:Barrier. NL ${modID}:Swap: Gain 5 *Dexterity until next turn.",
-    "UPGRADE_DESCRIPTION": "A mighty warrior whose legendary shield never once failed to deflect an attack. Failing to block, however...",
+    "DESCRIPTION": "${modID}:Passive: *Dexterity doubles as *Thorns. NL ${modID}:骨头能力: *Channel 1 ${modID}:Barrier. NL ${modID}:Swap: Gain 5 *Dexterity until next turn.",
+    "UPGRADE_DESCRIPTION": "A mighty warrior whose legendary shield never once failed to deflect an attack. Failing to 阻止, however...",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:HunterSkull": {
     "NAME": "Hunter",
-    "DESCRIPTION": "${modID}:Passive: *Attacks Channel an ${modID}:Arrow. NL ${modID}:Bonepile: Channel 1 ${modID}:Arrow. NL ${modID}:Swap: Gain an empty orb slot.",
+    "DESCRIPTION": "${modID}:Passive: *Attacks Channel an ${modID}:Arrow. NL ${modID}:骨头能力: Channel 1 ${modID}:Arrow. NL ${modID}:Swap: Gain an empty orb slot.",
     "UPGRADE_DESCRIPTION": "Shooting the apple off his own head didn't go so well the first time, but he was able to practice until he got it right.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -116,7 +116,7 @@
   },
   "${modID}:ClownSkull": {
     "NAME": "Clown",
-    "DESCRIPTION": "${modID}:Passive: Your first card each turn costs 0. NL ${modID}:Bonepile: Add an ${modID}:Imitation to your hand. NL ${modID}:Swap: *Bonepile 2.",
+    "DESCRIPTION": "${modID}:Passive: Your first card each turn costs 0. NL ${modID}:骨头能力: Add an ${modID}:仿制 to your hand. NL ${modID}:Swap: *骨头能力 2.",
     "UPGRADE_DESCRIPTION": "Off with his head! Well, it's not very productive, but it is dramatic.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -124,7 +124,7 @@
   },
   "${modID}:GreatWarlockSkull": {
     "NAME": "Great Warlock",
-    "DESCRIPTION": "${modID}:Passive: Attack damage applies *Concentration. NL ${modID}:Bonepile: Reduce ALL ${modID}:Concentration. NL ${modID}:Swap: Remove ALL *Concentration.",
+    "DESCRIPTION": "${modID}:Passive: Attack damage applies *Concentration. NL ${modID}:骨头能力: Reduce ALL ${modID}:Concentration. NL ${modID}:Swap: Remove ALL *Concentration.",
     "UPGRADE_DESCRIPTION": "He will obliterate you! Just...give him a few hours to get the spell ready.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -132,7 +132,7 @@
   },
   "${modID}:MageSkull": {
     "NAME": "Mage",
-    "DESCRIPTION": "${modID}:Passive: *Skills deal 2 damage randomly. NL ${modID}:Bonepile: Apply ${modID}:Burn randomly. NL ${modID}:Swap: Create an *Awakening.",
+    "DESCRIPTION": "${modID}:Passive: *Skills deal 2 damage randomly. NL ${modID}:骨头能力: Apply ${modID}:Burn randomly. NL ${modID}:Swap: Create an *Awakening.",
     "UPGRADE_DESCRIPTION": "Master chef. Everything he cooks is grilled to black, inedible perfection.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -140,7 +140,7 @@
   },
   "${modID}:WarriorSkull": {
     "NAME": "Warrior",
-    "DESCRIPTION": "${modID}:Passive: Gain [E] after playing a *Strike. NL ${modID}:Bonepile: Gain 1 ${modID}:Charge. NL ${modID}:Swap: Gain 5 ${modID}:Charge.",
+    "DESCRIPTION": "${modID}:Passive: Gain [E] after playing a *Strike. NL ${modID}:骨头能力: Gain 1 ${modID}:Charge. NL ${modID}:Swap: Gain 5 ${modID}:Charge.",
     "UPGRADE_DESCRIPTION": "Some call it copyright infingement. We elect to call it creative reimagining of the story.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -148,7 +148,7 @@
   },
   "${modID}:ChampionSkull": {
     "NAME": "Champion",
-    "DESCRIPTION": "*Passive: ${modID}:Counterattack unblocked damage. NL *Bonepile: Heal the next 3 HP you lose. NL *Swap: Enter or Exit Wrath.",
+    "DESCRIPTION": "*Passive: ${modID}:Counterattack 畅通无阻 damage. NL *骨头能力: Heal the next 3 HP you lose. NL *Swap: Enter or Exit Wrath.",
     "UPGRADE_DESCRIPTION": "He's #1, or at least that's as high as he can count. Just don't tell him we said that.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -156,15 +156,15 @@
   },
   "${modID}:DavyJonesSkull": {
     "NAME": "Davy Jones",
-    "DESCRIPTION": "${modID}:Passive: Gain Vigor on *Evoke. NL ${modID}:Bonepile: *Channel a ${modID}:Cannonball. NL ${modID}:Swap: *Channel 4 *Cannonballs.",
+    "DESCRIPTION": "${modID}:Passive: Gain Vigor on *Evoke. NL ${modID}:骨头能力: *Channel a ${modID}:Cannonball. NL ${modID}:Swap: *Channel 4 *Cannonballs.",
     "UPGRADE_DESCRIPTION": "I walked the plank once, and I'll walk it again! What will it do? Drown me again?",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:GamblerSkull": {
-    "NAME": "Gambler",
-    "DESCRIPTION": "${modID}:Passive: ${modID}:Gamble when you play cards. NL ${modID}:Bonepile: Shuffle a *Loaded *Dice into your draw pile. NL ${modID}:Swap: *Passive chance doubles this turn.",
+    "NAME": "徒",
+    "DESCRIPTION": "${modID}:Passive: ${modID}:赌博 when you play cards. NL ${modID}:骨头能力: Shuffle a *Loaded *Dice into your draw pile. NL ${modID}:Swap: *Passive chance doubles this turn.",
     "UPGRADE_DESCRIPTION": "He'll definitely win the next one. He can't lose 100 in a row, right? He just needs a small loan...",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -189,7 +189,7 @@
   "${modID}:TheOneRing": {
     "NAME": "The Ring",
     "DESCRIPTION": "${modID}:Item: NL ALL except ${modID}:Masterpiece, including ${modID}:Omen.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! block. NL Draw !M! cards. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! 阻止. NL Draw !M! cards. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -211,24 +211,24 @@
   },
   "${modID}:CuteLittleSkulls": {
     "NAME": "Cute Little Skulls",
-    "DESCRIPTION": "Deal !D! damage. NL ${modID}:Bonepile !M!.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL ${modID}:Bonepile !M!.",
+    "DESCRIPTION": "Deal !D! damage. NL ${modID}:骨头能力 !M!.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL ${modID}:骨头能力 !M!.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:LetsKnitTogether": {
     "NAME": "Let's...Knit...",
-    "DESCRIPTION": "You and the target gain !B! Block. NL ${modID}:Bonepile !M!.",
-    "UPGRADE_DESCRIPTION": "You and the target gain !B! Block. NL ${modID}:Bonepile !M!.",
+    "DESCRIPTION": "You and the target gain !B! 阻止. NL ${modID}:骨头能力 !M!.",
+    "UPGRADE_DESCRIPTION": "You and the target gain !B! 阻止. NL ${modID}:骨头能力 !M!.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:WitchsGuidance": {
     "NAME": "Skull, Bone, Spirit",
-    "DESCRIPTION": "${modID}:Bonepile !M!. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "${modID}:Bonepile !M!.",
+    "DESCRIPTION": "${modID}:骨头能力 !M!. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${modID}:骨头能力 !M!.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -243,24 +243,24 @@
   },
   "${modID}:StarterKit": {
     "NAME": "Starter Kit",
-    "DESCRIPTION": "Innate. NL Gain !M! *Gold. NL Apply !M! ${modID}:Ripped_Pocket. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Gain !M! *Gold. NL Apply !M! ${modID}:Ripped_Pocket. NL Exhaust.",
+    "DESCRIPTION": "Innate. NL Gain !M! *金. NL Apply !M! ${modID}:Ripped_Pocket. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Gain !M! *金. NL Apply !M! ${modID}:Ripped_Pocket. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:RecallHead": {
     "NAME": "Recall Head",
-    "DESCRIPTION": "Gain !B! Block. NL Channel !M! ${modID}:Empty_Head.  NL Becomes *Throw *Head in your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Channel !M! ${modID}:Empty_Head.  NL Becomes *Throw *Head+ in your hand.",
+    "DESCRIPTION": "Gain !B! 阻止. NL Channel !M! ${modID}:Empty_Head.  NL Becomes *Throw *Head in your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !B! 阻止. NL Channel !M! ${modID}:Empty_Head.  NL Becomes *Throw *Head+ in your hand.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:CooldownReset": {
     "NAME": "Simplicity",
-    "DESCRIPTION": "${modID}:Bonepile !M!. NL Channel 2 ${modID}:Empty_Head.",
-    "UPGRADE_DESCRIPTION": "${modID}:Bonepile !M!. NL Channel 2 ${modID}:Empty_Head.",
+    "DESCRIPTION": "${modID}:骨头能力 !M!. NL Channel 2 ${modID}:Empty_Head.",
+    "UPGRADE_DESCRIPTION": "${modID}:骨头能力 !M!. NL Channel 2 ${modID}:Empty_Head.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -291,8 +291,8 @@
   },
   "${modID}:PowerCharge": {
   "NAME": "Striking Charge",
-  "DESCRIPTION": "Gain !M! Vigor. NL ${modID}:Bonepile !M!.",
-  "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL ${modID}:Bonepile !M!.",
+  "DESCRIPTION": "Gain !M! Vigor. NL ${modID}:骨头能力 !M!.",
+  "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL ${modID}:骨头能力 !M!.",
   "EXTENDED_DESCRIPTION": [
     ""
   ]
@@ -339,56 +339,56 @@
   },
   "${modID}:Bribe": {
     "NAME": "Bribe",
-    "DESCRIPTION": "${modID}:Pay 20 *Gold. NL ${modID}:Bonepile !M!. NL Draw 1 card. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "${modID}:Pay 10 *Gold. NL ${modID}:Bonepile !M!. NL Draw 1 card. NL Exhaust.",
+    "DESCRIPTION": "${modID}:Pay 20 *金. NL ${modID}:骨头能力 !M!. NL Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${modID}:Pay 10 *金. NL ${modID}:骨头能力 !M!. NL Draw 1 card. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:Backstab": {
     "NAME": "Backstab",
-    "DESCRIPTION": "Deal !D! damage, then gain the same amount of *Gold up to !M!.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage, then gain the same amount of *Gold up to !M!.",
+    "DESCRIPTION": "Deal !D! damage, then gain the same amount of *金 up to !M!.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, then gain the same amount of *金 up to !M!.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:ThrowGold": {
-    "NAME": "Throw Gold",
-    "DESCRIPTION": "${modID}:Pay 20 *Gold. NL Deal !D! damage, equal to the *Gold gained this combat. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "${modID}:Pay 10 *Gold. NL Deal !D! damage, equal to the *Gold gained this combat. NL Exhaust.",
+    "NAME": "Throw 金",
+    "DESCRIPTION": "${modID}:Pay 20 *金. NL Deal !D! damage, equal to the *金 gained this combat. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${modID}:Pay 10 *金. NL Deal !D! damage, equal to the *金 gained this combat. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:Backroll": {
     "NAME": "Backroll",
-    "DESCRIPTION": "${modID}:Pay 20 *Gold. NL Gain !B! Block. NL Apply !M! ${modID}:Ripped_Pocket.",
-    "UPGRADE_DESCRIPTION": "${modID}:Pay 10 *Gold. NL Gain !B! Block. NL Apply !M! ${modID}:Ripped_Pocket.",
+    "DESCRIPTION": "${modID}:Pay 20 *金. NL Gain !B! 阻止. NL Apply !M! ${modID}:Ripped_Pocket.",
+    "UPGRADE_DESCRIPTION": "${modID}:Pay 10 *金. NL Gain !B! 阻止. NL Apply !M! ${modID}:Ripped_Pocket.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:RipPockets": {
     "NAME": "Rip Pockets",
-    "DESCRIPTION": "Apply !M! ${modID}:Ripped_Pocket. NL Gain !M! Gold.",
-    "UPGRADE_DESCRIPTION": "Apply !M! ${modID}:Ripped_Pocket. NL Gain !M! Gold.",
+    "DESCRIPTION": "Apply !M! ${modID}:Ripped_Pocket. NL Gain !M! 金.",
+    "UPGRADE_DESCRIPTION": "Apply !M! ${modID}:Ripped_Pocket. NL Gain !M! 金.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:Thief": {
     "NAME": "Street Thievery",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !M! *Gold.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !M! *Gold.",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! *金.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !M! *金.",
     "EXTENDED_DESCRIPTION": [
-      "Deal !D! damage. NL Gain !M! *Gold. NL Gain !B! Block."
+      "Deal !D! damage. NL Gain !M! *金. NL Gain !B! 阻止."
     ]
   },
   "${modID}:StartTheMatch": {
     "NAME": "Start the Match!",
-    "DESCRIPTION": "Innate. NL ${modID}:Bonepile !M!. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL ${modID}:Bonepile !M!. NL Exhaust.",
+    "DESCRIPTION": "Innate. NL ${modID}:骨头能力 !M!. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL ${modID}:骨头能力 !M!. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -403,16 +403,16 @@
   },
   "${modID}:OneInchPunch": {
     "NAME": "One-Inch Punch",
-    "DESCRIPTION": "Become *Entangled unless you're in *Wrath. NL ${modID}:Bonepile !M!. NL Draw 1 card.",
-    "UPGRADE_DESCRIPTION": "Become *Entangled unless you're in *Wrath. NL ${modID}:Bonepile !M!. NL Draw 1 card.",
+    "DESCRIPTION": "Become *Entangled unless you're in *Wrath. NL ${modID}:骨头能力 !M!. NL Draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Become *Entangled unless you're in *Wrath. NL ${modID}:骨头能力 !M!. NL Draw 1 card.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:QuickStep": {
     "NAME": "Quick Step",
-    "DESCRIPTION": "${modID}:Bonepile !M!. NL Apply !M! Vulnerable. NL Apply !M! Weak.",
-    "UPGRADE_DESCRIPTION": "${modID}:Bonepile !M!. NL Apply !M! Vulnerable. NL Apply !M! Weak.",
+    "DESCRIPTION": "${modID}:骨头能力 !M!. NL Apply !M! Vulnerable. NL Apply !M! Weak.",
+    "UPGRADE_DESCRIPTION": "${modID}:骨头能力 !M!. NL Apply !M! Vulnerable. NL Apply !M! Weak.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -427,16 +427,16 @@
   },
   "${modID}:Combo": {
     "NAME": "Combo",
-    "DESCRIPTION": "Deal !D! damage X times. NL ${modID}:Bonepile X times. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage X times. NL ${modID}:Bonepile X times. NL Exhaust.",
+    "DESCRIPTION": "Deal !D! damage X times. NL ${modID}:骨头能力 X times. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X times. NL ${modID}:骨头能力 X times. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:SlotMachine": {
     "NAME": "Slot Machine",
-    "DESCRIPTION": "${modID}:Bonepile  between 0 and !M! times.",
-    "UPGRADE_DESCRIPTION": "${modID}:Bonepile  between 0 and !M! times.",
+    "DESCRIPTION": "${modID}:骨头能力  between 0 and !M! times.",
+    "UPGRADE_DESCRIPTION": "${modID}:骨头能力  between 0 and !M! times.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -459,16 +459,16 @@
   },
   "${modID}:RussianRoulette": {
     "NAME": "Russian Roulette",
-    "DESCRIPTION": "Randomly ${modID}:Gamble !M! times, deal !D! damage, or take !GSD! damage. NL Draw 1 card.",
-    "UPGRADE_DESCRIPTION": "Randomly ${modID}:Gamble !M! times, deal !D! damage, or take !GSD! damage. NL Draw 1 card.",
+    "DESCRIPTION": "Randomly ${modID}:赌博 !M! times, deal !D! damage, or take !GSD! damage. NL Draw 1 card.",
+    "UPGRADE_DESCRIPTION": "Randomly ${modID}:赌博 !M! times, deal !D! damage, or take !GSD! damage. NL Draw 1 card.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:RoyalFlush": {
     "NAME": "Royal Flush",
-    "DESCRIPTION": "${modID}:Gamble !M! times.",
-    "UPGRADE_DESCRIPTION": "${modID}:Gamble !M! times.",
+    "DESCRIPTION": "${modID}:赌博 !M! times.",
+    "UPGRADE_DESCRIPTION": "${modID}:赌博 !M! times.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -483,80 +483,80 @@
   },
   "${modID}:ShieldBash": {
     "NAME": "Shield Bash",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! Block.",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! 阻止.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !B! 阻止.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:DoomedDance": {
     "NAME": "Doomed Dance",
-    "DESCRIPTION": "Gain !M! Block each turn. If you take unblocked damage, that Block becomes Poison.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Block each turn. If you take unblocked damage, that Block becomes Constrict.",
+    "DESCRIPTION": "Gain !M! 阻止 each turn. If you take 畅通无阻 damage, that 阻止 becomes Poison.",
+    "UPGRADE_DESCRIPTION": "Gain !M! 阻止 each turn. If you take 畅通无阻 damage, that 阻止 becomes Constrict.",
     "EXTENDED_DESCRIPTION": [
       "FleetFootwork 1.0"
     ]
   },
   "${modID}:ShieldCharge": {
     "NAME": "Shield Charge",
-    "DESCRIPTION": "Gain !B! Block. NL Gain !B! Block next turn.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !B! Block next turn.",
+    "DESCRIPTION": "Gain !B! 阻止. NL Gain !B! 阻止 next turn.",
+    "UPGRADE_DESCRIPTION": "Gain !B! 阻止. NL Gain !B! 阻止 next turn.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:ShieldRush": {
     "NAME": "Shield Rush",
-    "DESCRIPTION": "Gain !B! Block !M! times.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block !M! times.",
+    "DESCRIPTION": "Gain !B! 阻止 !M! times.",
+    "UPGRADE_DESCRIPTION": "Gain !B! 阻止 !M! times.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:TheBestOffense": {
     "NAME": "The Best Offense",
-    "DESCRIPTION": "Convert your Block into Dexterity until your next turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Convert your Block into Dexterity until your next turn. NL Exhaust.",
+    "DESCRIPTION": "Convert your 阻止 into Dexterity until your next turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Convert your 阻止 into Dexterity until your next turn. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:ShieldSmash": {
     "NAME": "Shield Smash",
-    "DESCRIPTION": "Deal !D! damage, based on your current Block. NL ${modID}:Bonepile !M!.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage, based on your current Block. NL ${modID}:Bonepile !M!.",
+    "DESCRIPTION": "Deal !D! damage, based on your current 阻止. NL ${modID}:骨头能力 !M!.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage, based on your current 阻止. NL ${modID}:骨头能力 !M!.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:BombsAway": {
     "NAME": "Bombs Away!",
-    "DESCRIPTION": "Deal !D! damage and gain Block equal to the unblocked damage dealt. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage and gain Block equal to the unblocked damage dealt.",
+    "DESCRIPTION": "Deal !D! damage and gain 阻止 equal to the 畅通无阻 damage dealt. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage and gain 阻止 equal to the 畅通无阻 damage dealt.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:LowerTheAnchor": {
     "NAME": "Lower The Anchor!",
-    "DESCRIPTION": "Discard a card to ${modID}:Bonepile !M!.",
-    "UPGRADE_DESCRIPTION": "Discard a card to ${modID}:Bonepile !M!.",
+    "DESCRIPTION": "Discard a card to ${modID}:骨头能力 !M!.",
+    "UPGRADE_DESCRIPTION": "Discard a card to ${modID}:骨头能力 !M!.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:PrepareForBoarding": {
     "NAME": "Prepare For Boarding!",
-    "DESCRIPTION": "Discard !M! card to gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Discard up to !M! cards to gain !B! Block for each.",
+    "DESCRIPTION": "Discard !M! card to gain !B! 阻止.",
+    "UPGRADE_DESCRIPTION": "Discard up to !M! cards to gain !B! 阻止 for each.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:EyeOfTheStorm": {
     "NAME": "Eye of the Storm",
-    "DESCRIPTION": "Gain !VB! Block, applying Vigor.",
-    "UPGRADE_DESCRIPTION": "Gain !VB! Block, applying Vigor.",
+    "DESCRIPTION": "Gain !VB! 阻止, applying Vigor.",
+    "UPGRADE_DESCRIPTION": "Gain !VB! 阻止, applying Vigor.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -587,8 +587,8 @@
   },
   "${modID}:BackstepShot": {
     "NAME": "Backstep Shot",
-    "DESCRIPTION": "Gain !B! Block. NL Channel !M! ${modID}:Arrow.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Channel !M! ${modID}:Arrows.",
+    "DESCRIPTION": "Gain !B! 阻止. NL Channel !M! ${modID}:Arrow.",
+    "UPGRADE_DESCRIPTION": "Gain !B! 阻止. NL Channel !M! ${modID}:Arrows.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -611,40 +611,40 @@
   },
   "${modID}:DarkSanctuary": {
     "NAME": "Dark Sanctuary",
-    "DESCRIPTION": "Take 4 damage !M! times. NL Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Take 4 damage !M! times. NL Gain !B! Block.",
+    "DESCRIPTION": "Take 4 damage !M! times. NL Gain !B! 阻止.",
+    "UPGRADE_DESCRIPTION": "Take 4 damage !M! times. NL Gain !B! 阻止.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:DarkCharge": {
     "NAME": "Dark Charge",
-    "DESCRIPTION": "Draw !M! card. NL Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Gain !B! Block.",
+    "DESCRIPTION": "Draw !M! card. NL Gain !B! 阻止.",
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. NL Gain !B! 阻止.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:DarkWave": {
     "NAME": "Dark Wave",
-    "DESCRIPTION": "Gain !B!X Block. NL Gain 2X ${modID}:Oblivion.",
-    "UPGRADE_DESCRIPTION": "Gain !B!X Block. NL Gain 4X ${modID}:Oblivion.",
+    "DESCRIPTION": "Gain !B!X 阻止. NL Gain 2X ${modID}:Oblivion.",
+    "UPGRADE_DESCRIPTION": "Gain !B!X 阻止. NL Gain 4X ${modID}:Oblivion.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:Impregnable": {
     "NAME": "Impregnable",
-    "DESCRIPTION": "Gain !M! ${modID}:Oblivion. NL ${modID}:Bonepile 2.",
-    "UPGRADE_DESCRIPTION": "Gain !M! ${modID}:Oblivion. NL ${modID}:Bonepile 2.",
+    "DESCRIPTION": "Gain !M! ${modID}:Oblivion. NL ${modID}:骨头能力 2.",
+    "UPGRADE_DESCRIPTION": "Gain !M! ${modID}:Oblivion. NL ${modID}:骨头能力 2.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:DarkCross": {
     "NAME": "Dark Cross",
-    "DESCRIPTION": "Deal !D! damage !M! times. NL Gain Block equal to your Vigor and ${modID}:Oblivion.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL Gain Block equal to your Vigor and ${modID}:Oblivion.",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Gain 阻止 equal to your Vigor and ${modID}:Oblivion.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times. NL Gain 阻止 equal to your Vigor and ${modID}:Oblivion.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -699,8 +699,8 @@
   },
   "${modID}:EntertainerForm": {
     "NAME": "Joker Form",
-    "DESCRIPTION": "Ethereal. NL The first time each turn you play an ${modID}:Imitation, ${modID}:Bonepile.",
-    "UPGRADE_DESCRIPTION": "The first time each turn you play an ${modID}:Imitation, ${modID}:Bonepile.",
+    "DESCRIPTION": "Ethereal. NL The first time each turn you play an ${modID}:仿制, ${modID}:骨头能力.",
+    "UPGRADE_DESCRIPTION": "The first time each turn you play an ${modID}:仿制, ${modID}:骨头能力.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -710,8 +710,8 @@
     "DESCRIPTION": "Unplayable. NL When drawn, play the top card of your draw pile and discard a random card.",
     "UPGRADE_DESCRIPTION": "Unplayable. NL When drawn, play the top card of your draw pile and replace it with a random card in your hand.",
     "EXTENDED_DESCRIPTION": [
-      "Draw !M! cards. NL Next time, ${modID}:Bonepile !M! times instead.",
-      "${modID}:Bonepile !M! times. NL Next time, draw !M! cards instead."
+      "Draw !M! cards. NL Next time, ${modID}:骨头能力 !M! times instead.",
+      "${modID}:骨头能力 !M! times. NL Next time, draw !M! cards instead."
     ]
   },
   "${modID}:Predation": {
@@ -797,8 +797,8 @@
   },
   "${modID}:AvengerForm": {
     "NAME": "Avenger Form",
-    "DESCRIPTION": "Ethereal. NL Gain [E] the first time you take or Block damage during your turn.",
-    "UPGRADE_DESCRIPTION": "Gain [E] the first time you take or Block damage during your turn.",
+    "DESCRIPTION": "Ethereal. NL Gain [E] the first time you take or 堵塞 damage during your turn.",
+    "UPGRADE_DESCRIPTION": "Gain [E] the first time you take or 堵塞 damage during your turn.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -813,8 +813,8 @@
   },
   "${modID}:AllInForm": {
     "NAME": "All-In Form",
-    "DESCRIPTION": "Ethereal. NL At the start of their turn, EVERYONE ${modID}:Gambles !M! times. NL If an enemy wins a *Gamble, *Gambler does too.",
-    "UPGRADE_DESCRIPTION": "At the start of their turn, EVERYONE ${modID}:Gambles !M! times. NL If an enemy wins a *Gamble, *Gambler does too.",
+    "DESCRIPTION": "Ethereal. NL At the start of their turn, EVERYONE ${modID}:赌博 !M! times. NL If an enemy wins a *赌博, *徒 does too.",
+    "UPGRADE_DESCRIPTION": "At the start of their turn, EVERYONE ${modID}:赌博 !M! times. NL If an enemy wins a *赌博, *徒 does too.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -837,24 +837,24 @@
   },
   "${modID}:GuardianForm": {
     "NAME": "Guardian Form",
-    "DESCRIPTION": "Ethereal. NL For every 50 Block you gain, convert !M! Dexterity to !M! Strength.",
-    "UPGRADE_DESCRIPTION": "For every 50 Block you gain, convert !M! Dexterity to !M! Strength.",
+    "DESCRIPTION": "Ethereal. NL For every 50 阻止 you gain, convert !M! Dexterity to !M! Strength.",
+    "UPGRADE_DESCRIPTION": "For every 50 阻止 you gain, convert !M! Dexterity to !M! Strength.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:OutlawForm": {
     "NAME": "Outlaw Form",
-    "DESCRIPTION": "Ethereal. NL At the end of each turn, gain !M! *Gold.",
-    "UPGRADE_DESCRIPTION": "At the end of each turn, gain !M! *Gold.",
+    "DESCRIPTION": "Ethereal. NL At the end of each turn, gain !M! *金.",
+    "UPGRADE_DESCRIPTION": "At the end of each turn, gain !M! *金.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:PriceOfPower": {
     "NAME": "Price Of Power",
-    "DESCRIPTION": "Gain !M2! Block each turn. NL Apply !M! Thorns.",
-    "UPGRADE_DESCRIPTION": "Gain !M2! Block each turn. NL Apply !M! Thorns.",
+    "DESCRIPTION": "Gain !M2! 阻止 each turn. NL Apply !M! Thorns.",
+    "UPGRADE_DESCRIPTION": "Gain !M2! 阻止 each turn. NL Apply !M! Thorns.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
@@ -870,7 +870,7 @@
   "${modID}:SoulScavenge": {
     "NAME": "Soul Scavenger",
     "DESCRIPTION": "I'm not ready yet!",
-    "UPGRADE_DESCRIPTION": "${modID}:Bonepile !M! based on the target.",
+    "UPGRADE_DESCRIPTION": "${modID}:骨头能力 !M! based on the target.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]

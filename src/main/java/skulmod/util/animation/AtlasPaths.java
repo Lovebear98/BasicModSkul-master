@@ -77,6 +77,13 @@ public class AtlasPaths {
     public static String KingOfHeroesAnim(){
         return "KingOfHeroes";
     }
+    public static String CarleonRecruitAnim(){
+        return "CarleonRecruit";
+    }
+    public static String AlchemistAnim(){return "Alchemist";}
+    public static String GraveDiggerAnim(){
+        return "GraveDigger";
+    }
 
 
 
@@ -89,7 +96,7 @@ public class AtlasPaths {
     public static String SamuraiAnim(){
         return "Samurai";
     }
-    public static String YakhsaAnim(){
+    public static String YakshaAnim(){
         return "Yaksha";
     }
 }

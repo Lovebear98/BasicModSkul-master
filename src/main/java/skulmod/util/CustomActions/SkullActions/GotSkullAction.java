@@ -4,19 +4,26 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
 import skulmod.CustomTags;
 
 import java.util.Iterator;
 
+import static skulmod.SkulMod.makeID;
 import static skulmod.relics.depreciated.BoneFragments.FragmentGain;
 import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 
 public class GotSkullAction extends AbstractGameAction {
     ///Thank you, Aris. I spent more time on this than I would have liked or was probably healthy
     // before ending up finding your github showing exactly what I was trying to do.
+
+    private static UIStrings uiStrings = CardCrawlGame.languagePack.getUIString(makeID("SkulUI"));
+    private static String[] DESCRIPTIONS = uiStrings.TEXT;
+
 
     private AbstractPlayer p;
     private AbstractCard except;
@@ -62,7 +69,7 @@ if(OwnedSkulls > 2){
 
             this.isDone = true;
         } else {
-            AbstractDungeon.gridSelectScreen.open(tmp, 1, "Choose a Skull to SHATTER. You will lose the Skull.", false);
+            AbstractDungeon.gridSelectScreen.open(tmp, 1, DESCRIPTIONS[0], false);
             this.tickDuration();
         }
     } else {

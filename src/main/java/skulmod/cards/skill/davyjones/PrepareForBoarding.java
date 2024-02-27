@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
+import skulmod.util.vars;
 
 import static skulmod.SkulMod.makeID;
 
@@ -73,7 +74,7 @@ public class PrepareForBoarding extends BaseCard {
     @Override
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SelectCardsInHandAction(magicNumber, "Discard", true, true, card -> true, ToExhaust -> {
+        addToBot(new SelectCardsInHandAction(magicNumber, vars.Discard(), true, true, card -> true, ToExhaust -> {
             for (AbstractCard c : ToExhaust) {
                 addToTop(new DiscardSpecificCardAction(c, AbstractDungeon.player.hand));
                 addToBot(new GainBlockAction(p, this.block));

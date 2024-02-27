@@ -159,7 +159,7 @@
   },
   "${modID}:GamblerSkull": {
     "NAME": "Gambler",
-    "DESCRIPTION": "${modID}:Passive: ${modID}:Gamble when you play cards. NL ${modID}:Bonepile: Shuffle a *Loaded *Dice into your draw pile. NL ${modID}:Swap: *Passive chance doubles this turn.",
+    "DESCRIPTION": "${modID}:Passive: ${modID}:Gamble when you play cards. NL ${modID}:Bonepile: Shuffle a *Loaded *Dice into your draw pile. NL ${modID}:Swap: *Gamble success rate doubles this turn.",
     "UPGRADE_DESCRIPTION": "He'll definitely win the next one. He can't lose 100 in a row, right? He just needs a small loan...",
     "EXTENDED_DESCRIPTION": [
       ""

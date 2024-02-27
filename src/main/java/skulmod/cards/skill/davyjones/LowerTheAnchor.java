@@ -11,6 +11,7 @@ import skulmod.cards.BaseCard;
 import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
 import skulmod.util.CustomActions.SkullActions.BonepileAction;
+import skulmod.util.vars;
 
 import static skulmod.SkulMod.makeID;
 import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
@@ -74,7 +75,7 @@ public class LowerTheAnchor extends BaseCard {
     @Override
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new SelectCardsInHandAction(1, "Discard", true, true, card -> true, ToExhaust -> {
+        addToBot(new SelectCardsInHandAction(1, vars.Discard(), true, true, card -> true, ToExhaust -> {
             for (AbstractCard c : ToExhaust) {
                 addToTop(new DiscardSpecificCardAction(c, AbstractDungeon.player.hand));
                 for(int Loops = magicNumber; Loops > 0; Loops -= 1){

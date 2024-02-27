@@ -1,0 +1,76 @@
+
+CarleonRecruit.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Recruit/Idle1
+  rotate: false
+  xy: 349, 1
+  size: 124, 152
+  orig: 124, 152
+  offset: 0, 0
+  index: -1
+Recruit/Idle2
+  rotate: false
+  xy: 313, 195
+  size: 124, 156
+  orig: 124, 156
+  offset: 0, 0
+  index: -1
+Recruit/Idle3
+  rotate: false
+  xy: 313, 353
+  size: 124, 156
+  orig: 124, 156
+  offset: 0, 0
+  index: -1
+Recruit/Idle4
+  rotate: false
+  xy: 439, 155
+  size: 124, 144
+  orig: 124, 144
+  offset: 0, 0
+  index: -1
+Recruit/Dodge
+  rotate: false
+  xy: 1, 357
+  size: 176, 112
+  orig: 176, 112
+  offset: 0, 0
+  index: -1
+Recruit/Attack1
+  rotate: false
+  xy: 475, 301
+  size: 92, 184
+  orig: 92, 184
+  offset: 0, 0
+  index: -1
+Recruit/Attack2
+  rotate: false
+  xy: 1, 183
+  size: 184, 172
+  orig: 184, 172
+  offset: 0, 0
+  index: -1
+Recruit/Attack3
+  rotate: false
+  xy: 1, 1
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+Recruit/Attack4
+  rotate: false
+  xy: 187, 1
+  size: 160, 192
+  orig: 160, 192
+  offset: 0, 0
+  index: -1
+Recruit/Attack5
+  rotate: false
+  xy: 187, 195
+  size: 124, 176
+  orig: 124, 176
+  offset: 0, 0
+  index: -1

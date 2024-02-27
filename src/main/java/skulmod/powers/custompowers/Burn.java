@@ -60,7 +60,7 @@ public class Burn extends BasePower implements CloneablePowerInterface {
 
     @Override
     public int onAttacked(DamageInfo info, int damageAmount) {
-            if(info.type != DamageInfo.DamageType.NORMAL && info.type != DamageInfo.DamageType.HP_LOSS && damageAmount > 0){
+            if(info.type != DamageInfo.DamageType.NORMAL && damageAmount > 0){
                 if(this.amount <= 1){
                     addToTop(new RemoveSpecificPowerAction(owner, owner, this));
                 }else{

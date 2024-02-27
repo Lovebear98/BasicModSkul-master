@@ -10,14 +10,18 @@ import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.actions.utility.SFXAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.OrbStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.orbs.AbstractOrb;
+import com.megacrit.cardcrawl.orbs.EmptyOrbSlot;
 import com.megacrit.cardcrawl.powers.LockOnPower;
 import com.megacrit.cardcrawl.vfx.combat.PlasmaOrbActivateEffect;
 import com.megacrit.cardcrawl.vfx.combat.PlasmaOrbPassiveEffect;
+
+import java.util.Collections;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
@@ -134,7 +138,7 @@ public class Arrow extends CustomOrb {
                         ///Mark the arrow as fired
                         orb.evokeAmount = 0;
                         ///Then evoke it
-                        addToBot(new EvokeSpecificOrbAction(orb));
+                        EvokeSpecificOrb(orb);
                     }
                     break;
                 }
@@ -170,13 +174,27 @@ public class Arrow extends CustomOrb {
         }
     }
 
-    ; // 2.Damage all enemies
+    public static void EvokeSpecificOrb(AbstractOrb o){
+        o.onEvoke();
+        AbstractPlayer p = AbstractDungeon.player;
+        ///If the player has orbs and the orb we passed in isn't an empty orb slot
+        if (!p.orbs.isEmpty() && !(o instanceof EmptyOrbSlot)) {// 2819
+            ///Make an orb that's an empty orb at that orb's location
+            AbstractOrb orbSlot = new EmptyOrbSlot((o).cX, (o).cY);// 2820
 
-    // The damage matrix is how orb damage all enemies actions have to be assigned. For regular cards that do damage to everyone, check out cleave or whirlwind - they are a bit simpler.
-
-
-
-    // For a list of sound effects you can use, look under com.megacrit.cardcrawl.audio.SoundMaster - you can see the list of keys you can use there. As far as previewing what they sound like, open desktop-1.0.jar with something like 7-Zip and go to audio. Reference the file names provided. (Thanks fiiiiilth)
+            int i;
+            ///This pushes the orbs forward in the list, but we don't need to do that
+            for(i = 1; i < p.orbs.size(); ++i) {// 2822
+               Collections.swap(p.orbs, i, i - 1);// 2823
+            }
+            ///We set that old orb to an empty orb
+            p.orbs.set((p.orbs.indexOf(o)), orbSlot);// 2826
+            ///Then we SetSlot on all orbs to position them
+            for(i = 0; i < p.orbs.size(); ++i) {// 2828
+                ((AbstractOrb)p.orbs.get(i)).setSlot(i, p.maxOrbs);// 2829
+            }
+        }
+    }
     }
 
 

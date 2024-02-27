@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.orbs.AbstractOrb;
 import com.megacrit.cardcrawl.vfx.combat.FrostOrbActivateEffect;
 import com.megacrit.cardcrawl.vfx.combat.FrostOrbPassiveEffect;
 import skulmod.util.CustomActions.BlizzardOrbAction;
+import skulmod.util.CustomActions.MassBlockAction;
 import skulmod.util.CustomActions.SkullActions.FrostSkullBlockAction;
 
 import static skulmod.SkulMod.makeID;
@@ -71,7 +72,6 @@ public class Blizzard extends CustomOrb {
     @Override
     public void onEndOfTurn() {
         super.onEndOfTurn();
-        CardCrawlGame.sound.play("ORB_FROST_EVOKE", 0.1f);
         ///We're actively choosing to scale with Lock-on
         AbstractDungeon.actionManager.addToBottom(new BlizzardOrbAction(passiveAmount));
     }
@@ -110,8 +110,7 @@ public class Blizzard extends CustomOrb {
 @Override
     public void onEvoke() {
         CardCrawlGame.sound.play("ORB_FROST_EVOKE", 0.1f);
-        AbstractDungeon.actionManager.addToBottom(new GainBlockAction(AbstractDungeon.player, evokeAmount));
-        AbstractDungeon.actionManager.addToBottom(new FrostSkullBlockAction(evokeAmount));
+        AbstractDungeon.actionManager.addToBottom(new MassBlockAction(evokeAmount));
     }
 
 

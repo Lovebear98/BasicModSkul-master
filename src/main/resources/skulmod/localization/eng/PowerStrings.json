@@ -16,7 +16,7 @@
   "${modID}:GamblerPower": {
     "NAME": "Gambler",
     "DESCRIPTIONS": [
-      "#yPassive: #b20% chance to #yGamble. NL NL #yBonepile: Shuffle a #yLoaded #yDice into the draw pile. NL NL #ySwap: Double your #yPassive chance this turn."
+      "#yPassive: #yGamble when you play cards. NL NL #yBonepile: Shuffle a #yLoaded #yDice into the draw pile. NL NL #ySwap: #yGamble success rate doubles this turn."
     ]
   },
   "${modID}:DavyJonesPower": {

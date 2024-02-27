@@ -1,0 +1,153 @@
+
+Alchemist.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Alchemist/Idle1
+  rotate: false
+  xy: 655, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Idle2
+  rotate: false
+  xy: 537, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Idle3
+  rotate: false
+  xy: 301, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Idle4
+  rotate: false
+  xy: 423, 183
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Idle5
+  rotate: false
+  xy: 419, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Idle6
+  rotate: false
+  xy: 431, 365
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Dash1
+  rotate: false
+  xy: 151, 547
+  size: 148, 180
+  orig: 148, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Dash2
+  rotate: false
+  xy: 1, 737
+  size: 148, 180
+  orig: 148, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Dash3
+  rotate: false
+  xy: 1, 547
+  size: 148, 188
+  orig: 148, 188
+  offset: 0, 0
+  index: -1
+Alchemist/Dash4
+  rotate: false
+  xy: 293, 729
+  size: 132, 192
+  orig: 132, 192
+  offset: 0, 0
+  index: -1
+Alchemist/Dash5
+  rotate: false
+  xy: 427, 729
+  size: 132, 188
+  orig: 132, 188
+  offset: 0, 0
+  index: -1
+Alchemist/Dash6
+  rotate: false
+  xy: 151, 729
+  size: 140, 184
+  orig: 140, 184
+  offset: 0, 0
+  index: -1
+Alchemist/Dash7
+  rotate: false
+  xy: 171, 1
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack1
+  rotate: false
+  xy: 1, 365
+  size: 160, 180
+  orig: 160, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack2
+  rotate: false
+  xy: 1, 183
+  size: 164, 180
+  orig: 164, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack3
+  rotate: false
+  xy: 1, 1
+  size: 168, 180
+  orig: 168, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack4
+  rotate: false
+  xy: 163, 365
+  size: 144, 180
+  orig: 144, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack5
+  rotate: false
+  xy: 167, 183
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack6
+  rotate: false
+  xy: 301, 547
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack7
+  rotate: false
+  xy: 297, 183
+  size: 124, 180
+  orig: 124, 180
+  offset: 0, 0
+  index: -1
+Alchemist/Attack8
+  rotate: false
+  xy: 309, 365
+  size: 120, 180
+  orig: 120, 180
+  offset: 0, 0
+  index: -1

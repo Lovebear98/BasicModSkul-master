@@ -10,88 +10,88 @@
   "${modID}:LittleBonePower": {
     "NAME": "Little Bone",
     "DESCRIPTIONS": [
-      "#yPassive: Take #b1 less damage. NL NL #yBonepile: Gain #b2 #yBlock. NL NL #ySwap: Gain [E] [E] ."
+      "#yPassive: Take #b1 less damage. NL NL #y骨头能力: Gain #b2 #y. NL NL #ySwap: Gain [E] [E] ."
     ]
   },
   "${modID}:GamblerPower": {
     "NAME": "Gambler",
     "DESCRIPTIONS": [
-      "#yPassive: #b20% chance to #yGamble. NL NL #yBonepile: Shuffle a #yLoaded #yDice into the draw pile. NL NL #ySwap: Double your #yPassive chance this turn."
+      "#yPassive: #y赌 when you play cards. NL NL #y骨头能力: Shuffle a #yLoaded #yDice into the draw pile. NL NL #ySwap: #y赌 success rate doubles this turn."
     ]
   },
   "${modID}:DavyJonesPower": {
     "NAME": "Davy Jones",
     "DESCRIPTIONS": [
-      "#yPassive: Gain #yVigor on #yEvoke. NL NL #yBonepile: Channel a #yCannonball. NL NL #ySwap: Channel #b4 #yCannonballs."
+      "#yPassive: Gain #yVigor on #yEvoke. NL NL #y骨头能力: Channel a #yCannonball. NL NL #ySwap: Channel #b4 #yCannonballs."
     ]
   },
   "${modID}:ShieldSkullPower": {
     "NAME": "Skeleton-Shield",
     "DESCRIPTIONS": [
-      "#yPassive: Deal your #yDexterity as damage to attackers. NL NL #yBonepile: Channel a #yBarrier. NL NL #ySwap: Gain #b5 #yDexterity until your next turn."
+      "#yPassive: Deal your #yDexterity as damage to attackers. NL NL #y骨头能力: Channel a #yBarrier. NL NL #ySwap: Gain #b5 #yDexterity until your next turn."
     ]
   },
   "${modID}:FrostSkullPower": {
     "NAME": "Frost Skull",
     "DESCRIPTIONS": [
-      "#yPassive: #yBlock lost at the start of the turn becomes a #yHibernation. NL #yBonepile: #yFreeze 1. NL #ySwap: Gain #b10 #yBlock."
+      "#yPassive: #y阻止 lost at the start of the turn becomes a #yHibernation. NL #y骨头能力: #yFreeze 1. NL #ySwap: Gain #b10 #y."
     ]
   },
   "${modID}:BomberSkullPower": {
     "NAME": "Skeleton-Bomber",
     "DESCRIPTIONS": [
       "#yPassive: #yEntangled. At the start of your turn, #ySwap and explode for #b",
-      " damage to ALL enemies. NL #yBonepile: Increase explosion damage by #b1. NL #ySwap: None NL NL The cornerstone of all #ySkull addictions.",
+      " damage to ALL enemies. NL #y骨头能力: Increase explosion damage by #b1. NL #ySwap: None NL NL The cornerstone of all #ySkull addictions.",
       " damage to #yALL enemies."
     ]
   },
   "${modID}:HunterPower": {
     "NAME": "Hunter",
     "DESCRIPTIONS": [
-      "#yPassive: #yChannel an #yArrow when you play an #yAttack. NL NL #yBonepile: Channel #b1 #yArrow. NL NL #ySwap: Gain an empty orb slot."
+      "#yPassive: #yChannel an #yArrow when you play an #yAttack. NL NL #y骨头能力: Channel #b1 #yArrow. NL NL #ySwap: Gain an empty orb slot."
     ]
   },
   "${modID}:PettyThiefPower": {
     "NAME": "Petty Thief",
     "DESCRIPTIONS": [
-      "#yPassive: Gaining #yGold randomly deals that much damage. NL NL #yBonepile: Gain #b4 #yGold. NL NL #ySwap: #yBlock with #yGold this turn."
+      "#yPassive: Gaining #yGold randomly deals that much damage. NL NL #y骨头能力: Gain #b4 #yGold. NL NL #ySwap: #y with #yGold this turn."
     ]
   },
   "${modID}:GreatWarlockPower": {
     "NAME": "Great Warlock",
     "DESCRIPTIONS": [
-      "#yPassive: Unblocked attack damage also applies #yConcentration. NL NL #yBonepile: Reduce ALL #yConcentration. NL NL #ySwap: Remove #rALL #yConcentration."
+      "#yPassive: 通无阻 attack damage also applies #yConcentration. NL NL #y骨头能力: Reduce ALL #yConcentration. NL NL #ySwap: Remove #rALL #yConcentration."
     ]
   },
   "${modID}:WarriorSkullPower": {
     "NAME": "Warrior",
     "DESCRIPTIONS": [
-      "#yPassive: Gain [E] after playing a #yStrike. NL NL #yBonepile: Gain #b1 stack of #yCharge. NL NL #ySwap: Gain #b5 stacks of #yCharge."
+      "#yPassive: Gain [E] after playing a #yStrike. NL NL #y骨头能力: Gain #b1 stack of #yCharge. NL NL #ySwap: Gain #b5 stacks of #yCharge."
     ]
   },
   "${modID}:ChampionPower": {
     "NAME": "Champion",
     "DESCRIPTIONS": [
-      "#yPassive: #yCounterattack unblocked damage.  NL NL #yBonepile: Heal the next #b3 HP you lose. NL NL #ySwap: Enter or Exit #yWrath."
+      "#yPassive: #yCounterattack 通无阻 damage.  NL NL #y骨头能力: Heal the next #b3 HP you lose. NL NL #ySwap: Enter or Exit #yWrath."
     ]
   },
   "${modID}:MagePower": {
     "NAME": "Mage",
     "DESCRIPTIONS": [
-      "#yPassive: Deal #b2 damage randomly each time you play a #ySkill. NL NL #yBonepile: Apply #yBurn randomly. NL #ySwap: Create an #yAwakening."
+      "#yPassive: Deal #b2 damage randomly each time you play a #ySkill. NL NL #y骨头能力: Apply #yBurn randomly. NL #ySwap: Create an #yAwakening."
     ]
   },
   "${modID}:WerewolfPower": {
     "NAME": "Werewolf",
     "DESCRIPTIONS": [
       "#yPassive: Deal #b",
-      " damage when you #yReshuffle. NL NL #yBonepile: Draw and randomly discard #b1 card. NL NL #ySwap: #yReshuffle."
+      " damage when you #yReshuffle. NL NL #y骨头能力: Draw and randomly discard #b1 card. NL NL #ySwap: #yReshuffle."
     ]
   },
   "${modID}:ClownPower": {
     "NAME": "Clown",
     "DESCRIPTIONS": [
-      "#yPassive: The first card you play each turn costs 0. NL NL #yBonepile: Add a random #yImitation to your hand. NL NL #ySwap: #yBonepile 2."
+      "#yPassive: The first card you play each turn costs 0. NL NL #y骨头能力: Add a random #yImitation to your hand. NL NL #ySwap: #y骨头能力 2."
     ]
   },
   "${modID}:DrinkingPotionPower": {
@@ -181,10 +181,10 @@
   "${modID}:FortressSet": {
     "NAME": "Fortress",
     "DESCRIPTIONS": [
-      "[#808080]2: [#808080]Gain [#808080]2 [#808080]Block [#808080]each [#808080]turn, [#808080]affected [#808080]by [#808080]Dexterity. NL ",
-      "#g2: Gain #b2 #yBlock each turn, affected by #yDexterity. NL ",
-      "[#808080]5: [#808080]Gain [#808080]2 [#808080]more [#808080]Block [#808080]each [#808080]turn. NL ",
-      "#g5: Gain #b2 more #yBlock each turn. NL ",
+      "[#808080]2: [#808080]Gain [#808080]2 [#808080] [#808080]each [#808080]turn, [#808080]affected [#808080]by [#808080]Dexterity. NL ",
+      "#g2: Gain #b2 #y each turn, affected by #yDexterity. NL ",
+      "[#808080]5: [#808080]Gain [#808080]2 [#808080]more [#808080] [#808080]each [#808080]turn. NL ",
+      "#g5: Gain #b2 more #y each turn. NL ",
       "[#808080]Masterpiece [#808080]6: [#808080]Gain [#808080]2 [#808080]Dexterity. NL ",
       "#gMasterpiece #g6: Gain #b2 #yDexterity."
 
@@ -216,8 +216,8 @@
       "#g3: Inflict #b25% of the first damage you take each turn to the attacker as #yRevenge. NL ",
       "[#808080]5: [#808080]The [#808080]Revenge [#808080]applied [#808080]becomes [#808080]50%. NL ",
       "#g5: The #yRevenge applied becomes #b50%. NL ",
-      "[#808080]Masterpiece [#808080]6: [#808080]Also [#808080]gain [E] [#808080]the [#808080]turn [#808080]after [#808080]you [#808080]take [#808080]unblocked [#808080]damage. NL ",
-      "#gMasterpiece #g6: Also gain [E] the turn after you take unblocked damage. NL "
+      "[#808080]Masterpiece [#808080]6: [#808080]Also [#808080]gain [E] [#808080]the [#808080]turn [#808080]after [#808080]you [#808080]take [#808080]通无阻 [#808080]damage. NL ",
+      "#gMasterpiece #g6: Also gain [E] the turn after you take 通无阻 damage. NL "
 
     ]
   },
@@ -284,13 +284,13 @@
   "${modID}:DarkPaladinPower": {
     "NAME": "Dark Paladin",
     "DESCRIPTIONS": [
-      "#yPassive: Fully #yBlocking grants #b4 #yOblivion. NL NL #yBonepile: #yGrit #b2. NL NL #ySwap: Gain #b8 #yOblivion this turn."
+      "#yPassive: Fully #阻塞 grants #b4 #yOblivion. NL NL #y骨头能力: #yGrit #b2. NL NL #ySwap: Gain #b8 #yOblivion this turn."
     ]
   },
   "${modID}:DarkPower": {
     "NAME": "Oblivion",
     "DESCRIPTIONS": [
-      "Consume this to reduce the next unblocked damage you take by #b",
+      "Consume this to reduce the next 通无阻 damage you take by #b",
       " . NL Once each turn, your next attack deals #b",
       " more damage."
     ]
@@ -298,7 +298,7 @@
   "${modID}:GrimReaperPower": {
     "NAME": "Grim Reaper",
     "DESCRIPTIONS": [
-      "#yPassive: Fatal #yAttacks grant a #pSoul. NL NL #yBonepile: #yEmbrace #b2 #gHP. NL NL #ySwap: #yHarvest, based on your current #pSouls.",
+      "#yPassive: Fatal #yAttacks grant a #pSoul. NL NL #y骨头能力: #yEmbrace #b2 #gHP. NL NL #ySwap: #yHarvest, based on your current #pSouls.",
       "It's sooo janky",
       "And I thought all the REST of this was janky"
     ]
@@ -337,15 +337,15 @@
   "${modID}:EntertainerForm": {
     "NAME": "Joker Form",
     "DESCRIPTIONS": [
-      "Your first #yImitation each turn will #yBonepile #b",
+      "Your first #yImitation each turn will #y骨头能力 #b",
       " times."
     ]
   },
   "${modID}:AllInForm": {
     "NAME": "All-In Form",
     "DESCRIPTIONS": [
-      "At the start of your turn, EVERYONE will #yGamble #b",
-      " times. #yGambler will also be paid out when an enemy wins a #yGamble."
+      "At the start of your turn, EVERYONE will #y赌 #b",
+      " times. #y赌 will also be paid out when an enemy wins a #y赌."
     ]
   },
   "${modID}:BlackbeardForm": {
@@ -366,7 +366,7 @@
     "NAME": "Guardian Form",
     "DESCRIPTIONS": [
       "After gaining #b",
-      " more #yBlock, convert #b",
+      " more #y, convert #b",
       " #yDexterity to #yStrength."
     ]
   },
@@ -389,7 +389,7 @@
     "NAME": "Doomed Dance",
     "DESCRIPTIONS": [
       "At the end of your turn, gain #b",
-      " #yBlock. NL If you take unblocked damage, this becomes #b",
+      " #y. NL If you take 通无阻 damage, this becomes #b",
       " #yPoison",
       " #yConstricted",
       "."
@@ -398,7 +398,7 @@
   "${modID}:AvengerForm": {
     "NAME": "Avenger Form",
     "DESCRIPTIONS": [
-      "Gain [E] the first time you take or #yBlock damage during your turn."
+      "Gain [E] the first time you take or #y damage during your turn."
 
     ]
   },
@@ -442,7 +442,7 @@
   "${modID}:DeathKnight": {
     "NAME": "Death Knight",
     "DESCRIPTIONS": [
-      "As impossibly strong as he is incredibly timid. NL NL #ySteals #yBlock before attacking, and gains #yBlock when attacked. NL NL Does less damage with more #yBlock."
+      "As impossibly strong as he is incredibly timid. NL NL #ySteals #y before attacking, and gains #y when attacked. NL NL Does less damage with more #y."
     ]
   },
   "${modID}:WedgedSpear": {
@@ -468,7 +468,7 @@
     "NAME": "Grit",
     "DESCRIPTIONS": [
       "Retain the next #b",
-      " #yBlock you'd lose at the start of the turn."
+      " #y you'd lose at the start of the turn."
     ]
   }
 }
