@@ -1,15 +1,13 @@
 package skulmod.relics;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.helpers.PowerTip;
-import skulmod.character.LittleBone;
 
 import static java.lang.Boolean.FALSE;
 import static skulmod.SkulMod.makeID;
+import static skulmod.util.vars.RelicSpawn;
 
-@NoCompendium
 public class IcedTea extends BaseRelic {
     private static final String NAME = "IcedTea"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic
@@ -20,9 +18,14 @@ public class IcedTea extends BaseRelic {
 
     public IcedTea() {
 
-        super(ID, NAME, LittleBone.Enums.CARD_COLOR, RARITY, SOUND);
+        super(ID, NAME, RARITY, SOUND);
         this.counter = 44;
         refreshTips();
+    }
+
+    @Override
+    public boolean canSpawn() {
+        return RelicSpawn();
     }
 
     @Override

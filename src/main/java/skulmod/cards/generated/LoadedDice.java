@@ -1,6 +1,5 @@
 package skulmod.cards.generated;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.PurgeField;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -18,7 +17,7 @@ import skulmod.util.CardInfo;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
-@NoCompendium
+//@NoCompendium
 public class LoadedDice extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "LoadedDice",

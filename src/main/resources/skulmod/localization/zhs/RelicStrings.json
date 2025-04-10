@@ -10,21 +10,21 @@
     "NAME": "Reassembly",
     "FLAVOR": "Bundle with Lizard Tail for maximum Reassemblage!",
     "DESCRIPTIONS": [
-      "Start with a random #ySkull. The first time you take #yFatal damage, #gheal to #b30 #gHP."
+      "Start with a random #y骷髅. The first time you take #yFatal damage, #gheal to #b30 #gHP."
     ]
   },
   "${modID}:SwapSkull": {
-    "NAME": "*Swap Button",
+    "NAME": "*交换 Button",
     "FLAVOR": "It's a little worn out, but that adds character. An item used for testing that some might find useful to explore the mod.",
     "DESCRIPTIONS": [
-      "#yRight #yClick to #y${modID}:Swap to your #rinactive #y${modID}:Skull. Has no cooldown."
+      "#yRight #yClick to #y${modID}:交换 to your #rinactive #y${modID}:骷髅. Has no cooldown."
     ]
   },
   "${modID}:BoneFragments": {
     "NAME": "*Bone Fragments",
     "FLAVOR": "You're a skeleton so you have a use for these, right?",
     "DESCRIPTIONS": [
-      "A memory of what almost was. A pouch that holds #yBone #yFragments obtained by shattering #y${modID}:Skulls. You can use them with #yAltar relics to gain permanent scaling stats."
+      "A memory of what almost was. A pouch that holds #yBone #yFragments obtained by shattering #y${modID}:骷髅. You can use them with #yAltar relics to gain permanent scaling stats."
     ]
   },
   "${modID}:DamageAltar": {
@@ -72,8 +72,8 @@
     ]
   },
   "${modID}:SpeedSkull": {
-    "NAME": "Speed Skull",
-    "FLAVOR": "A skull with optimized speed, at the cost of power and precision. It's gotta go fast.",
+    "NAME": "Speed 骷髅",
+    "FLAVOR": "A 骷髅 with optimized speed, at the cost of power and precision. It's gotta go fast.",
     "DESCRIPTIONS": [
       "Upon pickup, randomly choose a number between 1 and 3. NL At the start of combat: Gain #b",
       " #yDexterity. Lose #b",
@@ -82,8 +82,8 @@
     ]
   },
   "${modID}:PowerSkull": {
-    "NAME": "Power Skull",
-    "FLAVOR": "A skull with optimized power, at the cost of speed and precision. It smash!",
+    "NAME": "Power 骷髅",
+    "FLAVOR": "A 骷髅 with optimized power, at the cost of speed and precision. It smash!",
     "DESCRIPTIONS": [
       "Upon pickup, randomly choose a number between 1 and 3. NL At the start of combat: Gain #b",
       " #yStrength. Lose #b",
@@ -91,8 +91,8 @@
       " #yDexterity."
     ]
   },  "${modID}:BalanceSkull": {
-  "NAME": "Balance Skull",
-  "FLAVOR": "A skull with optimized precision, at the cost of speed and power. It's 40% safe!",
+  "NAME": "Balance 骷髅",
+  "FLAVOR": "A 骷髅 with optimized precision, at the cost of speed and power. It's 40% safe!",
   "DESCRIPTIONS": [
     "Upon pickup, randomly choose a number between 1 and 3. At the start of combat, gain that much #yDexterity and lose that much #yStrength and #yFocus."
   ]
@@ -108,7 +108,7 @@
     "NAME": "Dark Mirror",
     "FLAVOR": "The world looks funny in this.",
     "DESCRIPTIONS": [
-      "Upon pickup, obtain an additional copy of a card in your deck. NL If that card is a #ySkull, create a random rare #ySkull instead.",
+      "Upon pickup, obtain an additional copy of a card in your deck. NL If that card is a #y骷髅, create a random rare #y骷髅 instead.",
       "Choose 1 Card to Copy."
     ]
   },
@@ -181,6 +181,14 @@
     "DESCRIPTIONS": [
       "#y${modID}:Quintessence. NL Once per combat, #yright #yclick to deal #b9 damage to a random enemy and inflict #y${modID}:Wedged_Spear.",
       ""
+    ]
+  },
+  "${modID}:HuntersGift": {
+    "NAME": "Hunter's Gift",
+    "FLAVOR": "Another one? You're greedy like an ogre.",
+    "DESCRIPTIONS": [
+      "On pickup, choose a #y${modID}:骷髅 to add to your deck.",
+      "Choose a 骷髅 to add to your deck"
     ]
   }
 }

@@ -464,5 +464,14 @@
       "blizzards"
     ],
     "DESCRIPTION": "#yPassive: At the end of your turn, ALL enemies lose HP equal to their #yBlock, up to #b2. NL #yEvoke: EVERYONE gains #b2 #yBlock."
+  },
+  {
+    "PROPER_NAME": "Riding",
+    "NAMES": [
+      "Riding",
+      "riding",
+      "ride"
+    ],
+    "DESCRIPTION": "Increase ALL incoming and outgoing damage based on your #yRelayed #yDamage."
   }
 ]

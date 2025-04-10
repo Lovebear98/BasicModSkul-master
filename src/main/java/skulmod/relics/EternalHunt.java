@@ -1,7 +1,6 @@
 package skulmod.relics;
 
 import basemod.helpers.CardPowerTip;
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -11,8 +10,8 @@ import skulmod.cards.power.SkullPowers.WerewolfSkull;
 import skulmod.character.LittleBone;
 
 import static skulmod.SkulMod.makeID;
+import static skulmod.util.vars.RelicSpawn;
 
-@NoCompendium
 public class EternalHunt extends BaseRelic {
     private static final String NAME = "EternalHunt"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic
@@ -61,9 +60,11 @@ public class EternalHunt extends BaseRelic {
 
     @Override
     public boolean canSpawn() {
-        for(AbstractCard c : AbstractDungeon.player.masterDeck.group) {
-            if (c.cardID.equals(WerewolfSkull.ID)) {
-                return true;
+        if(RelicSpawn()){
+            for(AbstractCard c : AbstractDungeon.player.masterDeck.group) {
+                if (c.cardID.equals(WerewolfSkull.ID)) {
+                    return true;
+                }
             }
         }
         return false;

@@ -8,7 +8,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import skulmod.powers.BasePower;
-import skulmod.relics.quintessence.Centauros;
+import skulmod.relics.depreciated.Centauros;
 
 import static skulmod.SkulMod.makeID;
 

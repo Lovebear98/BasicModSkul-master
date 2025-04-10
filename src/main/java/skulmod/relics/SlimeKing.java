@@ -3,10 +3,10 @@ package skulmod.relics;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import skulmod.character.LittleBone;
 import skulmod.util.CustomActions.SlimeKingAction;
 
 import static skulmod.SkulMod.makeID;
+import static skulmod.util.vars.RelicSpawn;
 
 public class SlimeKing extends BaseRelic {
     private static final String NAME = "SlimeKing"; //The name will be used for determining the image file as well as the ID.
@@ -14,12 +14,17 @@ public class SlimeKing extends BaseRelic {
     private static final RelicTier RARITY = RelicTier.RARE; //The relic's rarity.
     private static final LandingSound SOUND = LandingSound.HEAVY; //The sound played when the relic is clicked.
     public SlimeKing() {
-        super(ID, NAME, LittleBone.Enums.CARD_COLOR, RARITY, SOUND);
+        super(ID, NAME, RARITY, SOUND);
     }
 
     @Override
     public void atTurnStartPostDraw() {
 
+    }
+
+    @Override
+    public boolean canSpawn() {
+        return RelicSpawn();
     }
 
     @Override

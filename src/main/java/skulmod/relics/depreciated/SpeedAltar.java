@@ -1,6 +1,5 @@
 package skulmod.relics.depreciated;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.relics.ClickableRelic;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
@@ -14,7 +13,6 @@ import skulmod.relics.BaseRelic;
 import static skulmod.SkulMod.makeID;
 import static skulmod.relics.depreciated.BoneFragments.FragmentCount;
 import static skulmod.relics.depreciated.BoneFragments.FragmentGain;
-@NoCompendium
 public class SpeedAltar extends BaseRelic implements ClickableRelic {
     private static final String NAME = "SpeedAltar"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic

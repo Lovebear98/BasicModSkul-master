@@ -1,7 +1,6 @@
 package skulmod.cards.generated.grapple;
 
 import basemod.helpers.CardModifierManager;
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -21,7 +20,7 @@ import skulmod.util.CustomActions.SkullActions.BonepileAction;
 import static skulmod.SkulMod.makeID;
 import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
 
-@NoCompendium
+//@NoCompendium
 public class LionHunt extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "LionHunt",

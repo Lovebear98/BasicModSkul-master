@@ -1,6 +1,5 @@
 package skulmod.cards.generated;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
@@ -17,7 +16,7 @@ import skulmod.util.CardInfo;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
-@NoCompendium
+//@NoCompendium
 public class Awakening extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "Awakening",

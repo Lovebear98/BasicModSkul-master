@@ -10,7 +10,6 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import skulmod.CustomTags;
 import skulmod.cards.BaseCard;
-import skulmod.cards.generated.Hibernation;
 import skulmod.character.LittleBone;
 import skulmod.powers.custompowers.skulls.FrostSkullPower;
 import skulmod.util.CardInfo;
@@ -55,7 +54,6 @@ public class FrostSkull extends BaseCard implements SpawnModificationCard {
         tags.add(CardTags.HEALING);
         StartExhaustedField.startexhausted.set(this, true);
         SoulboundField.soulbound.set(this, true);
-        cardsToPreview = new Hibernation();
     }
 
     @Override

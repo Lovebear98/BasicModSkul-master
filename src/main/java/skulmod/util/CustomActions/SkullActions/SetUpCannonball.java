@@ -1,5 +1,6 @@
 package skulmod.util.CustomActions.SkullActions;
 
+import basemod.BaseMod;
 import basemod.helpers.CardModifierManager;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
@@ -54,12 +55,14 @@ public class SetUpCannonball extends AbstractGameAction {
                 CardModifierManager.addModifier(c, new CannonballMod());
             }
         }else{
-            c = new Cannonfire();
-            if(Upgrade){
-                c.upgrade();
-                addToTop(new MakeTempCardInHandAction(c));
-            }else{
-                addToTop(new MakeTempCardInHandAction(c));
+            if(AbstractDungeon.player.hand.size() < BaseMod.MAX_HAND_SIZE){
+                c = new Cannonfire();
+                if(Upgrade){
+                    c.upgrade();
+                    addToTop(new MakeTempCardInHandAction(c));
+                }else{
+                    addToTop(new MakeTempCardInHandAction(c));
+                }
             }
         }
     }

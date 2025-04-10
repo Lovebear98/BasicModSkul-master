@@ -144,13 +144,11 @@ public class CocoonEvent extends AbstractImageEvent {
 
     private void SkulCocoonGetRandomPower() {
             AbstractCard.CardRarity Rarity = null;
-            int RandNum = AbstractDungeon.eventRng.random(1, 3);
+            int RandNum = AbstractDungeon.eventRng.random(1, 2);
             switch(RandNum){
-                case 1: Rarity = AbstractCard.CardRarity.COMMON;
+                case 1: Rarity = AbstractCard.CardRarity.RARE;
                     break;
                 case 2: Rarity = AbstractCard.CardRarity.UNCOMMON;
-                    break;
-                case 3: Rarity = AbstractCard.CardRarity.RARE;
                     break;
             }
             AbstractCard card = CardLibrary.getAnyColorCard(AbstractCard.CardType.POWER, Rarity);

@@ -29,7 +29,7 @@
   "${modID}:Barrier": {
     "NAME": "Barrier",
     "DESCRIPTION": [
-      "#yPassive: At the end of each turn, gain #b",
+      "#y与生俱来: At the end of each turn, gain #b",
       " #yDexterity until your next turn. NL #yEvoke: Gain #b",
       " #yDexterity until your next turn.",
       ""
@@ -47,7 +47,7 @@
   "${modID}:Arrow": {
     "NAME": "Arrow",
     "DESCRIPTION": [
-      "#yPassive: Channel #b",
+      "#y与生俱来: Channel #b",
       " #yArrow at the start of your turn. NL #yEvoke: Randomly deal #b",
       " damage and #yEvoke ALL other #yArrows.",
       "",
@@ -59,8 +59,20 @@
     "NAME": "Concentration",
     "DESCRIPTION": [
       "#yEvoke: Deal #b",
-      " damage to a random enemy. NL ##yPassive: Increase this orb's damage by #b",
+      " damage to a random enemy. NL #y与生俱来: Increase this orb's damage by #b",
       " when you play a card.",
+      ""
+    ]
+  },
+
+  "${modID}:Blizzard": {
+    "NAME": "Blizzard",
+    "DESCRIPTION": [
+      "#y与生俱来: At the end of your turn, ALL enemies lose HP equal to their #yBlock, up to #b",
+      ". NL #yEvoke: EVERYONE gains #b",
+      " #yBlock.",
+      "",
+      "",
       ""
     ]
   }

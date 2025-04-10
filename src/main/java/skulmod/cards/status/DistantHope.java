@@ -1,6 +1,5 @@
 package skulmod.cards.status;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.SoulboundField;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -12,7 +11,7 @@ import skulmod.character.LittleBone;
 import skulmod.util.CardInfo;
 
 import static skulmod.SkulMod.makeID;
-@NoCompendium
+//@NoCompendium
 public class DistantHope extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "DistantHope",

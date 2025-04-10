@@ -1,6 +1,5 @@
 package skulmod.relics;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.Settings;
@@ -8,11 +7,10 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 import skulmod.cards.power.SkullPowers.*;
-import skulmod.character.LittleBone;
 
 import static skulmod.SkulMod.makeID;
+import static skulmod.util.vars.RelicSpawn;
 
-@NoCompendium
 public class HuntersGift extends BaseRelic {
 
     private CardGroup SkullList = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
@@ -24,9 +22,12 @@ public class HuntersGift extends BaseRelic {
 
     public HuntersGift() {
 
-        super(ID, NAME, LittleBone.Enums.CARD_COLOR, RARITY, SOUND);
+        super(ID, NAME, RARITY, SOUND);
     }
-
+    @Override
+    public boolean canSpawn() {
+        return RelicSpawn();
+    }
 
     public void onEquip() {
         this.cardsSelected = false;

@@ -1,7 +1,6 @@
 package skulmod.cards.generated.grapple;
 
 import basemod.helpers.CardModifierManager;
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -21,7 +20,7 @@ import skulmod.powers.custompowers.HerculeanStrength;
 import skulmod.util.CardInfo;
 
 import static skulmod.SkulMod.makeID;
-@NoCompendium
+//@NoCompendium
 public class BoarChase extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "BoarChase",

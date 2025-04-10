@@ -93,4 +93,7 @@ public class DavyJonesPower extends BasePower implements CloneablePowerInterface
     public AbstractPower makeCopy() {
         return new DavyJonesPower(owner, amount);
     }
+
+    public void onDiscard() {
+    }
 }

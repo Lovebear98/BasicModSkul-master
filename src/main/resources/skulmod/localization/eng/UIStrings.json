@@ -3,7 +3,11 @@
     "TEXT": [
       "Choose a Skull to SHATTER. You will lose the Skull.",
       "Discard",
-      "CHARGE"
+      "CHARGE",
+      "Enable music from Skul: The Hero Slayer.",
+      "Add Skulls to the card pool at the start of the next run.",
+      "Enable Skul:The Hero Slayer Events (Cocoon).",
+      "Allow Skul:The Hero Slayer relics to spawn on other characters."
     ]
   },
   "${modID}:Example": {

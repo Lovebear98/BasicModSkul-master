@@ -8,11 +8,11 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 import skulmod.CustomTags;
 import skulmod.cards.power.SkullPowers.*;
-import skulmod.character.LittleBone;
 
 import java.util.ArrayList;
 
 import static skulmod.SkulMod.makeID;
+import static skulmod.util.vars.RelicSpawn;
 
 public class DarkMirror extends BaseRelic {
     private static final String NAME = "DarkMirror"; //The name will be used for determining the image file as well as the ID.
@@ -22,12 +22,16 @@ public class DarkMirror extends BaseRelic {
     private boolean cardSelected = true;
 
     public DarkMirror() {
-        super(ID, NAME, LittleBone.Enums.CARD_COLOR, RARITY, SOUND);
+        super(ID, NAME, RARITY, SOUND);
     }
 
     @Override
     public void atTurnStartPostDraw() {
 
+    }
+    @Override
+    public boolean canSpawn() {
+        return RelicSpawn();
     }
 
     @Override

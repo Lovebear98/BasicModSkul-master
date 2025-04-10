@@ -1,6 +1,5 @@
 package skulmod.relics;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.relics.ClickableRelic;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -11,7 +10,6 @@ import skulmod.util.CustomActions.SkullActions.ChooseASkull;
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
-@NoCompendium
 public class SwapSkull extends BaseRelic implements ClickableRelic {
     private static final String NAME = "SwapSkull"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic

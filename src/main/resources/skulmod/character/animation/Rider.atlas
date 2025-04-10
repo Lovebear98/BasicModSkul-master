@@ -1,0 +1,160 @@
+
+Rider.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rider/Idle1
+  rotate: false
+  xy: 839, 791
+  size: 112, 148
+  orig: 112, 148
+  offset: 0, 0
+  index: -1
+Rider/Idle2
+  rotate: false
+  xy: 603, 787
+  size: 112, 152
+  orig: 112, 152
+  offset: 0, 0
+  index: -1
+Rider/Idle3
+  rotate: false
+  xy: 485, 779
+  size: 116, 152
+  orig: 116, 152
+  offset: 0, 0
+  index: -1
+Rider/Idle4
+  rotate: false
+  xy: 801, 495
+  size: 128, 152
+  orig: 128, 152
+  offset: 0, 0
+  index: -1
+Rider/Idle5
+  rotate: false
+  xy: 359, 637
+  size: 124, 148
+  orig: 124, 148
+  offset: 0, 0
+  index: -1
+Rider/Idle6
+  rotate: false
+  xy: 615, 637
+  size: 120, 148
+  orig: 120, 148
+  offset: 0, 0
+  index: -1
+Rider/Dash1
+  rotate: false
+  xy: 1, 179
+  size: 168, 116
+  orig: 168, 116
+  offset: 0, 0
+  index: -1
+Rider/Dash2
+  rotate: false
+  xy: 809, 285
+  size: 132, 144
+  orig: 132, 144
+  offset: 0, 0
+  index: -1
+Rider/Dash3
+  rotate: false
+  xy: 485, 637
+  size: 128, 140
+  orig: 128, 140
+  offset: 0, 0
+  index: -1
+Rider/Dash4
+  rotate: false
+  xy: 1, 787
+  size: 116, 136
+  orig: 116, 136
+  offset: 0, 0
+  index: -1
+Rider/Attack1
+  rotate: false
+  xy: 717, 787
+  size: 120, 140
+  orig: 120, 140
+  offset: 0, 0
+  index: -1
+Rider/Attack2
+  rotate: false
+  xy: 171, 179
+  size: 124, 136
+  orig: 124, 136
+  offset: 0, 0
+  index: -1
+Rider/Attack3
+  rotate: false
+  xy: 877, 1
+  size: 140, 132
+  orig: 140, 132
+  offset: 0, 0
+  index: -1
+Rider/Attack4
+  rotate: false
+  xy: 765, 139
+  size: 252, 144
+  orig: 252, 144
+  offset: 0, 0
+  index: -1
+Rider/Attack5
+  rotate: false
+  xy: 1, 317
+  size: 444, 144
+  orig: 444, 144
+  offset: 0, 0
+  index: -1
+Rider/Attack6
+  rotate: false
+  xy: 359, 495
+  size: 440, 140
+  orig: 440, 140
+  offset: 0, 0
+  index: -1
+Rider/Attack7
+  rotate: false
+  xy: 399, 1
+  size: 476, 136
+  orig: 476, 136
+  offset: 0, 0
+  index: -1
+Rider/Attack8
+  rotate: false
+  xy: 839, 649
+  size: 120, 140
+  orig: 120, 140
+  offset: 0, 0
+  index: -1
+Rider/Bike1
+  rotate: false
+  xy: 1, 1
+  size: 396, 176
+  orig: 396, 176
+  offset: 0, 0
+  index: -1
+Rider/Bike2
+  rotate: false
+  xy: 1, 463
+  size: 356, 176
+  orig: 356, 176
+  offset: 0, 0
+  index: -1
+Rider/Bike3
+  rotate: false
+  xy: 399, 139
+  size: 364, 176
+  orig: 364, 176
+  offset: 0, 0
+  index: -1
+Rider/Bike4
+  rotate: false
+  xy: 447, 317
+  size: 360, 176
+  orig: 360, 176
+  offset: 0, 0
+  index: -1

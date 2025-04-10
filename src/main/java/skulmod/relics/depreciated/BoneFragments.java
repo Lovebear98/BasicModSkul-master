@@ -1,6 +1,5 @@
 package skulmod.relics.depreciated;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.relics.ClickableRelic;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -9,7 +8,6 @@ import skulmod.relics.BaseRelic;
 
 import static skulmod.SkulMod.makeID;
 
-@NoCompendium
 public class BoneFragments extends BaseRelic implements ClickableRelic {
     private static final String NAME = "BoneFragments"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic

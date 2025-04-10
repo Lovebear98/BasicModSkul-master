@@ -85,17 +85,28 @@ public class AtlasPaths {
         return "GraveDigger";
     }
 
-
-
-    public static String DemiGod(){
-        return "DemiGod";
-    }
-    public static String Sword(){
-        return "Sword";
-    }
     public static String SamuraiAnim(){
         return "Samurai";
     }
+    public static String GeneAnim(){
+        return "Gene";
+    }
+
+
+    ///Skulls built using mechanics from other mods
+    public static String RiderAnim(){
+        return "Rider";
+    }
+
+
+
+
+
+    public static String GhoulAnim(){
+        return "Ghoul";
+    }
+    public static String DemiGod(){return "DemiGod";}
+    public static String Sword(){return "Sword";}
     public static String YakshaAnim(){
         return "Yaksha";
     }

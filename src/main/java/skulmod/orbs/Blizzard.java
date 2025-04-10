@@ -4,7 +4,6 @@ package skulmod.orbs;
 import basemod.abstracts.CustomOrb;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.MathUtils;
-import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.OrbStrings;
@@ -13,7 +12,6 @@ import com.megacrit.cardcrawl.vfx.combat.FrostOrbActivateEffect;
 import com.megacrit.cardcrawl.vfx.combat.FrostOrbPassiveEffect;
 import skulmod.util.CustomActions.BlizzardOrbAction;
 import skulmod.util.CustomActions.MassBlockAction;
-import skulmod.util.CustomActions.SkullActions.FrostSkullBlockAction;
 
 import static skulmod.SkulMod.makeID;
 

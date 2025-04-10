@@ -1,0 +1,9 @@
+{
+  "${modID}:Riding": {
+    "NAME": "Riding",
+    "DESCRIPTION": [
+      "Increase ALL incoming and outgoing damage by #b",
+      "%, based on your #yRelayed #yDamage / your #yCurrent #yHealth."
+    ]
+  }
+}

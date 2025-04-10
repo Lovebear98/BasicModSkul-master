@@ -1,6 +1,5 @@
 package skulmod.cards.generated;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
@@ -15,7 +14,7 @@ import skulmod.util.CardInfo;
 
 import static skulmod.SkulMod.makeID;
 
-@NoCompendium
+//@NoCompendium
 public class RapidChannel extends BaseCard {
     private final static CardInfo cardInfo = new CardInfo(
             "RapidChannel",

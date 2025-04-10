@@ -1,6 +1,7 @@
 package skulmod.powers.custompowers;
 
 import basemod.interfaces.CloneablePowerInterface;
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.unique.LoseEnergyAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -58,6 +59,7 @@ public class JackInTheBox extends BasePower implements CloneablePowerInterface {
                 RepeatCost = card.costForTurn;
             }
 
+
             if(EnergyPanel.totalCount-RepeatCost >= RepeatCost){
                 int TimesToPlay = (EnergyPanel.totalCount-RepeatCost) / RepeatCost;
             if(AbstractDungeon.player.hasRelic(ChemicalX.ID)){
@@ -65,7 +67,13 @@ public class JackInTheBox extends BasePower implements CloneablePowerInterface {
             }
                 int Loops;
                 for(Loops = TimesToPlay; Loops > 0; Loops -= 1){
-                card.use(AbstractDungeon.player, m);
+                addToTop(new AbstractGameAction() {
+                    @Override
+                    public void update() {
+                        card.use(AbstractDungeon.player, m);
+                        isDone = true;
+                    }
+                });
                 addToBot(new LoseEnergyAction(RepeatCost));
             }
             }

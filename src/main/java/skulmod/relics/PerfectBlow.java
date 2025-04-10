@@ -18,6 +18,7 @@ import java.util.function.Predicate;
 
 import static java.lang.Boolean.TRUE;
 import static skulmod.SkulMod.makeID;
+import static skulmod.util.vars.RelicSpawn;
 
 
 public class PerfectBlow extends BaseRelic  implements CustomBottleRelic, CustomSavable<Integer> {
@@ -31,6 +32,11 @@ private Boolean cardSelected = TRUE;
 
     public PerfectBlow() {
         super(ID, NAME, RARITY, SOUND);
+    }
+
+    @Override
+    public boolean canSpawn() {
+        return RelicSpawn();
     }
 
     public Predicate<AbstractCard> isOnCard() {

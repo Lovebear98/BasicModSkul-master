@@ -77,8 +77,11 @@ public class ClearSkullPowers extends AbstractGameAction {
         if(p.hasPower(BerserkerSkullPower.POWER_ID)){
             addToBot(new RemoveSpecificPowerAction(p,p, BerserkerSkullPower.POWER_ID));
         }
-        ///EndOfActionSpace
-        ///EndOfActionSpace
+        ///Clear external skulls here
+        ExternalClears();
         isDone = TRUE;
+    }
+
+    private void ExternalClears() {
     }
 }

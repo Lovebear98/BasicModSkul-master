@@ -143,8 +143,8 @@ this.p = AbstractDungeon.player;
         if(c.cardID.equals(BerserkerSkull.ID)){
            ///We put this here in case we need it
         }
-        ///Pre-Default Space
-        ///Pre-Default Space
+        ///Perform external swaps here
+        ExternalSwaps(c);
         ///LITTLE BONE SWAP
         if(c.cardID.equals(LittleBoneSkull.ID)){
             addToBot(new GainEnergyAction(2));
@@ -156,11 +156,9 @@ this.p = AbstractDungeon.player;
         isDone = TRUE;
     }
 
+    private void ExternalSwaps(AbstractCard c) {
 
-
-
-
-
+    }
 
 
 }

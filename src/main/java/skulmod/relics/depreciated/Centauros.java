@@ -1,4 +1,4 @@
-package skulmod.relics.quintessence;
+package skulmod.relics.depreciated;
 
 import com.evacipated.cardcrawl.mod.stslib.relics.ClickableRelic;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
@@ -13,17 +13,17 @@ import com.megacrit.cardcrawl.helpers.PowerTip;
 import com.megacrit.cardcrawl.localization.RelicStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
-import skulmod.character.LittleBone;
 import skulmod.powers.custompowers.WedgedSpear;
 import skulmod.relics.BaseRelic;
 
 import static skulmod.SkulMod.makeID;
+import static skulmod.util.vars.RelicSpawn;
 
 
 public class Centauros extends BaseRelic implements ClickableRelic {
     private static final String NAME = "Centauros"; //The name will be used for determining the image file as well as the ID.
     public static final String ID = makeID(NAME); //This adds the mod's prefix to the relic ID, resulting in modID:MyRelic
-    private static final RelicTier RARITY = RelicTier.UNCOMMON; //The relic's rarity.
+    private static final RelicTier RARITY = RelicTier.SPECIAL; //The relic's rarity.
     private static final LandingSound SOUND = LandingSound.MAGICAL; //The sound played when the relic is clicked.
     private static final RelicStrings relicStrings = CardCrawlGame.languagePack.getRelicStrings(ID);
     public static boolean GotSpear = false;
@@ -31,8 +31,12 @@ public class Centauros extends BaseRelic implements ClickableRelic {
 
     public Centauros() {
 
-        super(ID, NAME, LittleBone.Enums.CARD_COLOR, RARITY, SOUND);
+        super(ID, NAME, RARITY, SOUND);
 
+    }
+    @Override
+    public boolean canSpawn() {
+        return RelicSpawn();
     }
 
     @Override

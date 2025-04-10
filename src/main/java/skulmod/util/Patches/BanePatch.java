@@ -15,17 +15,14 @@ public class BanePatch {
 
     @SpirePostfixPatch
     public static void Postfix() {
-if(AbstractDungeon.player instanceof LittleBone){
-        for (AbstractCard c : AbstractDungeon.player.masterDeck.group) {
-            if (c.cardID.equals(AscendersBane.ID)) {
-                AbstractDungeon.player.masterDeck.removeCard(c);
-                AbstractDungeon.player.masterDeck.addToTop(new DistantHope());
-                break;
+        if(AbstractDungeon.player instanceof LittleBone){
+            for (AbstractCard c : AbstractDungeon.player.masterDeck.group) {
+                if (c.cardID.equals(AscendersBane.ID)) {
+                    AbstractDungeon.player.masterDeck.removeCard(c);
+                    AbstractDungeon.player.masterDeck.addToTop(new DistantHope());
+                    break;
+                }
             }
         }
-
-
-}
-
     }
 }

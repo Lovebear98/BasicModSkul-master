@@ -1,6 +1,5 @@
 package skulmod.cards.power.SkullPowers;
 
-import basemod.patches.com.megacrit.cardcrawl.screens.compendium.CardLibraryScreen.NoCompendium;
 import com.evacipated.cardcrawl.mod.stslib.cards.interfaces.SpawnModificationCard;
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.SoulboundField;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -23,7 +22,7 @@ import java.util.ArrayList;
 
 import static skulmod.SkulMod.makeID;
 import static skulmod.util.CustomActions.SkullActions.ChooseASkull.ActiveSkull;
-@NoCompendium
+//@NoCompendium
 public class BomberSkull extends BaseCard implements SpawnModificationCard {
     private final static CardInfo cardInfo = new CardInfo(
             "BomberSkull",

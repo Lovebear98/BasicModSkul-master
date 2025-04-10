@@ -4,6 +4,7 @@ import basemod.AutoAdd;
 import basemod.BaseMod;
 import basemod.ModLabeledToggleButton;
 import basemod.ModPanel;
+import basemod.eventUtil.AddEventParams;
 import basemod.helpers.CardBorderGlowManager;
 import basemod.helpers.CardModifierManager;
 import basemod.interfaces.*;
@@ -61,6 +62,8 @@ import skulmod.util.GeneralUtils;
 import skulmod.util.KeywordInfo;
 import skulmod.util.Patches.SwapButton.ReloadButton;
 import skulmod.util.TextureLoader;
+import skulmod.util.othermodskulls.unchained.unchainedReg;
+import skulmod.util.vars;
 
 import java.nio.charset.StandardCharsets;
 import java.util.*;
@@ -110,12 +113,20 @@ public static int swapKey = Input.Keys.Q; //R
 public static Properties SkulDefaults = new Properties();
     public static final String SKUL_MUSIC = "SkulMusic";
     public static boolean SkulMusic = false;
-
-    public static final String BOSS_SPAWN = "SpawnBoss";
-    public static boolean SpawnBoss = false;
+    public static final String EVENT_SPAWN = "SpawnEvent";
+    public static boolean SpawnEvent = false;
     public static final String SKULLS_SPAWN = "SkullsSpawn";
     public static boolean SkullsSpawn = false;
+    public static final String RELIC_SPAWN = "SpawnRelic";
+    public static boolean SpawnRelic = false;
+
+
+
+
+
     public static String CurrentSkull = "None";
+
+    public static boolean LockRelay = false;
 
 
     ///End Config Options
@@ -123,6 +134,19 @@ public static Properties SkulDefaults = new Properties();
     //Settings
     public static final Logger logger = LogManager.getLogger(modID); //Used to output to the console.
     //This is where your resource images go.
+
+    public static final boolean hasUnchained;
+    static{
+        hasUnchained = Loader.isModLoaded("TheUnchainedMod");
+        logger.info("Checking for crossover content for Unchained!");
+        if(hasUnchained){
+            logger.info("Found crossover content for Unchained!");
+        }
+    }
+
+
+
+
     private static final String resourcesFolder = "skulmod";
     private static final String BG_ATTACK = characterPath("cardback/bg_attack.png");
     private static final String BG_ATTACK_P = characterPath("cardback/bg_attack_p.png");
@@ -212,14 +236,16 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
 
 
         SkulDefaults.setProperty(SKUL_MUSIC, "TRUE");
-        SkulDefaults.setProperty(BOSS_SPAWN, "FALSE");
+        SkulDefaults.setProperty(EVENT_SPAWN, "TRUE");
         SkulDefaults.setProperty(SKULLS_SPAWN, "FALSE");
+        SkulDefaults.setProperty(RELIC_SPAWN, "TRUE");
         try {
             SpireConfig config = new SpireConfig("SkulMod", "SkulConfig", SkulDefaults);
             config.load();
             SkulMusic = config.getBool(SKUL_MUSIC);
-            SpawnBoss = config.getBool(BOSS_SPAWN);
+            SpawnEvent = config.getBool(EVENT_SPAWN);
             SkullsSpawn = config.getBool(SKULLS_SPAWN);
+            SpawnRelic = config.getBool(RELIC_SPAWN);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -238,14 +264,13 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
         TacticsList.add(new SixGeneralsFivePasses());
         TacticsList.add(new StrengthOf10K());
         TacticsList.add(new TigerGeneral());
-        ///W add Laughing Arrow twice to make it more likely to see - a 1 in 5.
+        ///We add Laughing Arrow twice to make it more likely to see - a 1 in 5.
         // It may need to become a 3-in-11?
         TacticsList.add(new LaughingArrow());
         TacticsList.add(new LaughingArrow());
 
 
-
-        BaseMod.addEvent(CocoonEvent.ID, CocoonEvent.class);
+        BaseMod.addEvent(new AddEventParams.Builder(CocoonEvent.ID, CocoonEvent.class).bonusCondition(() -> SpawnEvent).create());
 
 
 
@@ -306,7 +331,7 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
         ModPanel settingsPanel = new ModPanel();
         BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);
         ////Play Skul:The Hero Slayer music
-        ModLabeledToggleButton MusicBoxButton = new ModLabeledToggleButton("Enabled music from Skul: The Hero Slayer.",
+        ModLabeledToggleButton MusicBoxButton = new ModLabeledToggleButton(vars.EnableMusic(),
                 350.0f, 700.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
                 SkulMusic, settingsPanel, (label) -> {
         }, (button) -> {
@@ -323,8 +348,8 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
         /////Allow Black Market Set Effect Items to spawn
 
 
-        ModLabeledToggleButton SpawnSkullsButton = new ModLabeledToggleButton("At the start of the next run, add Skulls to the card pool.",
-                350.0f, 600.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
+        ModLabeledToggleButton SpawnSkullsButton = new ModLabeledToggleButton(vars.AddSkulls(),
+                350.0f, 650.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
                 SkullsSpawn, settingsPanel, (label) -> {
         }, (button) -> {
             SkullsSpawn = button.enabled;
@@ -339,6 +364,35 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
         settingsPanel.addUIElement(SpawnSkullsButton);
 
 
+        ModLabeledToggleButton SpawnEventButton = new ModLabeledToggleButton(vars.AddEvent(),
+                350.0f, 600.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
+                SkullsSpawn, settingsPanel, (label) -> {
+        }, (button) -> {
+            SkullsSpawn = button.enabled;
+            try {
+                SpireConfig config = new SpireConfig("SkulMod", "SkulConfig", SkulDefaults);
+                config.setBool(EVENT_SPAWN, SpawnEvent);
+                config.save();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        settingsPanel.addUIElement(SpawnEventButton);
+
+        ModLabeledToggleButton SpawnRelicButton = new ModLabeledToggleButton(vars.AddRelics(),
+                350.0f, 550.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
+                SkullsSpawn, settingsPanel, (label) -> {
+        }, (button) -> {
+            SkullsSpawn = button.enabled;
+            try {
+                SpireConfig config = new SpireConfig("SkulMod", "SkulConfig", SkulDefaults);
+                config.setBool(RELIC_SPAWN, SpawnRelic);
+                config.save();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        settingsPanel.addUIElement(SpawnRelicButton);
 
 
 
@@ -413,6 +467,8 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
                 localizationPath(lang, "TutorialStrings.json"));
         BaseMod.loadCustomStringsFile(MonsterStrings.class,
                 localizationPath(lang, "MonsterStrings.json"));
+        BaseMod.loadCustomStringsFile(StanceStrings.class,
+                localizationPath(lang, "StanceStrings.json"));
     }
 
     @Override
@@ -494,15 +550,24 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
 
     @Override
     public void receiveEditCards() {
+
+
         BaseMod.addDynamicVariable(new RouletteSelfDamage());
         BaseMod.addDynamicVariable(new BlockVigor());
         BaseMod.addDynamicVariable(new DoubleMagic());
         BaseMod.addDynamicVariable(new VigorNum());
 
+
+
         new AutoAdd(modID) //Loads files from this mod
                 .packageFilter(BaseCard.class) //In the same package as this class
                 .setDefaultSeen(true) //And marks them as seen in the compendium
                 .cards(); //Adds the cards
+
+
+        if(hasUnchained){
+            unchainedReg.registercards();
+        }
     }
 
     @Override
@@ -528,6 +593,7 @@ ArrayList<AbstractCard> starterSkull = new ArrayList<>();
         ClownPower.NoCardsThisTurn = TRUE;
         ReloadButton.SwapAvailable = TRUE;
         WarriorSkullPower.AttackedThisTurn = FALSE;
+        LockRelay = false;
     }
 
     @Override
@@ -621,6 +687,10 @@ if(abstractCard.type == AbstractCard.CardType.ATTACK){
         BaseMod.addAudio("SKUL_GAMBLE","skulmod/audio/Gambler_SlotMachine_Stop.wav");
         BaseMod.addAudio("SKUL_CLOWN_PROC","skulmod/audio/Clown_Passive_Explosion.wav");
         BaseMod.addAudio("HERC_PROC","skulmod/audio/Hercules_Slam_Enhanced.wav");
+
+        BaseMod.addAudio("SKUL_BIKE_START","skulmod/audio/Rider_MotorcycleReady_short.wav");
+        BaseMod.addAudio("SKUL_BIKE_LOOP","skulmod/audio/Rider_MotorcycleStart.wav");
+        BaseMod.addAudio("SKUL_BIKE_END","skulmod/audio/Rider_ThrowMotorcycle.wav");
 
     }
 

@@ -1066,6 +1066,22 @@
     "EXTENDED_DESCRIPTION": [
       ""
     ]
+  },
+  "${modID}:RiderSkull": {
+    "NAME": "Rider",
+    "DESCRIPTION": "*Passive: Gain TheUnchainedMod:Relay instead of Block, and *Relay affects *Relayed damage. NL *Bonepile: Gain 2 *Relay. NL *Swap: Add a *Ride-or-Die to your hand.",
+    "UPGRADE_DESCRIPTION": "Legends say he appears and disappears without warning near the fourth intersection...incidentally, nobody realizes how talented the mechanic there is.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:RideOrDie": {
+    "NAME": "Ride-or-Die",
+    "DESCRIPTION": "Ethereal. NL Start or stop ${modID}:Riding. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Start or stop ${modID}:Riding. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
   }
 }
 

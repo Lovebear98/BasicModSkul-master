@@ -44,7 +44,7 @@
   },
   "${modID}:DarkPaladinSkull": {
     "NAME": "Dark Paladin",
-    "DESCRIPTION": "${modID}:Passive: Fully *阻塞 grants 4 ${modID}:Oblivion. NL ${modID}:骨头能力: ${modID}:Grit 2. NL ${modID}:Swap: Gain 8 *Oblivion.",
+    "DESCRIPTION": "${modID}:与生俱来: Fully *阻塞 grants 4 ${modID}:Oblivion. NL ${modID}:骨头能力: ${modID}:Grit 2. NL ${modID}:交换: Gain 8 *Oblivion.",
     "UPGRADE_DESCRIPTION": "While he exudes an aura of bloodthirsty vengeance, he actually has a soft spot for stuffed animals - especially cats.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -52,15 +52,15 @@
   },
   "${modID}:WerewolfSkull": {
     "NAME": "Werewolf",
-    "DESCRIPTION": "${modID}:Passive: Deal damage equal to your ${modID}:Total_Cards when *Reshuffling. NL ${modID}:骨头能力: Draw and randomly discard 1 card. NL ${modID}:Swap: *Reshuffle.",
+    "DESCRIPTION": "${modID}:与生俱来: Deal damage equal to your ${modID}:Total_Cards when *Reshuffling. NL ${modID}:骨头能力: Draw and randomly discard 1 card. NL ${modID}:交换: *Reshuffle.",
     "UPGRADE_DESCRIPTION": "Loaded up on caffeine and ADHD medication, the only thing stopping him from ascending to a higher plane is the Sundial he won't let go of.",
     "EXTENDED_DESCRIPTION": [
       ""
     ]
   },
   "${modID}:FrostSkull": {
-    "NAME": "Frost Skull",
-    "DESCRIPTION": "${modID}:Passive: 街区 lost at turn start becomes a *Hibernation. NL ${modID}:骨头能力: ${modID}:Freeze 1. NL ${modID}:Swap: Gain 10 阻止.",
+    "NAME": "Frost 骷髅",
+    "DESCRIPTION": "${modID}:与生俱来: 街区 lost at turn start becomes a *Hibernation. NL ${modID}:骨头能力: ${modID}:Freeze 1. NL ${modID}:交换: Gain 10 阻止.",
     "UPGRADE_DESCRIPTION": "He was informed that he'd need glasses to fix his poor socketsight, so he opted for the coolest pair he could find.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -74,17 +74,9 @@
       ""
     ]
   },
-  "${modID}:GrimReaperSkull": {
-    "NAME": "Grim Reaper",
-    "DESCRIPTION": "*Passive: *Fatal *Attacks grant a ${modID}:Soul. NL *骨头能力: ${modID}:Embrace 2 HP. NL *Swap: ${modID}:Harvest.",
-    "UPGRADE_DESCRIPTION": "He has successfully fooled you into reading a 12-line card broken up into 3 keywords.",
-    "EXTENDED_DESCRIPTION": [
-      ""
-    ]
-  },
   "${modID}:LittleBoneSkull": {
     "NAME": "Little Bone",
-    "DESCRIPTION": "${modID}:Passive: Take 1 less damage. NL ${modID}:骨头能力: Gain 2 阻止. NL ${modID}:Swap: Gain [E] [E] .",
+    "DESCRIPTION": "${modID}:与生俱来: Take 1 less damage. NL ${modID}:骨头能力: Gain 2 阻止. NL ${modID}:交换: Gain [E] [E] .",
     "UPGRADE_DESCRIPTION": "We suggest guarding your shins before attempting to engage the skeleton.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -92,7 +84,7 @@
   },
   "${modID}:PettyThiefSkull": {
     "NAME": "Petty Thief",
-    "DESCRIPTION": "${modID}:Passive: Gaining *金 randomly deals that much damage. NL ${modID}:骨头能力: Gain 4 *金. NL ${modID}:Swap: 阻止 with *金 this turn.",
+    "DESCRIPTION": "${modID}:与生俱来: Gaining *金 randomly deals that much damage. NL ${modID}:骨头能力: Gain 4 *金. NL ${modID}:交换: 阻止 with *金 this turn.",
     "UPGRADE_DESCRIPTION": "He wishes he could rob you again, but there's only so many times he can put your wallet back before it gets boring.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -100,7 +92,7 @@
   },
   "${modID}:ShieldSkull": {
     "NAME": "Skeleton-Shield",
-    "DESCRIPTION": "${modID}:Passive: *Dexterity doubles as *Thorns. NL ${modID}:骨头能力: *Channel 1 ${modID}:Barrier. NL ${modID}:Swap: Gain 5 *Dexterity until next turn.",
+    "DESCRIPTION": "${modID}:与生俱来: *Dexterity doubles as *Thorns. NL ${modID}:骨头能力: *Channel 1 ${modID}:Barrier. NL ${modID}:交换: Gain 5 *Dexterity until next turn.",
     "UPGRADE_DESCRIPTION": "A mighty warrior whose legendary shield never once failed to deflect an attack. Failing to 阻止, however...",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -108,7 +100,7 @@
   },
   "${modID}:HunterSkull": {
     "NAME": "Hunter",
-    "DESCRIPTION": "${modID}:Passive: *Attacks Channel an ${modID}:Arrow. NL ${modID}:骨头能力: Channel 1 ${modID}:Arrow. NL ${modID}:Swap: Gain an empty orb slot.",
+    "DESCRIPTION": "${modID}:与生俱来: *Attacks Channel an ${modID}:Arrow. NL ${modID}:骨头能力: Channel 1 ${modID}:Arrow. NL ${modID}:交换: Gain an empty orb slot.",
     "UPGRADE_DESCRIPTION": "Shooting the apple off his own head didn't go so well the first time, but he was able to practice until he got it right.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -116,7 +108,7 @@
   },
   "${modID}:ClownSkull": {
     "NAME": "Clown",
-    "DESCRIPTION": "${modID}:Passive: Your first card each turn costs 0. NL ${modID}:骨头能力: Add an ${modID}:仿制 to your hand. NL ${modID}:Swap: *骨头能力 2.",
+    "DESCRIPTION": "${modID}:与生俱来: Your first card each turn costs 0. NL ${modID}:骨头能力: Add an ${modID}:仿制 to your hand. NL ${modID}:交换: *骨头能力 2.",
     "UPGRADE_DESCRIPTION": "Off with his head! Well, it's not very productive, but it is dramatic.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -124,7 +116,7 @@
   },
   "${modID}:GreatWarlockSkull": {
     "NAME": "Great Warlock",
-    "DESCRIPTION": "${modID}:Passive: Attack damage applies *Concentration. NL ${modID}:骨头能力: Reduce ALL ${modID}:Concentration. NL ${modID}:Swap: Remove ALL *Concentration.",
+    "DESCRIPTION": "${modID}:与生俱来: Attack damage applies *Concentration. NL ${modID}:骨头能力: Reduce ALL ${modID}:Concentration. NL ${modID}:交换: Remove ALL *Concentration.",
     "UPGRADE_DESCRIPTION": "He will obliterate you! Just...give him a few hours to get the spell ready.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -132,7 +124,7 @@
   },
   "${modID}:MageSkull": {
     "NAME": "Mage",
-    "DESCRIPTION": "${modID}:Passive: *Skills deal 2 damage randomly. NL ${modID}:骨头能力: Apply ${modID}:Burn randomly. NL ${modID}:Swap: Create an *Awakening.",
+    "DESCRIPTION": "${modID}:与生俱来: *Skills deal 2 damage randomly. NL ${modID}:骨头能力: Apply ${modID}:Burn randomly. NL ${modID}:交换: Create an *Awakening.",
     "UPGRADE_DESCRIPTION": "Master chef. Everything he cooks is grilled to black, inedible perfection.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -140,7 +132,7 @@
   },
   "${modID}:WarriorSkull": {
     "NAME": "Warrior",
-    "DESCRIPTION": "${modID}:Passive: Gain [E] after playing a *Strike. NL ${modID}:骨头能力: Gain 1 ${modID}:Charge. NL ${modID}:Swap: Gain 5 ${modID}:Charge.",
+    "DESCRIPTION": "${modID}:与生俱来: Gain [E] after playing a *Strike. NL ${modID}:骨头能力: Gain 1 ${modID}:Charge. NL ${modID}:交换: Gain 5 ${modID}:Charge.",
     "UPGRADE_DESCRIPTION": "Some call it copyright infingement. We elect to call it creative reimagining of the story.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -148,7 +140,7 @@
   },
   "${modID}:ChampionSkull": {
     "NAME": "Champion",
-    "DESCRIPTION": "*Passive: ${modID}:Counterattack 畅通无阻 damage. NL *骨头能力: Heal the next 3 HP you lose. NL *Swap: Enter or Exit Wrath.",
+    "DESCRIPTION": "*与生俱来: ${modID}:Counterattack 畅通无阻 damage. NL *骨头能力: Heal the next 3 HP you lose. NL *交换: Enter or Exit Wrath.",
     "UPGRADE_DESCRIPTION": "He's #1, or at least that's as high as he can count. Just don't tell him we said that.",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -156,7 +148,7 @@
   },
   "${modID}:DavyJonesSkull": {
     "NAME": "Davy Jones",
-    "DESCRIPTION": "${modID}:Passive: Gain Vigor on *Evoke. NL ${modID}:骨头能力: *Channel a ${modID}:Cannonball. NL ${modID}:Swap: *Channel 4 *Cannonballs.",
+    "DESCRIPTION": "${modID}:与生俱来: Gain Vigor on *Evoke. NL ${modID}:骨头能力: *Channel a ${modID}:Cannonball. NL ${modID}:交换: *Channel 4 *Cannonballs.",
     "UPGRADE_DESCRIPTION": "I walked the plank once, and I'll walk it again! What will it do? Drown me again?",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -164,7 +156,7 @@
   },
   "${modID}:GamblerSkull": {
     "NAME": "徒",
-    "DESCRIPTION": "${modID}:Passive: ${modID}:赌博 when you play cards. NL ${modID}:骨头能力: Shuffle a *Loaded *Dice into your draw pile. NL ${modID}:Swap: *Passive chance doubles this turn.",
+    "DESCRIPTION": "${modID}:与生俱来: ${modID}:赌博 when you play cards. NL ${modID}:骨头能力: Shuffle a *Loaded *Dice into your draw pile. NL ${modID}:交换: *与生俱来 chance doubles this turn.",
     "UPGRADE_DESCRIPTION": "He'll definitely win the next one. He can't lose 100 in a row, right? He just needs a small loan...",
     "EXTENDED_DESCRIPTION": [
       ""
@@ -210,7 +202,7 @@
     ]
   },
   "${modID}:CuteLittleSkulls": {
-    "NAME": "Cute Little Skulls",
+    "NAME": "Cute Little 骷髅",
     "DESCRIPTION": "Deal !D! damage. NL ${modID}:骨头能力 !M!.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage. NL ${modID}:骨头能力 !M!.",
     "EXTENDED_DESCRIPTION": [
@@ -226,7 +218,7 @@
     ]
   },
   "${modID}:WitchsGuidance": {
-    "NAME": "Skull, Bone, Spirit",
+    "NAME": "骷髅, Bone, Spirit",
     "DESCRIPTION": "${modID}:骨头能力 !M!. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "${modID}:骨头能力 !M!.",
     "EXTENDED_DESCRIPTION": [
@@ -889,6 +881,195 @@
     "UPGRADE_DESCRIPTION": "Unplayable. NL When you draw this card, draw !M! cards and discard this. Next time, exhaust this instead.",
     "EXTENDED_DESCRIPTION": [
       "When you draw this card, draw !M! cards and exhaust this."
+    ]
+  },
+  "${modID}:AbsoluteSkull": {
+    "NAME": "The Absolute",
+    "DESCRIPTION": "*与生俱来: Playing a ${modID}:Grapple grants ${modID}:Herculean_Strength. NL *Bonepile: Complete 3 ${modID}:Labors. NL *交换: Complete 12 *Labors and play a random *Grapple.",
+    "UPGRADE_DESCRIPTION": "Not even he could open the pickle jar, no matter how hard he tried.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:BerserkerSkull": {
+    "NAME": "Berserker",
+    "DESCRIPTION": "${modID}:与生俱来: Losing HP grants as much ${modID}:Unshackled. *Fatal damage less than Strength heals you to half HP and applies ${modID}:Bone_Scream.",
+    "UPGRADE_DESCRIPTION": "He's got 1 HP and a dream and a whole stack of Vajras to prove it.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:BoarChase": {
+    "NAME": "Boar Chase",
+    "DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+      "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Gain !M! Temporary Strength. NL Exhaust."
+    ]
+  },
+  "${modID}:LionHunt": {
+    "NAME": "Lion Hunt",
+    "DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+      "Retain. ${modID}:Grapple. NL Deal !D! damage. NL ${modID}:Bonepile !M!. NL Exhaust."
+    ]
+  },
+  "${modID}:BullFight": {
+    "NAME": "Bull Fight",
+    "DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+      "Retain. ${modID}:Grapple. NL Deal !D! damage divided into !M! hits. NL Exhaust."
+    ]
+  },
+  "${modID}:HydraSlam": {
+    "NAME": "Hydra Slam",
+    "DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Retain. ${modID}:Grapple. NL Deal !D! damage. NL Exhaust.",
+      "Retain. ${modID}:Grapple. NL Deal !D! damage to ALL enemies. NL Exhaust."
+    ]
+  },
+  "${modID}:FakeHydraSlam": {
+    "NAME": "Hydra Slam",
+    "DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage to ALL enemies. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. ${modID}:Grapple. NL Deal !D! damage to ALL enemies. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Retain. ${modID}:Grapple. NL Deal !D! damage to ALL enemies. NL Exhaust.",
+      "Retain. ${modID}:Grapple. NL Deal !D! damage to ALL enemies. NL Exhaust."
+    ]
+  },
+  "${modID}:BirthOfAHero": {
+    "NAME": "Birth Of A Hero",
+    "DESCRIPTION": "Whenever you play an *Attack this turn, gain !M! Block. NL Add a random ${modID}:Grapple to your hand.",
+    "UPGRADE_DESCRIPTION": "Whenever you play an *Attack this turn, gain !M! Block. NL Add a random ${modID}:Grapple to your hand.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:StrategyBook": {
+    "NAME": "Strategy Book",
+    "DESCRIPTION": "Retain. Exhaust. NL Your *Leftmost *Unrivaled *Strike gains 1 of !M! effects, otherwise make one.",
+    "UPGRADE_DESCRIPTION": "Retain. Exhaust. NL Your *Leftmost *Unrivaled *Strike gains 1 of !M! effects, otherwise make one.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:GodOfWarSkull": {
+    "NAME": "The God of War",
+    "DESCRIPTION": "*与生俱来: Skills or 0-cost cards grant ${modID}:Tactics. NL *Bonepile: Gain 1 Tactics. NL *交换: Increase an *Unrivaled *Strike's damage by 5.",
+    "UPGRADE_DESCRIPTION": "As both he and his enemies have discovered recently, death could not, in fact, stop him.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:UnrivaledStrike": {
+    "NAME": "Unrivaled Strike",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies.",
+    "EXTENDED_DESCRIPTION": [
+      " Deal !D! damage to ALL enemies.",
+      "Deal !D! damage ${modID}:Peerlessly.",
+      "Gain !D! Block.",
+      "Gain !D! Block ${modID}:Peerlessly.",
+      " NL Applies Strength ",
+      " times.",
+      " NL ${modID}:Bonepile ",
+      ".  "
+
+    ]
+  },
+  "${modID}:LaughingArrow": {
+    "NAME": "Laughing Arrow",
+    "DESCRIPTION": "Switch the *Unrivaled *Strike between dealing damage and gaining Block.",
+    "UPGRADE_DESCRIPTION": "Switch the *Unrivaled *Strike between dealing damage and gaining Block.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:StrengthOf10K": {
+    "NAME": "Strength of 10,000",
+    "DESCRIPTION": "The *Unrivaled *Strike will apply Strength !M! more time.",
+    "UPGRADE_DESCRIPTION": "The *Unrivaled *Strike will apply Strength !M! more times.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:CeremonialWeapon": {
+    "NAME": "Ceremonial Weapon",
+    "DESCRIPTION": "Create a new *Unrivaled *Strike on the left of your hand.",
+    "UPGRADE_DESCRIPTION": "Create a new Upgraded *Unrivaled *Strike on the left of your hand.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:SixGeneralsFivePasses": {
+    "NAME": "Six Generals, Five Passes",
+    "DESCRIPTION": "Exhaust the *Unrivaled *Strike to draw !M! cards. If it was Blocking, draw 3 more.",
+    "UPGRADE_DESCRIPTION": "Exhaust the *Unrivaled *Strike to draw !M! cards. If it was Blocking, draw 3 more.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:ParasolCharge": {
+    "NAME": "Parasol Charge",
+    "DESCRIPTION": "The *Unrivaled *Strike deals !M! more damage. NL If it was Blocking, double this.",
+    "UPGRADE_DESCRIPTION": "The *Unrivaled *Strike deals !M! more damage. NL If it was Blocking, double this.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:MatterOfState": {
+    "NAME": "Matter Of State",
+    "DESCRIPTION": "Discard the *Unrivaled *Strike to gain !B! Block. If it was Blocking, gain !B! Block next turn.",
+    "UPGRADE_DESCRIPTION": "Discard the *Unrivaled *Strike to gain !B! Block. If it was Blocking, gain !B! Block next turn.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:GreenDragonCrescent": {
+    "NAME": "Green Dragon Crescent",
+    "DESCRIPTION": "The *Unrivaled *Strike will ${modID}:Bonepile !M! times.",
+    "UPGRADE_DESCRIPTION": "The *Unrivaled *Strike will ${modID}:Bonepile !M! times.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:PeerlessBlow": {
+    "NAME": "Peerless Blow",
+    "DESCRIPTION": "The *Unrivaled *Strike hits one enemy, costs 1 more, and refunds double its cost. NL If it was Blocking, gain !M! Temporary Strength.",
+    "UPGRADE_DESCRIPTION": "The *Unrivaled *Strike hits one enemy, costs 1 more, and refunds double its cost. NL If it was Blocking, gain !M! Temporary Strength.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:TigerGeneral": {
+    "NAME": "Tiger General",
+    "DESCRIPTION": "Exhaust the *Unrivaled *Strike to gain !M! Strength. If it was Blocking, gain double.",
+    "UPGRADE_DESCRIPTION": "Exhaust the *Unrivaled *Strike to gain !M! Strength. If it was Blocking, gain double.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:RiderSkull": {
+    "NAME": "Rider",
+    "DESCRIPTION": "*与生俱来: Gain TheUnchainedMod:Relay instead of Block, and *Relay affects *Relayed damage. NL *Bonepile: Gain 2 *Relay. NL *交换: Add a *Ride-or-Die to your hand.",
+    "UPGRADE_DESCRIPTION": "Legends say he appears and disappears without warning near the fourth intersection...incidentally, nobody realizes how talented the mechanic there is.",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "${modID}:RideOrDie": {
+    "NAME": "Ride-or-Die",
+    "DESCRIPTION": "Ethereal. NL Start or stop ${modID}:Riding. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Start or stop ${modID}:Riding. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      ""
     ]
   }
 }

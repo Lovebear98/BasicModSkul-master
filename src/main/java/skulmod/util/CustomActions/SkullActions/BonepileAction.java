@@ -147,8 +147,8 @@ public class BonepileAction extends AbstractGameAction {
         if(as.cardID.equals(FrostSkull.ID)){
             ///We keep this here in case we need it later.
         }
-        ///Pre-Default Space
-        ///Pre-Default Space
+        ///Perform external bonepiles here
+        ExternalBonepiles();
         ///LITTLE BONE BONEPILE
         if(as.cardID.equals(LittleBoneSkull.ID)){
             addToBot(new GainBlockAction(p, 2));
@@ -160,6 +160,7 @@ public class BonepileAction extends AbstractGameAction {
 
         isDone = TRUE;
     }
+
 
     public static void ClownMakeImitation() {
         final Set<String> CLOWNBLACKLIST = new HashSet<>(
@@ -212,6 +213,7 @@ public class BonepileAction extends AbstractGameAction {
         AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(card));
         p.limbo.clear();
     }
-
+    private void ExternalBonepiles() {
+    }
 
 }

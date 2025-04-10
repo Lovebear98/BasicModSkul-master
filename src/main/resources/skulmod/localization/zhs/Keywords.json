@@ -30,94 +30,6 @@
     "DESCRIPTION": "The sum of your discard pile, draw pile, and hand."
   },
   {
-    "PROPER_NAME": "Masterpiece",
-    "NAMES": [
-      "Masterpiece",
-      "masterpiece"
-    ],
-    "DESCRIPTION": "#g3: Gain 1 #yStrength, #yDexterity, and #yFocus. NL #g5: Unlock the #yMasterpiece effect of all your current sets."
-  },
-  {
-    "PROPER_NAME": "Omen",
-    "NAMES": [
-      "Omen",
-      "omen"
-    ],
-    "DESCRIPTION": "#r1: Take #b50% more damage. NL #r2: Take #b100% more damage. NL #r3: Take #b150% more damage."
-  },
-  {
-  "PROPER_NAME": "Courage",
-  "NAMES": [
-    "Courage",
-    "courage"
-  ],
-  "DESCRIPTION": "#p3: Gain 1 #yStrength. NL #p5: Gain 2 #yStrength. NL NL [#ff8000]Masterpiece NL [#ff8000]8: [#ff8000]Gain [#ff8000]4 [#ff8000]Strength."
-},
-
-  {
-    "PROPER_NAME": "Absolute Zero",
-    "NAMES": [
-      "Absolute Zero",
-      "absolute_zero"
-    ],
-    "DESCRIPTION":"#g3: Once every two turns, #yEvoking channels a #yFrost orb. NL #g5: At the start of your turn, #yEvoke an orb. NL #gMasterpiece #g6: Gain #b1 #yFocus."
-  },
-  {
-    "PROPER_NAME": "Artifact",
-    "NAMES": [
-      "Artifact",
-      "artifact"
-    ],
-    "DESCRIPTION":"  #g2: #yChannel a #yMeteor at the start of combat. NL #g5: #yChannel a #yMeteor every 3 turns. NL #gMasterpiece #g6: Gain #b1 #yFocus."
-  },
-  {
-    "PROPER_NAME": "Bone",
-    "NAMES": [
-      "Bone",
-      "bone"
-    ],
-    "DESCRIPTION":"#g3: Your first #ySwap each combat will grant #yBuffer."
-  },
-  {
-    "PROPER_NAME": "Excessive Bleeding",
-    "NAMES": [
-      "Excessive Bleeding",
-      "Excessive_Bleeding",
-      "excessive_bleeding"
-    ],
-    "DESCRIPTION":"#g3: Your first attack each turn #yWounds the target for half its damage. NL #g4: Your first attack each turn #yWounds the target for full damage. NL #gMasterpiece #g6: Your #yWounding attacks deal #b20% more damage. NL "
-  },
-  {
-    "PROPER_NAME": "Fortress",
-    "NAMES": [
-      "Fortress",
-      "fortress"
-    ],
-    "DESCRIPTION":"#g2: Gain #b2 #y阻止 each turn, affected by #yDexterity. NL #g5: Gain #b2 more #y阻止 each turn. NL #gMasterpiece #g6: Gain #b2 #yDexterity."
-  },
-  {
-    "PROPER_NAME": "Revenge",
-    "NAMES": [
-      "Revenge",
-      "revenge"
-    ],
-    "DESCRIPTION":"#g3: Inflict #b25% of the first damage you take each turn to the attacker as #yRevenge. NL #g5: The #yRevenge applied becomes #b50%. NL #gMasterpiece #g6: Also gain [E] the turn after you take 畅通无阻 damage. NL "
-  },
-  {
-    "PROPER_NAME": "Item",
-    "NAMES": [
-      "Set Effect",
-      "Set_Effect",
-      "set_effect",
-      "set effect",
-      "Item",
-      "item",
-      "Items",
-      "items"
-    ],
-    "DESCRIPTION": "Increase the listed #ySet #yEffect #gpermanently on pickup. #yPurges at the start of combat if it has no other effects. "
-  },
-  {
     "PROPER_NAME": "Skull",
     "NAMES": [
       "Skull",
@@ -125,13 +37,12 @@
       "Skulls",
       "skulls"
     ],
-    "DESCRIPTION": "Your #gactive #ySkull changes your #yPassive and #y骨头能力. If you own more than 2 #ySkulls at the start of combat, shatter your choice until you have 2. NL NL #ySkulls are always #yExhausted, #ycannot #yupgrade, and #ycannot #ybe #ybottled."
+    "DESCRIPTION": "Your #gactive #ySkull changes your #y与生俱来 and #y骨头能力. If you own more than 2 #ySkulls at the start of combat, shatter your choice until you have 2. NL NL #ySkulls are always #yExhausted, #ycannot #yupgrade, and #ycannot #ybe #ybottled."
   },
   {
-    "PROPER_NAME": "Passive",
+    "PROPER_NAME": "与生俱来",
     "NAMES": [
-      "Passive",
-      "passive"
+      "与生俱来"
     ],
     "DESCRIPTION": "A constant effect provided by the #gactive #ySkull."
   },
@@ -144,12 +55,11 @@
     "DESCRIPTION": "A triggered effect based on your #gactive #ySkull. NL Defaults to #b2 #y阻止."
   },
   {
-    "PROPER_NAME": "Swap",
+    "PROPER_NAME": "交换",
     "NAMES": [
-      "Swap",
-      "swap"
+      "交换"
     ],
-    "DESCRIPTION": "Your #rinactive #ySkull becomes #gactive and triggers its #ySwap effect."
+    "DESCRIPTION": "Your #rinactive #ySkull becomes #gactive and triggers its #y交换 effect."
   },
   {
     "PROPER_NAME": "Cannonball",
@@ -204,7 +114,7 @@
       "Arrows",
       "arrows"
     ],
-    "DESCRIPTION": "#yEvoke: Deal #b3 damage. #yEvoke #yALL other arrows. NL #yPassive: #yChannel #b1 #yArrow at the start of your turn."
+    "DESCRIPTION": "#yEvoke: Deal #b3 damage. #yEvoke #yALL other arrows. NL #y与生俱来: #yChannel #b1 #yArrow at the start of your turn."
   },
   {
     "PROPER_NAME": "Barrier",
@@ -214,7 +124,7 @@
       "Barriers",
       "barriers"
     ],
-    "DESCRIPTION":"#yPassive: At the end of your turn, gain #b1 #yDexterity until your next turn. NL #yEvoke: Gain #b1 #yDexterity until your next turn."
+    "DESCRIPTION":"#y与生俱来: At the end of your turn, gain #b1 #yDexterity until your next turn. NL #yEvoke: Gain #b1 #yDexterity until your next turn."
   },
   {
     "PROPER_NAME": "Oblivion",
@@ -365,5 +275,96 @@
       "wedged_spear"
     ],
     "DESCRIPTION": "After #b3 turns or when the target dies, refresh the cooldown of #yCentauros."
+  },
+  {
+    "PROPER_NAME": "Grapple",
+    "NAMES": [
+      "Grapple",
+      "grapple"
+    ],
+    "DESCRIPTION": "A #b2 damage #yAttack that costs #b0 and #yRetains. At #b3 or more stacks of #yHerculean #yStrength, they become #pEnhanced."
+  },
+  {
+    "PROPER_NAME": "Herculean Strength",
+    "NAMES": [
+      "Herculean Strength",
+      "Herculean_Strength",
+      "Herculean_strength",
+      "herculean_Strength",
+      "herculean_strength"
+    ],
+    "DESCRIPTION": "Until the end of the turn, #pexponentially increases the damage of all #yGrapples by #b50% per stack."
+  },
+  {
+    "PROPER_NAME": "Labor",
+    "NAMES": [
+      "Labor",
+      "labor",
+      "Labors",
+      "labors"
+    ],
+    "DESCRIPTION": "After completing #b12 #yLabors, add a random #yGrapple to your hand."
+  },
+  {
+    "PROPER_NAME": "Tactics",
+    "NAMES": [
+      "Tactics",
+      "tactics",
+      "Tactic",
+      "tactic"
+    ],
+    "DESCRIPTION": "After contemplating #b8 strategies, create a #yStrategy #yBook in your hand."
+  },
+  {
+    "PROPER_NAME": "Peerless",
+    "NAMES": [
+      "Peerless",
+      "peerless",
+      "Peerlessly",
+      "peerlessly"
+    ],
+    "DESCRIPTION": "#yCost has been increased, and the attack has become single target. #yRefund twice the card's cost when played."
+  },
+  {
+    "PROPER_NAME": "Unshackled",
+    "NAMES": [
+      "Unshackled",
+      "unshackled",
+      "unshackles",
+      "Unshackles",
+      "Unshackle",
+      "unshackle"
+    ],
+    "DESCRIPTION": "The next time you start or end your turn, gain #b1 #yStrength."
+  },
+  {
+    "PROPER_NAME": "Bone Scream",
+    "NAMES": [
+      "Bone Scream",
+      "Bone_Scream",
+      "Bone_scream",
+      "bone_Scream",
+      "bone_scream"
+    ],
+    "DESCRIPTION": "At the end of the turn, #premove #pall #ppowers and #rdie. When dealing #yFatal #yAttack damage, remove this. During #yBoss or #yElite combat, die next turn instead."
+  },
+  {
+    "PROPER_NAME": "Blizzard",
+    "NAMES": [
+      "Blizzard",
+      "Blizzards",
+      "blizzard",
+      "blizzards"
+    ],
+    "DESCRIPTION": "#y与生俱来: At the end of your turn, ALL enemies lose HP equal to their #yBlock, up to #b2. NL #yEvoke: EVERYONE gains #b2 #yBlock."
+  },
+  {
+    "PROPER_NAME": "Riding",
+    "NAMES": [
+      "Riding",
+      "riding",
+      "ride"
+    ],
+    "DESCRIPTION": "Increase ALL incoming and outgoing damage based on your #yRelayed #yDamage."
   }
 ]

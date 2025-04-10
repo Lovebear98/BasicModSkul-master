@@ -394,5 +394,11 @@
       "Take #b",
       " extra #yAttack damage while #yFrozen. NL NL Remove this at the end of the turn after triggering it."
     ]
+  },
+  "${modID}:RiderPower": {
+    "NAME": "Rider",
+    "DESCRIPTIONS": [
+      "#yPassive: Gain #yRelay instead of #yBlock, and #yRelay affects #yRelayed #yDamage. NL NL #yBonepile: Gain #b2 #yRelay. NL NL #ySwap: Add a #yRide-or-Die to your hand."
+    ]
   }
 }

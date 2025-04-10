@@ -470,5 +470,78 @@
       "Retain the next #b",
       " #y you'd lose at the start of the turn."
     ]
+  },
+
+  "${modID}:AbsolutePower": {
+    "NAME": "The Absolute",
+    "DESCRIPTIONS": [
+      "#yPassive: Playing a #yGrapple grants #yHerculean #yStrength. NL NL #yBonepile: Complete #b3 #yLabors. NL NL  #ySwap: Complete #b12 #yLabors and play a random #yGrapple."
+    ]
+  },
+  "${modID}:HerculeanStrength": {
+    "NAME": "Herculean Strength",
+    "DESCRIPTIONS": [
+      "Your #yGrapples are dealing #b",
+      " times damage this turn. NL At #b3 or more stacks, #pEnhance them.",
+      " times damage this turn. NL Your #yGrapples are currently #pEnhanced."
+    ]
+  },
+  "${modID}:Labors": {
+    "NAME": "Labors",
+    "DESCRIPTIONS": [
+      "After completing #b",
+      " more #yLabors, create a random #yGrapple in your hand."
+    ]
+  },
+  "${modID}:GodOfWarPower": {
+    "NAME": "The God Of War",
+    "DESCRIPTIONS": [
+      "#yPassive: #ySkills and 0-cost cards grant 1 #yTactics, doubled for #yAttacks. NL #yBonepile: Gain #b1 #yTactics. NL #ySwap: Increase the damage of an #yUnrivaled #yStrike in your hand by #b5."
+    ]
+  },
+  "${modID}:Tactics": {
+    "NAME": "Tactics",
+    "DESCRIPTIONS": [
+      "After contemplating #b",
+      " more #yTactics, create a #yStrategy #yBook in your hand."
+    ]
+  },
+  "${modID}:BoneScreamPower": {
+    "NAME": "Bone Scream",
+    "DESCRIPTIONS": [
+      "Survive fatal damage. At the end of ",
+      "this",
+      " turn",
+      "s",
+      ", remove all of your powers and #rdie. NL NL If you deal #yFatal attack damage, even to minions, remove this.",
+      "0 + amount(or 1) + 2 (+3 for 2+) + 4"
+    ]
+  },
+  "${modID}:UnshackledPower": {
+    "NAME": "Unshackled",
+    "DESCRIPTIONS": [
+      "At the start of the turn, gain #b",
+      "At the end of the turn, gain #b",
+      " #yStrength."
+    ]
+  },
+  "${modID}:Gunpowder": {
+    "NAME": "Gunpowder",
+    "DESCRIPTIONS": [
+      "Increasing the damage of Skeleton-Bomber's explosion."
+    ]
+  },
+  "${modID}:Frostbite": {
+    "NAME": "Frostbite",
+    "DESCRIPTIONS": [
+      "Take #b",
+      " extra #yAttack damage while #yFrozen. NL NL Remove this at the end of the turn after triggering it."
+    ]
+  },
+  "${modID}:RiderPower": {
+    "NAME": "Rider",
+    "DESCRIPTIONS": [
+      "#yPassive: Gain #yRelay instead of #yBlock, and #yRelay affects #yRelayed #yDamage. NL NL #yBonepile: Gain #b2 #yRelay. NL NL #ySwap: Add a #yRide-or-Die to your hand."
+    ]
   }
 }
