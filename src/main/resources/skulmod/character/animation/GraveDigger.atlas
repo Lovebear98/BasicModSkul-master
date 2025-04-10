@@ -1,0 +1,125 @@
+
+GraveDigger.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GraveDigger/Idle1
+  rotate: false
+  xy: 163, 219
+  size: 176, 124
+  orig: 176, 124
+  offset: 0, 0
+  index: -1
+GraveDigger/Idle2
+  rotate: false
+  xy: 369, 855
+  size: 176, 128
+  orig: 176, 128
+  offset: 0, 0
+  index: -1
+GraveDigger/Idle3
+  rotate: false
+  xy: 195, 855
+  size: 172, 132
+  orig: 172, 132
+  offset: 0, 0
+  index: -1
+GraveDigger/Idle4
+  rotate: false
+  xy: 547, 855
+  size: 168, 132
+  orig: 168, 132
+  offset: 0, 0
+  index: -1
+GraveDigger/Idle5
+  rotate: false
+  xy: 717, 855
+  size: 172, 128
+  orig: 172, 128
+  offset: 0, 0
+  index: -1
+GraveDigger/Idle6
+  rotate: false
+  xy: 215, 1
+  size: 176, 124
+  orig: 176, 124
+  offset: 0, 0
+  index: -1
+GraveDigger/Dash1
+  rotate: false
+  xy: 329, 345
+  size: 184, 96
+  orig: 184, 96
+  offset: 0, 0
+  index: -1
+GraveDigger/Dash2
+  rotate: false
+  xy: 163, 561
+  size: 184, 96
+  orig: 184, 96
+  offset: 0, 0
+  index: -1
+GraveDigger/Dash3
+  rotate: false
+  xy: 163, 463
+  size: 184, 96
+  orig: 184, 96
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_10
+  rotate: false
+  xy: 1, 1
+  size: 212, 216
+  orig: 212, 216
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_11
+  rotate: false
+  xy: 1, 219
+  size: 160, 192
+  orig: 160, 192
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_12
+  rotate: false
+  xy: 1, 571
+  size: 160, 156
+  orig: 160, 156
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_13
+  rotate: false
+  xy: 1, 413
+  size: 160, 156
+  orig: 160, 156
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_14
+  rotate: false
+  xy: 163, 345
+  size: 164, 116
+  orig: 164, 116
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_15
+  rotate: false
+  xy: 1, 855
+  size: 192, 120
+  orig: 192, 120
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_16
+  rotate: false
+  xy: 1, 729
+  size: 188, 124
+  orig: 188, 124
+  offset: 0, 0
+  index: -1
+GraveDigger/Layer_17
+  rotate: false
+  xy: 195, 729
+  size: 184, 124
+  orig: 184, 124
+  offset: 0, 0
+  index: -1

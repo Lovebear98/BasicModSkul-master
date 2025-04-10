@@ -1,0 +1,139 @@
+
+Samurai.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Samurai/Idle1
+  rotate: false
+  xy: 861, 135
+  size: 148, 152
+  orig: 148, 152
+  offset: 0, 0
+  index: -1
+Samurai/Idle2
+  rotate: false
+  xy: 711, 293
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+Samurai/Idle3
+  rotate: false
+  xy: 179, 305
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+Samurai/Idle4
+  rotate: false
+  xy: 861, 289
+  size: 148, 152
+  orig: 148, 152
+  offset: 0, 0
+  index: -1
+Samurai/Idle5
+  rotate: false
+  xy: 179, 147
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+Samurai/Idle6
+  rotate: false
+  xy: 711, 135
+  size: 148, 156
+  orig: 148, 156
+  offset: 0, 0
+  index: -1
+Samurai/Dash1
+  rotate: false
+  xy: 329, 301
+  size: 168, 132
+  orig: 168, 132
+  offset: 0, 0
+  index: -1
+Samurai/Dash2
+  rotate: false
+  xy: 837, 573
+  size: 148, 128
+  orig: 148, 128
+  offset: 0, 0
+  index: -1
+Samurai/Dash3
+  rotate: false
+  xy: 499, 443
+  size: 140, 128
+  orig: 140, 128
+  offset: 0, 0
+  index: -1
+Samurai/Moon1
+  rotate: false
+  xy: 703, 443
+  size: 132, 164
+  orig: 132, 164
+  offset: 0, 0
+  index: -1
+Samurai/Moon2
+  rotate: false
+  xy: 1, 1
+  size: 328, 144
+  orig: 328, 144
+  offset: 0, 0
+  index: -1
+Samurai/Moon3
+  rotate: false
+  xy: 613, 1
+  size: 280, 132
+  orig: 280, 132
+  offset: 0, 0
+  index: -1
+Samurai/Moon4
+  rotate: false
+  xy: 331, 1
+  size: 280, 132
+  orig: 280, 132
+  offset: 0, 0
+  index: -1
+Samurai/Attack1
+  rotate: false
+  xy: 545, 297
+  size: 156, 144
+  orig: 156, 144
+  offset: 0, 0
+  index: -1
+Samurai/Attack2
+  rotate: false
+  xy: 329, 435
+  size: 168, 132
+  orig: 168, 132
+  offset: 0, 0
+  index: -1
+Samurai/Attack3
+  rotate: false
+  xy: 837, 443
+  size: 148, 128
+  orig: 148, 128
+  offset: 0, 0
+  index: -1
+Samurai/Attack4
+  rotate: false
+  xy: 331, 135
+  size: 212, 164
+  orig: 212, 164
+  offset: 0, 0
+  index: -1
+Samurai/Attack5
+  rotate: false
+  xy: 1, 147
+  size: 176, 164
+  orig: 176, 164
+  offset: 0, 0
+  index: -1
+Samurai/Attack6
+  rotate: false
+  xy: 545, 135
+  size: 164, 160
+  orig: 164, 160
+  offset: 0, 0
+  index: -1

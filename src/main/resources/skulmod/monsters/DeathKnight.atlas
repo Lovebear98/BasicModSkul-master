@@ -1,0 +1,62 @@
+
+DeathKnight.png
+size: 2048,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DeathKnight/1
+  rotate: false
+  xy: 1, 1675
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
+DeathKnight/2
+  rotate: false
+  xy: 1, 559
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
+DeathKnight/3
+  rotate: false
+  xy: 815, 1117
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
+DeathKnight/4
+  rotate: false
+  xy: 815, 559
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
+DeathKnight/5
+  rotate: false
+  xy: 815, 1675
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
+DeathKnight/6
+  rotate: false
+  xy: 1, 1
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
+DeathKnight/7
+  rotate: false
+  xy: 1, 1117
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
+DeathKnight/8
+  rotate: false
+  xy: 815, 1
+  size: 812, 556
+  orig: 812, 556
+  offset: 0, 0
+  index: -1
